@@ -50,7 +50,7 @@ const Header = () => {
             {" "}
             <Image
               src="/Image/logo-z3-corporation.png"
-              alt=""
+              alt="logo"
               width={250}
               height={250}
             ></Image>
@@ -61,8 +61,10 @@ const Header = () => {
             const isActive = currentPath === nav.href;
             return (
               <Link
-                className={`mx-2 text-[#0A2C7D] text-sm font-bold transition transform hover:-translate-y-1 ${
-                  isActive ? "bg-[#F26F21] rounded-md px-2 py-2 text-white" : ""
+                className={`mx-2 text-[#0A2C7D] text-sm font-bold ${
+                  isActive
+                    ? "bg-[#F26F21] rounded-md px-2 py-2 text-white"
+                    : "hover:text-[#F26F21]"
                 }`}
                 href={nav.href}
                 key={nav.name}

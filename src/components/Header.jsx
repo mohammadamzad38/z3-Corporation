@@ -53,7 +53,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-[#EEEEEE] flex flex-col border-b ">
+    <header className="bg-[#EEEEEE] flex sticky top-0 flex-col">
       <div className="flex justify-between lg:gap-32 items-center max-w-[1200px] py-6 mx-auto">
         <Link href="/">
           <Image
@@ -107,7 +107,7 @@ const Header = () => {
                 key={nav.name}
                 href={nav.href}
                 onClick={() => setOpen(false)}
-                className={`text-[#0A2C7D] w-full font-bold ${
+                className={`text-[#0A2C7D] text-sm w-full font-bold ${
                   isActive
                     ? "bg-[#F26F21] text-white max-w-[50%] px-2 py-1 rounded-md"
                     : "hover:text-[#F26F21]"

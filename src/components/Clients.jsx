@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Autoplay, Mousewheel, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const clientsLogo = [
@@ -10,47 +12,85 @@ const clientsLogo = [
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/matro.webp",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/arman.webp",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/bitopi.webp",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/civil-aviation.webp",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/dbl.webp",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/fakir.webp",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/dynmicitfzllc.png",
     alt: "nobleMarriage",
   },
   {
-    image: "/public/Image/matro.webp",
+    image: "/Image/FCI-bd.webp",
+    alt: "nobleMarriage",
+  },
+  {
+    image: "/Image/giant-group.webp",
+    alt: "nobleMarriage",
+  },
+  {
+    image: "/Image/shanta2.webp",
+    alt: "nobleMarriage",
+  },
+  {
+    image: "/Image/sts-group.webp",
+    alt: "nobleMarriage",
+  },
+  {
+    image: "/Image/united-group.webp",
+    alt: "nobleMarriage",
+  },
+  {
+    image: "/Image/valmatic.webp",
+    alt: "nobleMarriage",
+  },
+  {
+    image: "/Image/volumezro.webp",
     alt: "nobleMarriage",
   },
 ];
 
 export default function Clients() {
   return (
-    <div>
-      <Swiper>
+    <div className="w-full max-w-[1200px] mx-auto">
+      <Swiper
+        modules={[Pagination, Mousewheel, Autoplay]}
+        spaceBetween={30}
+        slidesPerView={5}
+        pagination={{ clickable: true }}
+        mousewheel={true}
+        autoplay={{ delay: 2000 }}
+        loop={true}
+        className="rounded-lg"
+      >
         {clientsLogo.map((client, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative h-[500px] w-full">
-
+            <div className="relative my-15 h-[200px] w-[200]">
+              <Image
+                src={client.image}
+                alt={client.alt}
+                fill
+                className="object-contain border px-2 border-gray-200 rounded-lg"
+              />
             </div>
           </SwiperSlide>
         ))}

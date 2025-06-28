@@ -53,7 +53,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-[#EEEEEE] flex sticky top-0 flex-col">
+    <header className="bg-[#EEEEEE] flex sticky top-0 z-50 flex-col">
       <div className="flex justify-between lg:gap-32 items-center max-w-[1200px] py-6 mx-auto">
         <Link href="/">
           <Image

@@ -66,15 +66,22 @@ const Footer = () => {
           <div>
             <h1 className="font-bold">QUICK LINKS</h1>
             <div className="text-sm flex flex-col space-y-2 lg:mt-14 mt-7">
-              <Link className="hover:text-[#F26F21]" href="/about-us">
-                About Us
-              </Link>
-              <Link className="hover:text-[#F26F21]" href="/blog">
-                Blog
-              </Link>
-              <Link className="hover:text-[#F26F21]" href="/contact-us">
-                Contact Us
-              </Link>
+              <span>
+                <Link className="hover:text-[#F26F21]" href="/about-us">
+                  About Us
+                </Link>
+              </span>
+              <span>
+                {" "}
+                <Link className="hover:text-[#F26F21]" href="/blog">
+                  Blog
+                </Link>
+              </span>
+              <span>
+                <Link className="hover:text-[#F26F21]" href="/contact-us">
+                  Contact Us
+                </Link>
+              </span>
             </div>
           </div>
 

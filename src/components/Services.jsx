@@ -57,7 +57,7 @@ export default function Services() {
               <h1 className="text-2xl h-[100px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
                 {service.title}
               </h1>
-              <p className="text-start text-sm font-semibold h-[150px] px-4 text-black">
+              <p className="text-start text-sm h-[150px] px-4 text-gray-600">
                 {service.description}
               </p>
             </div>

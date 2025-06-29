@@ -79,6 +79,7 @@ export default function Clients() {
         pagination={{ clickable: true }}
         mousewheel={true}
         autoplay={{ delay: 2000 }}
+        direction="horizontal"
         loop={true}
         className="rounded-lg"
       >

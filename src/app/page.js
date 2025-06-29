@@ -1,4 +1,5 @@
 import Clients from "@/components/Clients";
+import Services from "@/components/Services";
 import { Carousel } from "antd";
 import Image from "next/image";
 
@@ -63,11 +64,20 @@ export default function Home() {
 
       {/* Main Section */}
       <main className="container mx-0">
+        {/* Clients Section */}
         <section className="py-20">
           <h1 className="text-3xl font-bold text-center  text-[#5F613A]">
             Our Valuable Clients
           </h1>
           <Clients />
+        </section>
+
+        {/* Products Section */}
+        <section className="text-center items-center flex flex-col">
+          <h1 className="text-4xl pb-14 font-bold text-[#5F613A] text-center">
+            Our Products & Services
+          </h1>
+          <Services />
         </section>
       </main>
     </div>

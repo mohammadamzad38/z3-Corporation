@@ -85,7 +85,7 @@ export default function Clients() {
       >
         {clientsLogo.map((client, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative my-15 h-[200px] w-[200]">
+            <div className="relative mb-15 h-[200px] w-[200]">
               <Image
                 src={client.image}
                 alt={client.alt}

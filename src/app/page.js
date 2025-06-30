@@ -68,7 +68,7 @@ export default function Home() {
       <main className="mx-0">
         {/* Clients Section */}
         <section className="container py-20">
-          <h1 className="text-3xl font-bold text-center  text-[#F26F21]">
+          <h1 className="text-3xl pb-15 font-bold text-center  text-[#F26F21]">
             Our Valuable Clients
           </h1>
           <Clients />
@@ -134,8 +134,8 @@ export default function Home() {
         </section>
 
         {/* Brands section */}
-        <section className="container ">
-          <h1 className="text-center font-bold text-3xl text-[#F26F21]">
+        <section className="container pb-15">
+          <h1 className="text-center font-bold text-3xl pb-15 text-[#F26F21]">
             Brands We Sell / Promote
           </h1>
           <Brands />

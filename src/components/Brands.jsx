@@ -53,15 +53,13 @@ export default function Brands() {
       >
         {allBrands.map((brand, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative my-15 h-[200px] w-[200px]">
+            <div className="relative mb-15 h-[200px] w-[200px]">
               <Image
                 src={brand.image}
                 alt={brand.alt}
                 fill
                 className="object-contain border px-2 border-gray-500 rounded-lg hover:scale-90"
-                
               />
-              
             </div>
           </SwiperSlide>
         ))}

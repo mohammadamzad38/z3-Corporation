@@ -1,4 +1,10 @@
+"use client"
+
 import Image from "next/image";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const allServices = [
   {
@@ -40,21 +46,24 @@ const allServices = [
 ];
 
 export default function Services() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div>
       <div className="grid grid-cols-3">
         {allServices.map((service, idx) => (
-          <div key={idx} className="border rounded-xl m-5 ">
+          <div key={idx} data-aos="zoom-in"  className="border rounded-xl m-10 shadow-xs">
             <div className="w-full h-[250px] relative overflow-hidden">
               <Image
-                className="object-contail hover:scale-115 duration-300 border rounded-t-xl"
+                className="object-center hover:scale-115 duration-300 border rounded-t-xl"
                 fill
                 src={service.image}
                 alt={service.title}
               />
             </div>
             <div className="">
-              <h1 className="text-2xl h-[100px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
+              <h1 className="text-xl h-[80px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
                 {service.title}
               </h1>
               <p className="text-start text-sm h-[150px] px-4 text-gray-600">

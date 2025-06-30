@@ -13,59 +13,59 @@ const clientsLogo = [
   },
   {
     image: "/Image/matro.webp",
-    alt: "nobleMarriage",
+    alt: "matro",
   },
   {
     image: "/Image/arman.webp",
-    alt: "nobleMarriage",
+    alt: "arman",
   },
   {
     image: "/Image/bitopi.webp",
-    alt: "nobleMarriage",
+    alt: "bitopi",
   },
   {
     image: "/Image/civil-aviation.webp",
-    alt: "nobleMarriage",
+    alt: "aviation",
   },
   {
     image: "/Image/dbl.webp",
-    alt: "nobleMarriage",
+    alt: "dbl",
   },
   {
     image: "/Image/fakir.webp",
-    alt: "nobleMarriage",
+    alt: "fakir",
   },
   {
     image: "/Image/dynmicitfzllc.png",
-    alt: "nobleMarriage",
+    alt: "dynmicitfzllc",
   },
   {
     image: "/Image/FCI-bd.webp",
-    alt: "nobleMarriage",
+    alt: "FCI",
   },
   {
     image: "/Image/giant-group.webp",
-    alt: "nobleMarriage",
+    alt: "giant",
   },
   {
     image: "/Image/shanta2.webp",
-    alt: "nobleMarriage",
+    alt: "shanta2",
   },
   {
     image: "/Image/sts-group.webp",
-    alt: "nobleMarriage",
+    alt: "sts",
   },
   {
     image: "/Image/united-group.webp",
-    alt: "nobleMarriage",
+    alt: "united",
   },
   {
     image: "/Image/valmatic.webp",
-    alt: "nobleMarriage",
+    alt: "valmatic",
   },
   {
     image: "/Image/volumezro.webp",
-    alt: "nobleMarriage",
+    alt: "volumezro",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function Clients() {
                 src={client.image}
                 alt={client.alt}
                 fill
-                className="object-contain border px-2 border-gray-200 rounded-lg"
+                className="hover:scale-90 object-contain border px-2 border-gray-200 rounded-lg"
               />
             </div>
           </SwiperSlide>

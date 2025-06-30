@@ -1,4 +1,6 @@
+import Brands from "@/components/Brands";
 import Clients from "@/components/Clients";
+import LatestProjects from "@/components/Projects";
 import Services from "@/components/Services";
 import { Carousel } from "antd";
 import Image from "next/image";
@@ -66,7 +68,7 @@ export default function Home() {
       <main className="mx-0">
         {/* Clients Section */}
         <section className="container py-20">
-          <h1 className="text-3xl font-bold text-center  text-[#5F613A]">
+          <h1 className="text-3xl font-bold text-center  text-[#F26F21]">
             Our Valuable Clients
           </h1>
           <Clients />
@@ -74,7 +76,7 @@ export default function Home() {
 
         {/* Products Section */}
         <section className="container text-center items-center pb-18 flex flex-col">
-          <h1 className="text-4xl pb-14 font-bold text-[#5F613A] text-center">
+          <h1 className="text-3xl pb-14 font-bold text-[#F26F21] text-center">
             Our Products & Services
           </h1>
           <Services />
@@ -84,7 +86,7 @@ export default function Home() {
         <section className="bg-[#F4F4F4]">
           <div className="flex flex-row gap-14 my-10 container py-10">
             <div className="w-1/2 my-10">
-              <h1 className="text-3xl font-bold text-[#5F613A] pb-8">
+              <h1 className="text-3xl font-bold text-[#F26F21] pb-8">
                 Z3 Corporation - A Trusted Software & ICT Services Provider in
                 Bangladesh
               </h1>
@@ -121,6 +123,22 @@ export default function Home() {
               />
             </div>
           </div>
+        </section>
+
+        {/* Latest Projects */}
+        <section className="container py-20">
+          <h1 className="text-center font-bold text-3xl text-[#F26F21]">
+            Our Latest Projects
+          </h1>
+          <LatestProjects />
+        </section>
+
+        {/* Brands section */}
+        <section className="container ">
+          <h1 className="text-center font-bold text-3xl text-[#F26F21]">
+            Brands We Sell / Promote
+          </h1>
+          <Brands />
         </section>
       </main>
     </div>

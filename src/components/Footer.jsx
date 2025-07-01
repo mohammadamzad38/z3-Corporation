@@ -10,8 +10,8 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-[#383838] ">
-      <div className="max-w-[1200px] px-10 mx-auto pt-20 pb-10">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-16 gap-10">
+      <div className="max-w-[1200px] px-10 mx-auto pt-7 md:pt-15 pb-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-10 gap-6">
           <div className="space-y-4">
             <Link href="/">
               <Image
@@ -21,7 +21,7 @@ const Footer = () => {
                 height={250}
               ></Image>
             </Link>
-            <p className="text-wrap mt-4 text-start">
+            <p className="text-wrap md:text-base text-xs mt-4 text-start">
               Z3 Corporation is the leading Fire Safety, Electrical Safety,
               Building Safety & Structural Safety consultancy & contractor
               (supply, installation, commissioning & after-sales) organization
@@ -52,8 +52,8 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
-            <h1 className="font-bold">FOREIGN PARTNERS</h1>
-            <div className="text-sm space-y-2 lg:mt-14 mt-7">
+            <h1 className="font-bold border-b border-amber-700">FOREIGN PARTNERS</h1>
+            <div className="md:text-sm text-xs space-y-1 md:space-y-2 lg:mt-12 md:mt-7">
               <p>Naffco</p>
               <p>Fike</p>
               <p>Shield</p>
@@ -64,8 +64,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className="font-bold">QUICK LINKS</h1>
-            <div className="text-sm flex flex-col space-y-2 lg:mt-14 mt-7">
+            <h1 className="font-bold border-b border-amber-700">QUICK LINKS</h1>
+            <div className="md:text-sm text-xs md:space-y-2 md:mt-7 flex flex-col space-y-0 lg:mt-14 mt-3">
               <span>
                 <Link className="hover:text-[#F26F21]" href="/about-us">
                   About Us
@@ -86,8 +86,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className="font-bold">CONTACT US</h1>
-            <div className="text-sm flex flex-col gap-2 lg:mt-14 mt-7">
+            <h1 className="font-bold border-b border-amber-700">CONTACT US</h1>
+            <div className="md:text-sm text-xs space-y-1 md:space-y-2  md:mt-7 flex flex-col gap-2 lg:mt-14 mt-3">
               <a className="hover:text-[#F26F21]" href="tel:8801991198322">
                 <span className="text-white ">Phone:</span> +880 1991-198 322
               </a>
@@ -107,7 +107,7 @@ const Footer = () => {
         </div>
         <div className="border rounded-2xl border-gray-600 w-full my-10"></div>
 
-        <div className="flex flex-wrap text-sm justify-center lg:gap-10 gap-6">
+        <div className="flex flex-wrap text-xs md:text-sm justify-center gap-4 md:gap-6 lg:gap-10  ">
           <Link className="hover:text-[#F26F21]" href="/privacy-policy">
             PRIVACY POLICY
           </Link>

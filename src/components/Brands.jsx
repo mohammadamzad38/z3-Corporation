@@ -43,13 +43,24 @@ export default function Brands() {
       <Swiper
         modules={[Pagination, Mousewheel, Autoplay]}
         spaceBetween={30}
-        slidesPerView={5}
         pagination={{ clickable: true }}
         mousewheel={true}
         autoplay={{ delay: 2000 }}
         direction="horizontal"
         loop={true}
         className="rounded-lg"
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+
+          1024: {
+            slidesPerView: 5,
+          },
+        }}
       >
         {allBrands.map((brand, idx) => (
           <SwiperSlide key={idx}>

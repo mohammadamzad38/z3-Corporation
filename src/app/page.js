@@ -47,17 +47,17 @@ export default function Home() {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="relative w-full mx-auto h-[650] overflow-hidden"
+              className="relative w-full h-[300px] md:h-[650] mx-auto overflow-hidden"
             >
               <Image
                 src={project.image}
                 alt="centrepoint"
                 fill
-                className="object-fill h-auto w-auto"
+                className="w-full sm:max-h-[300px] md:max-h-[650]"
               />
-              <div className="absolute bottom-10 max-w-[50%] mx-auto  bg-black opacity-75 px-20 text-white py-10 rounded-r-2xl">
-                <h2 className="text-5xl font-bold mb-4">{project.title}</h2>
-                <p className="font-bold">{project.description}</p>
+              <div className="absolute bottom-5 md:bottom-10 w-full md:max-w-[70%] lg:max-w-[50%] mx-auto  bg-black opacity-75 lg:px-20 md:px-10 px-5 text-white py-2 md:py-6 md:rounded-r-2xl">
+                <h2 className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">{project.title}</h2>
+                <p className="md:font-bold">{project.description}</p>
               </div>
             </div>
           ))}
@@ -65,8 +65,8 @@ export default function Home() {
       </section>
 
       {/* Main Section */}
-      <main className="mx-0">
-        {/* Clients Section */}
+      {/* <main className="mx-0">
+        Clients Section
         <section className="container py-20">
           <h1 className="text-3xl pb-15 font-bold text-center  text-[#F26F21]">
             Our Valuable Clients
@@ -74,7 +74,7 @@ export default function Home() {
           <Clients />
         </section>
 
-        {/* Products Section */}
+        Products Section
         <section className="container text-center items-center pb-18 flex flex-col">
           <h1 className="text-3xl pb-14 font-bold text-[#F26F21] text-center">
             Our Products & Services
@@ -82,7 +82,7 @@ export default function Home() {
           <Services />
         </section>
 
-        {/* About Z3  */}
+        About Z3 
         <section className="bg-[#F4F4F4]">
           <div className="flex flex-row gap-14 my-10 container py-10">
             <div className="w-1/2 my-10">
@@ -125,7 +125,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Latest Projects */}
+        Latest Projects
         <section className="container py-20">
           <h1 className="text-center font-bold text-3xl text-[#F26F21]">
             Our Latest Projects
@@ -133,14 +133,14 @@ export default function Home() {
           <LatestProjects />
         </section>
 
-        {/* Brands section */}
+        Brands section
         <section className="container pb-15">
           <h1 className="text-center font-bold text-3xl pb-15 text-[#F26F21]">
             Brands We Sell / Promote
           </h1>
           <Brands />
         </section>
-      </main>
+      </main> */}
     </div>
   );
 }

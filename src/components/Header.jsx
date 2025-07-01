@@ -54,7 +54,7 @@ const Header = () => {
 
   return (
     <header className="bg-[#EEEEEE] flex sticky top-0 z-50 flex-col">
-      <div className="flex justify-between lg:gap-32 items-center max-w-[1200px] py-6 mx-auto">
+      <div className="flex justify-between lg:gap-32 items-center max-w-[1200px] py-3 md:py-6 ml-3 md:mx-20 lg:mx-auto">
         <Link href="/">
           <Image
             src="/Image/logo-z3-corporation.png"
@@ -86,7 +86,7 @@ const Header = () => {
         {/* Mobile Designe */}
 
         <div
-          className="lg:hidden cursor-pointer ml-20 md:ml-80 text-4xl"
+          className="lg:hidden cursor-pointer ml-20 px-3 md:ml-80 text-4xl"
           onClick={handleOpen}
         >
           <span className="text-gray-400 text-sm font-bold">MENU</span>

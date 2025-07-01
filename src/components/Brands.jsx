@@ -42,7 +42,7 @@ export default function Brands() {
     <div className="w-full mx-w-[1200px] mx-auto">
       <Swiper
         modules={[Pagination, Mousewheel, Autoplay]}
-        spaceBetween={30}
+        centeredSlides={false}
         pagination={{ clickable: true }}
         mousewheel={true}
         autoplay={{ delay: 2000 }}
@@ -52,24 +52,26 @@ export default function Brands() {
         breakpoints={{
           0: {
             slidesPerView: 1,
+            
           },
           640: {
-            slidesPerView: 2,
+            slidesPerView: 3,
+            spaceBetween: 10,
           },
-
           1024: {
             slidesPerView: 5,
+            spaceBetween: 30,
           },
         }}
       >
         {allBrands.map((brand, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative mb-15 h-[200px] w-[200px]">
+            <div className="flex justify-center items-center mx-auto relative mb-15 h-[150px] md:h-[200px] w-[150px] md:w-[200px]">
               <Image
                 src={brand.image}
                 alt={brand.alt}
                 fill
-                className="object-contain border px-2 border-gray-500 rounded-lg hover:scale-90"
+                className="object-contain border px-2 border-gray-200 shadow rounded-lg hover:scale-90"
               />
             </div>
           </SwiperSlide>

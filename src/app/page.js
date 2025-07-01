@@ -56,7 +56,9 @@ export default function Home() {
                 className="w-full sm:max-h-[300px] md:max-h-[650]"
               />
               <div className="absolute bottom-5 md:bottom-10 w-full md:max-w-[70%] lg:max-w-[50%] mx-auto  bg-black opacity-75 lg:px-20 md:px-10 px-5 text-white py-2 md:py-6 md:rounded-r-2xl">
-                <h2 className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">{project.title}</h2>
+                <h2 className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">
+                  {project.title}
+                </h2>
                 <p className="md:font-bold">{project.description}</p>
               </div>
             </div>
@@ -65,28 +67,26 @@ export default function Home() {
       </section>
 
       {/* Main Section */}
-      {/* <main className="mx-0">
-        Clients Section
-        <section className="container py-20">
-          <h1 className="text-3xl pb-15 font-bold text-center  text-[#F26F21]">
+      <main className="mx-0">
+        {/* Clients Section */}
+        <section className="container py-12 md:py-20">
+          <h1 className="text-xl md:text-3xl pb-10 md:pb-15 font-bold text-center  text-[#F26F21]">
             Our Valuable Clients
           </h1>
           <Clients />
         </section>
-
-        Products Section
-        <section className="container text-center items-center pb-18 flex flex-col">
-          <h1 className="text-3xl pb-14 font-bold text-[#F26F21] text-center">
+        {/* Products Section */}
+        <section className="container text-center items-center pb-10 md:pb-18 flex flex-col">
+          <h1 className="text-xl md:text-3xl pb-5 md:pb-14 font-bold text-[#F26F21] text-center">
             Our Products & Services
           </h1>
           <Services />
         </section>
-
-        About Z3 
+        {/* About Z3  */}
         <section className="bg-[#F4F4F4]">
-          <div className="flex flex-row gap-14 my-10 container py-10">
-            <div className="w-1/2 my-10">
-              <h1 className="text-3xl font-bold text-[#F26F21] pb-8">
+          <div className="flex flex-col md:flex-row gap-14 my-10 container px-10 lg:px-0 py-10">
+            <div className="w-full md:w-1/2 my-10">
+              <h1 className="text-xl md:text-3xl font-bold text-[#F26F21] pb-8">
                 Z3 Corporation - A Trusted Software & ICT Services Provider in
                 Bangladesh
               </h1>
@@ -113,7 +113,7 @@ export default function Home() {
                 meet the diverse needs of its customers.
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2 flex justify-center items-center">
               <Image
                 className="border-3 border-gray-400 hover:border-10 hover:border-[#F26F21] rounded-xl w-full h-auto"
                 src="/Image/About-Z3-Corporation.webp"
@@ -125,22 +125,21 @@ export default function Home() {
           </div>
         </section>
 
-        Latest Projects
-        <section className="container py-20">
-          <h1 className="text-center font-bold text-3xl text-[#F26F21]">
+        {/* Latest Projects */}
+        <section className="container pt-18 px-10">
+          <h1 className="text-center font-bold text-xl md:text-3xl text-[#F26F21]">
             Our Latest Projects
           </h1>
           <LatestProjects />
         </section>
-
-        Brands section
+        {/* Brands section */}
         <section className="container pb-15">
-          <h1 className="text-center font-bold text-3xl pb-15 text-[#F26F21]">
+          <h1 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">
             Brands We Sell / Promote
           </h1>
           <Brands />
         </section>
-      </main> */}
+      </main>
     </div>
   );
 }

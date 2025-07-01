@@ -29,7 +29,7 @@ const projects = [
 
 export default function LatestProjects() {
   return (
-    <div className="grid grid-cols-3 my-10 border border-gray-400 p-2 rounded-2xl">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 border border-gray-400 p-2 rounded-2xl">
       {projects.map((project, idx) => (
         <div
           className="relative w-full border group h-[250px] shadow-2xl  "

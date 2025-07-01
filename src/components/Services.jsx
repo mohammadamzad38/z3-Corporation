@@ -51,7 +51,7 @@ export default function Services() {
   }, []);
   return (
     <div>
-      <div className="grid grid-cols-3">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3">
         {allServices.map((service, idx) => (
           <div key={idx} data-aos="zoom-in"  className="border rounded-xl m-10 shadow-xs">
             <div className="w-full h-[250px] relative overflow-hidden">
@@ -66,7 +66,7 @@ export default function Services() {
               <h1 className="text-xl h-[80px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
                 {service.title}
               </h1>
-              <p className="text-start text-sm h-[150px] px-4 text-gray-600">
+              <p className="text-start text-sm overflow-hidden h-[150px] px-4 text-gray-600">
                 {service.description}
               </p>
             </div>

@@ -43,7 +43,7 @@ export default function LatestProjects() {
           />
 
           <div className="absolute bottom-0 h-[100px] w-full p-3 bg-black bg-opacity-70 opacity-0 translate-y-6 ease-[cubic-bezier(0.75, 1.3, 0, 0.78)] group-hover:translate-y-0 group-hover:opacity-75 transition-all duration-300 justify-center items-center flex text-white">
-            <h1 className="my-5 px-3 text-xl font-bold border border-amber-700 p-3 rounded-sm w-full">
+            <h1 className="my-5 px-3 text-lg                                                                                                                     font-bold border border-amber-700 p-3 rounded-sm w-full">
               {project.title}
             </h1>
           </div>

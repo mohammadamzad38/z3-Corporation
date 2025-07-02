@@ -65,8 +65,8 @@ export default function Brands() {
         }}
       >
         {allBrands.map((brand, idx) => (
-          <SwiperSlide key={idx}>
-            <div className="flex justify-center items-center mx-auto relative mb-15 h-[150px] md:h-[200px] w-[150px] md:w-[200px]">
+          <SwiperSlide >
+            <div  className="flex justify-center items-center mx-auto relative mb-15 h-[150px] md:h-[200px] w-[150px] md:w-[200px]">
               <Image
                 src={brand.image}
                 alt={brand.alt}

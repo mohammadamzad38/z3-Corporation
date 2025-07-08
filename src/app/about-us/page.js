@@ -1,26 +1,27 @@
 import Image from "next/image";
 import { FaPeopleGroup } from "react-icons/fa6";
+import { FcManager } from "react-icons/fc";
 
 const page = () => {
   return (
     <div>
-      <div className="relative flex justify-center h-[200px] w-screen">
+      <div className="relative flex justify-center h-[100px] md:h-[200px] w-screen">
         <Image
           src="/Image/z3-corporation-cover.png"
           alt="Z3 cover Image"
           fill
           className="object-fill"
         />
-        <div className="absolute container top-30">
-          <h1 className="text-3xl border-b-4 border-[#ED4B41] w-[15%] text-white font-bold absulote">
+        <div className="absolute top-10 md:top-30 left-[20%]">
+          <h1 className="text-xl md:text-3xl border-b-4 border-[#ED4B41] text-white font-bold ">
             About Us
           </h1>
         </div>
       </div>
 
       <section className="container">
-        <div className="flex flex-row gap-20 py-20">
-          <div className="relative h-150 w-[50%]">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-20 py-20">
+          <div className="relative h-[400px] lg:h-150 w-[80%] lg::w-[50%]">
             <Image
               src="/Image/Z3-it-location-symble.jpg"
               fill
@@ -28,7 +29,7 @@ const page = () => {
               className="object-cover p-2 border rounded-3xl"
             />
           </div>
-          <div className="w-[50%]">
+          <div className="p-10 md:p-20 lg:p-0 w-full lg:w-[50%]">
             <p className="text-black">
               <a href="" className="font-bold text-lg text-[#ED4B41]">
                 MRZ Group{" "}
@@ -75,36 +76,78 @@ const page = () => {
         </div>
       </section>
       <div className="w-full">
-        <div className="relative w-full h-[400px]">
+        <div className="relative w-full h-[500px] md:h-[300px] lg:h-[500px]">
           <Image
             src="/Image/Bottom-banner-about.png"
             alt="Bottom Banner"
             fill
-            className=""
+            className="hidden md:block"
           />
+          <Image
+            src="/Image/Fire-brigrade.png"
+            alt="Bottom Banner"
+            fill
+            className="block md:hidden"
+          />
+
           <div className="container flex justify-center items-center">
-            <div className="absolute flex flex-row items-center justify-center gap-20 top-[40%] bg-black opacity-75 p-10 rounded-2xl">
-              <div className="space-y-2 flex flex-col text-center items-center">
-                <FaPeopleGroup className="text-amber-300 text-7xl" />
-                <p className="text-3xl font-bold text-white">200</p>
-                <p className="text-lg text-white">Team Members</p>
+            <div className="absolute top-10 lg:top-20">
+              <p className="text-white font-bold md:text-2xl lg:text-3xl ">
+                “Your Safety, Our Priority”
+              </p>
+            </div>
+            <div className="absolute flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10 lg:gap-20 top-25 md:top-[40%] bg-black opacity-75 p-2 md:p-5 rounded-2xl">
+              <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
+                <FaPeopleGroup className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
+                  200
+                </p>
+                <p className="text-xs lg:text-lg text-white">Team Members</p>
               </div>
-              <div className="space-y-2">
-                <FaPeopleGroup className="text-amber-300 text-7xl" />
-                <p className="text-3xl font-bold text-white">200</p>
-                <p className="text-lg text-white">Team Members</p>
+              <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
+                <FcManager className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
+                  20
+                </p>
+                <p className="text-xs lg:text-lg text-white">
+                  Qualified Engineers
+                </p>
               </div>
-              <div className="space-y-2">
-                <FaPeopleGroup className="text-amber-300 text-7xl" />
-                <p className="text-3xl font-bold text-white">200</p>
-                <p className="text-lg text-white">Team Members</p>
+              <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
+                <FaPeopleGroup className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
+                  500
+                </p>
+                <p className="text-xs lg:text-lg text-white">
+                  Successful Projects
+                </p>
               </div>
-              <div className="space-y-2">
-                <FaPeopleGroup className="text-amber-300 text-7xl" />
-                <p className="text-3xl font-bold text-white">200</p>
-                <p className="text-lg text-white">Team Members</p>
+              <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
+                <FaPeopleGroup className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
+                  1000
+                </p>
+                <p className="text-xs lg:text-lg text-white">
+                  Care for Clients
+                </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#1863AB] h-[300px] md:h-[200px] flex ">
+        <div className="flex flex-col justify-between md:gap-0 gap-10 py-5 px-10 lg:py-0 items-center text-center lg:flex-row container border-b-8 border-[#ED4B41]">
+
+          <div className="text-white space-y-4 text-start">
+            {" "}
+            <h1 className="text-2xl font-bold">
+              Looking an Adequate Solution for your Company?
+            </h1>
+            <h3>Contact us today for free consultation or more information.</h3>
+          </div>
+
+          <div className="mr-32">
+            <button className="px-5 py-2 border-2 font-bold border-white hover:text-[#ED4B41]">Contact Us</button>
           </div>
         </div>
       </div>

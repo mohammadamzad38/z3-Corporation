@@ -1,16 +1,42 @@
+"use client"
+
+import PromotedBrands from "@/components/PromotedBrands";
+import Image from "next/image";
+
 const page = () => {
   return (
-    <div className="">
+    <div>
+      <div className="relative flex justify-center h-[100px] md:h-[300px] w-screen">
+        <Image
+          src="/Image/z3-corporation-cover.png"
+          alt="Z3 cover Image"
+          fill
+          className="object-fill"
+        />
+        <div className="absolute top-10 md:top-30 left-[20%]">
+          <h1 className="text-xl md:text-3xl border-b-4 border-[#ED4B41] text-white font-bold ">
+            BRANDS
+          </h1>
+        </div>
+      </div>
+
+      <div className="container">
+        <PromotedBrands />
+      </div>
+
       <div className="bg-[#0A0A0A] py-12">
         <div className="container px-8 space-y-3">
           <h1 className="text-3xl font-bold text-[#ED4B41]">
             OUR <span className="text-white">PRINCIPALS</span>
           </h1>
           <p className="">
-            <a href="#" className="text-[#ED4B41]">Z3 Corporation</a> is the authorized distributor of
-            NAFFCO (UAE), TRIGA by Honeywell (USA) and SHIELD (UK). Besides, we
-            sell various other reputable brands through our principals, such as
-            Tyco, Fike, Xtralis, Detector, Kent, Sauter, Cooper, etc. <br />
+            <a href="#" className="text-[#ED4B41]">
+              Z3 Corporation
+            </a>{" "}
+            is the authorized distributor of NAFFCO (UAE), TRIGA by Honeywell
+            (USA) and SHIELD (UK). Besides, we sell various other reputable
+            brands through our principals, such as Tyco, Fike, Xtralis,
+            Detector, Kent, Sauter, Cooper, etc. <br />
             <br /> At Z3 Corporation, we understand the importance of fire
             safety and the need for reliable protection solutions. That’s why we
             partnered with only world’s most trusted brands – NAFFCO, SHIELD and

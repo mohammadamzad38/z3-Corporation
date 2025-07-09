@@ -1,3 +1,4 @@
+import Certifications from "@/components/Certifications";
 import Image from "next/image";
 
 const page = () => {
@@ -19,6 +20,7 @@ const page = () => {
 
       <div className="container">
         <h1 className="text-sm md:text-xl lg:text-3xl text-[#ED4B41] text-center mt-10 font-bold">OUR CERTIFICATIONS & AWARDS</h1>
+        <Certifications />
       </div>
 
       <div className="bg-[#0A0A0A] py-12">

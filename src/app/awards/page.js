@@ -4,7 +4,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
-      <div className="relative flex justify-center h-[100px] md:h-[300px] w-screen">
+      <div className="relative flex justify-center h-[100px] md:h-[200px] w-screen">
         <Image
           src="/Image/z3-corporation-cover.png"
           alt="Z3 cover Image"

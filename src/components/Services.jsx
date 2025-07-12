@@ -62,7 +62,7 @@ export default function Services() {
                 alt={service.title}
               />
             </div>
-            <div className="">
+            <div>
               <h1 className="text-xl h-[80px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
                 {service.title}
               </h1>

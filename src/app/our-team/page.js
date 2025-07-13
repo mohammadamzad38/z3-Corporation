@@ -177,7 +177,7 @@ const page = ({ name, title, image }) => {
           className="object-fill"
         />
         <div className="absolute top-10 md:top-30 left-[20%]">
-          <h1 className="text-xl md:text-3xl  border-b-4 border-[#ED4B41] text-white font-bold ">
+          <h1 className="text-xl md:text-3xl border-b-4 border-[#ED4B41] text-white font-bold ">
             OUR TEAM
           </h1>
         </div>

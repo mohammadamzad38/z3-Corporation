@@ -69,7 +69,7 @@ const Header = () => {
             const isActive = currentPath === nav.href;
             return (
               <Link
-                className={`mx-2 text-[#0A2C7D] hidden lg:block text-xs font-bold ${
+                className={`mx-2 text-[#0A2C7D] hidden lg:block text-sm font-bold ${
                   isActive
                     ? "bg-[#F26F21] rounded-md px-2 py-2 text-white"
                     : "hover:text-[#F26F21]"

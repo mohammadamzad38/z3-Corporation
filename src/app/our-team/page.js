@@ -1,4 +1,5 @@
 import Team from "@/components/Team";
+import Image from "next/image";
 
 const TeamMembers = {
   directors: [
@@ -23,6 +24,20 @@ const TeamMembers = {
       descriptions:
         "Mr Zubayr Shahid is the Managing Director of MRZ Group. He graduated in Business & Marketing from Coventry University...",
     },
+    {
+      image: "/Image/lt-motlub.png",
+      name: "Lt Col Md Motlub Ahmed, afwc, psc, MBA (Retd)",
+      designation: "Director",
+      descriptions:
+        "Mr Zubayr Shahid is the Managing Director of MRZ Group. He graduated in Business & Marketing from Coventry University...",
+    },
+    {
+      image: "/Image/captain-behzad.png",
+      name: "Captain K M Behzad Akbar (psc, BN) (Retd)",
+      designation: "Director",
+      descriptions:
+        "Mr Zubayr Shahid is the Managing Director of MRZ Group. He graduated in Business & Marketing from Coventry University...",
+    },
   ],
   Operations: [
     {
@@ -40,20 +55,230 @@ const TeamMembers = {
       name: "Engr. Md Shams-E-Tabreez Azad",
       designation: "Lead Engineer",
     },
+    {
+      image: "/Image/Engr.-Amit-Asif-.jpg",
+      name: "Engr. Amit Asif (Electro-Mechanical)",
+      designation: "Manager (Operations & Business Development)",
+    },
+  ],
+  commercials: [
+    {
+      image: "/Image/Md.-Mamun-Ar-Rashid.jpg",
+      name: "Md Mamun Ar Rashid",
+      designation: "Executive, Commercial",
+    },
+    {
+      image: "/Image/Abdul-awal.png",
+      name: "Md Abdul Awal",
+      designation: "Executive, Accounts",
+    },
+  ],
+  engineers: [
+    {
+      image: "/Image/Eng.-Abdullah-Al-Noman.jpg",
+      name: "Engr. Abdullah Al Noman",
+      designation: "Senior Engineer (Design & System)",
+    },
+    {
+      image: "/Image/Engr.-Md-Fazlul-Haque.jpg",
+      name: "Engr. Md Fazlul Haque",
+      designation: "Design & System Engineer",
+    },
+    {
+      image: "/Image/Engr-Md-Fazlul-Karim.jpg",
+      name: "Engr. Md Fazlul Karim",
+      designation: "Design & System Engineer",
+    },
+    {
+      image: "/Image/razuan-hamid.png",
+      name: "Engr. Md. Razuan Hamid",
+      designation: "Design & System Engineer",
+    },
+    {
+      image: "/Image/Engr.-Md-Asaduzzaman.jpg",
+      name: "Engr. Md Asaduzzaman",
+      designation: "Design & System Engineer",
+    },
+    {
+      image: "/Image/Engr.-Abdullah-Al-Mamun.jpg",
+      name: "Engr. Abdullah Al Mamun",
+      designation: "Design & System Engineer",
+    },
+  ],
+  technical: [
+    {
+      image: "/Image/abdur-rahim.png",
+      name: "Abdur Rahim",
+      designation: "Senior Technician of Fire Detection System",
+    },
+    {
+      image: "/Image/Emdadul-haque.png",
+      name: "Emdadul Hoque",
+      designation: "Senior Technician of Fire Detection System",
+    },
+    {
+      image: "/Image/Nazim-uddin.png",
+      name: "Md Nizam Uddin Mizi",
+      designation: "Technician of Fire Detection System",
+    },
+    {
+      image: "/Image/Khairul-islam.png",
+      name: "Md Khairul Islam",
+      designation: "Technician of Fire Detection System",
+    },
+    {
+      image: "/Image/Rashidul-rahman.png",
+      name: "Md Rashidul Rahman",
+      designation: "Technician of Fire Detection System",
+    },
+  ],
+  logistics: [
+    {
+      image: "/Image/Rayhan.png",
+      name: "Md Rayhan Hossain",
+      designation: "Safety Officer",
+    },
+    {
+      image: "/Image/Mahin.jpg",
+      name: "Mahin Uddin",
+      designation: "Procurement Assistant",
+    },
+    {
+      image: "/Image/Rasel.png",
+      name: "Rasel Hossain",
+      designation: "Fire Door Installation Team Leader",
+    },
+    {
+      image: "/Image/Shahed.png",
+      name: "Md Shahed",
+      designation: "Fire Door Installation Support Staff",
+    },
+    {
+      image: "/Image/Shanto.png",
+      name: "Md Shanto",
+      designation: "Office Support Staff",
+    },
+    {
+      image: "/Image/Shahadat.jpg",
+      name: "Md Shahadat Hossain",
+      designation: "Office Support Staff",
+    },
   ],
 };
 
 const page = ({ name, title, image }) => {
   return (
     <div>
-      <div className="container place-items-center">
-        <h1 className=" font-bold text-3xl text-center text-[#ED4B41]">
+      <div className="relative flex justify-center h-[100px] md:h-[200px] w-screen">
+        <Image
+          src="/Image/z3-corporation-cover.png"
+          alt="Z3 cover Image"
+          fill
+          className="object-fill"
+        />
+        <div className="absolute top-10 md:top-30 left-[20%]">
+          <h1 className="text-xl md:text-3xl  border-b-4 border-[#ED4B41] text-white font-bold ">
+            OUR TEAM
+          </h1>
+        </div>
+      </div>
+      <div className="container place-items-center py-15">
+        <h1 className=" font-bold text-xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           BOARD OF DIRECTORS
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
           {TeamMembers.directors.map((member, idx) => (
             <div key={idx}>
-              <Team image={member.image} name={member.name} title={member.designation}/>
+              <Team
+                image={member.image}
+                name={member.name}
+                title={member.designation}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="container place-items-center py-15">
+        <h1 className=" font-bold text-xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+          MANAGEMENT & OPERATIONS
+        </h1>
+        <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
+          {TeamMembers.Operations.map((opMember, idx) => (
+            <div key={idx}>
+              <Team
+                image={opMember.image}
+                name={opMember.name}
+                title={opMember.designation}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="container place-items-center py-15">
+        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+          COMMERCIAL & ACCOUNTS
+        </h1>
+        <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
+          {TeamMembers.commercials.map((member, idx) => (
+            <div key={idx}>
+              <Team
+                image={member.image}
+                name={member.name}
+                title={member.designation}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="container place-items-center py-15">
+        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+          ENGINEERING DEPARTMENT
+        </h1>
+        <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
+          {TeamMembers.engineers.map((member, idx) => (
+            <div key={idx}>
+              <Team
+                image={member.image}
+                name={member.name}
+                title={member.designation}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="container place-items-center py-15">
+        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+          TECHNICAL DEPARTMENT
+        </h1>
+        <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
+          {TeamMembers.technical.map((member, idx) => (
+            <div key={idx}>
+              <Team
+                image={member.image}
+                name={member.name}
+                title={member.designation}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="container place-items-center py-15">
+        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+          LOGISTICS DEPARTMENT
+        </h1>
+        <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
+          {TeamMembers.logistics.map((member, idx) => (
+            <div key={idx}>
+              <Team
+                image={member.image}
+                name={member.name}
+                title={member.designation}
+              />
             </div>
           ))}
         </div>

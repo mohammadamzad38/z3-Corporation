@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 
 const NavLinks = [
@@ -19,7 +17,14 @@ const NavLinks = [
   },
   {
     name: "PRODUCTS AND SERVICES",
-    href: "/products-and-services",
+    children: [
+      { name: "Fire Pump System" },
+      { name: "Fire Fighting Equipment" },
+      { name: "Fire Detection and Alarm System" },
+      { name: "Sprinkler System" },
+      { name: "Fire Extinguisher and Suppression System" },
+      { name: "Fire Door" },
+    ],
   },
   {
     name: "IT SERVICES",
@@ -43,51 +48,93 @@ const NavLinks = [
   },
 ];
 
+const formatHref = (name) =>
+  "/" +
+  name
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+
 const Header = () => {
-  const currentPath = usePathname();
-
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [mobileDropdown, setMobileDropdown] = useState(false);
 
-  function handleOpen() {
-    setOpen(!open);
-  }
+  const toggleMenu = () => setOpen(!open);
+  const toggleMobileDropdown = () => setMobileDropdown((prev) => !prev);
 
   return (
-    <header className="bg-[#EEEEEE] flex sticky top-0 z-50 flex-col">
-      <div className="flex justify-between lg:gap-32 items-center max-w-[1200px] py-3 md:py-6 ml-3 md:mx-20 lg:mx-auto">
+    <header className="bg-[#EEEEEE] sticky top-0 z-50">
+      <div className="flex justify-between items-center max-w-[1200px] py-3 md:py-6 px-4 mx-auto">
         <Link href="/">
           <Image
             src="/Image/logo-z3-corporation.png"
-            alt="logo"
+            alt="Logo"
             width={250}
             height={250}
-          ></Image>
+          />
         </Link>
 
-        <div className="hidden md:flex items-center">
+        {/* Desktop Nav */}
+        <div className="hidden lg:flex items-center space-x-2">
           {NavLinks.map((nav) => {
-            const isActive = currentPath === nav.href;
+            const isActive = pathname === nav.href;
+
+            if (nav.children) {
+              return (
+                <div
+                  key={nav.name}
+                  className="relative group"
+                  onMouseEnter={() => setShowDropdown(true)}
+                  onMouseLeave={() => setShowDropdown(false)}
+                >
+                  <span
+                    className={`text-sm font-bold px-2 py-2 cursor-pointer ${
+                      showDropdown || isActive
+                        ? "bg-[#F26F21] text-white rounded-md"
+                        : "text-[#0A2C7D] hover:text-[#F26F21]"
+                    }`}
+                  >
+                    {nav.name.toUpperCase()}
+                  </span>
+                  {showDropdown && (
+                    <div className="absolute top-full left-0 bg-white shadow-lg mt-2 rounded-md z-50 py-2 w-64">
+                      {nav.children.map((child) => (
+                        <Link
+                          key={child.name}
+                          href={formatHref(child.name)}
+                          className="block px-4 py-2 text-[#0A2C7D] hover:bg-[#F26F21] text-xs font-bold hover:text-white"
+                        >
+                          {child.name.toUpperCase()}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
             return (
               <Link
-                className={`mx-2 text-[#0A2C7D] hidden lg:block text-sm font-bold ${
-                  isActive
-                    ? "bg-[#F26F21] rounded-md px-2 py-2 text-white"
-                    : "hover:text-[#F26F21]"
-                }`}
-                href={nav.href}
                 key={nav.name}
+                href={nav.href}
+                className={`text-sm font-bold px-2 py-2 ${
+                  isActive
+                    ? "bg-[#F26F21] text-white rounded-md"
+                    : "text-[#0A2C7D] hover:text-[#F26F21]"
+                }`}
               >
-                {nav.name}
+                {nav.name.toUpperCase()}
               </Link>
             );
           })}
         </div>
 
-        {/* Mobile Designe */}
-
+        {/* Mobile Menu Icon */}
         <div
-          className="lg:hidden cursor-pointer ml-20 px-3 md:ml-80 text-4xl"
-          onClick={handleOpen}
+          className="lg:hidden cursor-pointer px-3 text-4xl"
+          onClick={toggleMenu}
         >
           <span className="text-gray-400 text-sm font-bold">MENU</span>
           {open ? (
@@ -98,22 +145,45 @@ const Header = () => {
         </div>
       </div>
 
+      {/* Mobile Nav Dropdown */}
       {open && (
-        <div className="flex flex-col border border-gray-950 lg:hidden  py-4 px-10 space-y-2">
+        <div className="flex flex-col lg:hidden border-t py-4 px-6 space-y-2 bg-white">
           {NavLinks.map((nav) => {
-            const isActive = currentPath === nav.href;
+            if (nav.children) {
+              return (
+                <div key={nav.name}>
+                  <div
+                    onClick={toggleMobileDropdown}
+                    className="font-bold text-[#0A2C7D] text-sm cursor-pointer hover:text-[#F26F21]"
+                  >
+                    {nav.name.toUpperCase()}
+                  </div>
+                  {mobileDropdown && (
+                    <div className="ml-4 mt-2 space-y-1">
+                      {nav.children.map((child) => (
+                        <Link
+                          key={child.name}
+                          href={formatHref(child.name)}
+                          className="block text-xs text-[#0A2C7D] hover:font-bold hover:text-[#F26F21]"
+                          onClick={() => setOpen(false)}
+                        >
+                          {child.name.toUpperCase()}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
             return (
               <Link
                 key={nav.name}
                 href={nav.href}
                 onClick={() => setOpen(false)}
-                className={`text-[#0A2C7D] text-sm w-full font-bold ${
-                  isActive
-                    ? "bg-[#F26F21] text-white max-w-[50%] px-2 py-1 rounded-md"
-                    : "hover:text-[#F26F21]"
-                }`}
+                className="text-[#0A2C7D] text-sm font-bold hover:text-[#F26F21]"
               >
-                {nav.name}
+                {nav.name.toUpperCase()}
               </Link>
             );
           })}

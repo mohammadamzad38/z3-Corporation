@@ -1,0 +1,440 @@
+
+  {
+    "FireEquipment": 
+      {
+        "title": "Fire Extinguishers",
+        "image": "/image",
+        "url": "/producturl",
+        "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+        "relatedProducts": [
+          {
+            "name": "ABC Dry Powder",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/abc-dry-powder.jpg",
+            "url": "ABC Dry Powder",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "CO2 PORTABLE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/abc-dry-powder.jpg",
+            "url": "/CO2 PORTABLE",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher."
+          },
+          {
+            "name": "FOAM PORTABLE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/abc-dry-powder.jpg",
+            "url": "/FOAM PORTABLE",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher."
+          },
+          {
+            "name": "CLEAN AGENT",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/abc-dry-powder.jpg",
+            "url": "/producturl",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher."
+          },
+          {
+            "name": "WATER PORTABLE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/abc-dry-powder.jpg",
+            "url": "/WATER PORTABLE",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher."
+          },
+          {
+            "name": "Wet Chemical",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/abc-dry-powder.jpg",
+            "url": "/Wet Chemical",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher."
+          }
+        ],
+        "HosesAccessories": [
+          {
+            "title": "Fire Hoses and Accessories",
+            "image": "/Image/Products/Fire Hoses and Accessories.webp",
+            "url": "/producturl",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+            "hose": [
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "DOUBLE JACKET FIRE HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "DOUBLE JACKET FIRE HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "Fire Hose Rack Assembly",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "Fire Hose Rack Assembly",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "Delivery Hose Coupling",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "Delivery Hose Coupling",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "DURALEX FIRE HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "DURALEX FIRE HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "Handheld Branch Pipe",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "Handheld Branch Pipe",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "Standard Branch Pipe",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "Standard Branch Pipe",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "PU Lined Hose",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "PU Lined Hose",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              }
+            ]
+          }
+        ],
+        "FireReelsCabinets": [
+          {
+            "title": "Fire Reels and Cabinets",
+            "image": "/image",
+            "url": "/Fire Reels and Cabinets",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+            "ReelsCabinets": [
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              }
+            ]
+          }
+        ],
+        "Valves and Risers": [
+          {
+            "title": "Fire Extinguishers",
+            "image": "/image",
+            "url": "/producturl",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+            "ReelsCabinets": [
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              }
+            ]
+          }
+        ],
+        "Fire Hydrants": [
+          {
+            "title": "Fire Extinguishers",
+            "image": "/image",
+            "url": "/producturl",
+            "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+            "ReelsCabinets": [
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              },
+              {
+                "name": "SINGLE JACKET HOSE",
+                "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+                "image": "/Image/Products/single_jacket_hose.jpg",
+                "url": "SINGLE JACKET HOSE",
+                "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+              }
+            ]
+          }
+        ]
+      }
+   ,
+
+
+    "FireDetectionAlarm": [
+      {
+        "title": "Fire Extinguishers",
+        "image": "/image",
+        "url": "/producturl",
+        "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+        "DetectionAlarm": [
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          }
+        ]
+      }
+    ],
+    "SprinklerSystem": [
+      {
+        "title": "Fire Extinguishers",
+        "image": "/image",
+        "url": "/producturl",
+        "description": "Many factors influence the fire extinguisher price in bd, including size, brand, and type, which determine overall functionality. Larger extinguishers typically cost more, yet they offer broader coverage for extensive or high-risk areas. Additionally, branded products with proven reliability may command slightly higher rates in the local market. However, investing in quality ensures fewer maintenance issues and extends the overall lifespan of your extinguisher.",
+        "DetectionAlarm": [
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          },
+          {
+            "name": "SINGLE JACKET HOSE",
+            "title": "CO2 Portable Fire Extinguisher | Compact, Efficient, and Reliable Fire Safety",
+            "image": "/Image/Products/single_jacket_hose.jpg",
+            "url": "SINGLE JACKET HOSE",
+            "description": "An ABC Dry Powder Fire Extinguisher is a versatile and highly effective safety device designed to combat Class A (combustible), Class B (flammable liquid), and Class C (electrical) fires, making it an essential addition to homes, offices, and industrial settings. Its quick-release dry powder formula suffocates flames instantly, preventing re-ignition and minimizing damage. When seconds count, rely on an ABC extinguisher to handle multiple fire types, whether caused by paper, flammable liquids, or faulty wiring. Compact and easy to operate, this extinguisher provides peace of mind in emergencies, ensuring your space remains protected from sudden fire incidents."
+          }
+        ]
+      }
+    ]
+  }
+

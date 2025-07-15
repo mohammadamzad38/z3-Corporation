@@ -132,6 +132,15 @@ export default function Home() {
           </h1>
           <LatestProjects />
         </section>
+
+        <section className="bg-[#F4F4F4]">
+          <div className="container">
+            <h2 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">
+              Latest Blog Posts
+            </h2>
+            <div></div>
+          </div>
+        </section>
         {/* Brands section */}
         <section className="container pb-15">
           <h1 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">

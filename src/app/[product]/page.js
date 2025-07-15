@@ -36,17 +36,20 @@ const Page = ({ params }) => {
             key={index}
             className="border rounded-lg p-4 shadow hover:shadow-lg"
           >
-            <div className="relative h-[300px] w-[300px] mb-4">
-              <Image
-                src={item.image}
-                alt={item.name}
-                fill
-                className="object-contain rounded"
-              />
-            </div>
-            <h2 className="text-lg text-center h-[50px] w-[300px] text-black font-bold">
-              {item.name}
-            </h2>
+            <a href={item.url}>
+              {" "}
+              <div className="relative h-[300px] w-[300px] mb-4">
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  fill
+                  className="object-contain rounded"
+                />
+              </div>
+              <h2 className="text-lg text-center h-[50px] w-[300px] text-black font-bold">
+                {item.name}
+              </h2>
+            </a>
           </div>
         ))}
       </div>

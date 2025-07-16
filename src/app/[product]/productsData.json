@@ -9,7 +9,8 @@
         "name": "ABC Dry Powder",
         "title": "ABC Dry Powder Fire Extinguisher",
         "image": "/Image/Products/abc-dry-powder.jpg",
-        "url": "/fire-fighting-equipment/fire-extinguishers/abc-dry-powder"
+        "url": "/fire-fighting-equipment/fire-extinguishers/abc-dry-powder",
+        "pdfUrl": ""
       },
       {
         "name": "CO2 PORTABLE",

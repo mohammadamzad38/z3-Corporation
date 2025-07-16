@@ -1,10 +1,11 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import CommonBtn from "./CommonBtn";
 
 const allServices = [
   {
@@ -53,7 +54,11 @@ export default function Services() {
     <div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3">
         {allServices.map((service, idx) => (
-          <div key={idx} data-aos="zoom-in"  className="border rounded-xl m-10 shadow-xs">
+          <div
+            key={idx}
+            data-aos="zoom-in"
+            className="border rounded-xl m-10 shadow-xs"
+          >
             <div className="w-full h-[250px] relative overflow-hidden">
               <Image
                 className="object-center hover:scale-115 duration-300 border rounded-t-xl"
@@ -70,9 +75,8 @@ export default function Services() {
                 {service.description}
               </p>
             </div>
-            <button className="border bg-[#F26F21] font-bold  hover:bg-[#f26e21b7] w-full h-10 rounded-b-xl">
-              Explore Now
-            </button>
+
+            <CommonBtn text="Explore now" />
           </div>
         ))}
       </div>

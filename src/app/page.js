@@ -1,3 +1,4 @@
+import BlogCart from "@/components/BlogCart";
 import Brands from "@/components/Brands";
 import Clients from "@/components/Clients";
 import LatestProjects from "@/components/Projects";
@@ -133,14 +134,19 @@ export default function Home() {
           <LatestProjects />
         </section>
 
+        {/* Letest Blogs */}
+
         <section className="bg-[#F4F4F4]">
           <div className="container">
-            <h2 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">
+            <h2 className="text-center font-bold  text-xl md:text-3xl pt-15 text-[#F26F21]">
               Latest Blog Posts
             </h2>
-            <div></div>
+            <div className="py-10 lg:py-0">
+              <BlogCart />
+            </div>
           </div>
         </section>
+
         {/* Brands section */}
         <section className="container pb-15">
           <h1 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">

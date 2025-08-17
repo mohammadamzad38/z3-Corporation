@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import productsData from "../../productsData.json";
+import PageCover from "@/components/pageCover";
 
 const Page = ({ params }) => {
   const { singleProduct } = params;
@@ -29,22 +30,10 @@ const Page = ({ params }) => {
 
   return (
     <div className="">
-      <div className="relative flex justify-center h-[200px] w-full">
-        <Image
-          src="/Image/z3-corporation-cover.png"
-          alt={product.title}
-          fill
-          className="object-cover"
-        />
-        <div className="absolute top-1/2 m-4 md:m-10 lg:mx-[15%] transform -translate-y-1/2">
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold border-b-4 border-[#ED4B41] text-white">
-            {product.title}
-          </h1>
-        </div>
-      </div>
+     <PageCover text={product.title}/>
 
-      <div className="flex justify-center gap-20 mx-auto container py-20">
-        <div className="relative h-96 w-1/2 ">
+      <div className="flex flex-col md:flex-row justify-center gap-20 mx-auto container py-20 px-5">
+        <div className="relative h-96 w-full md:w-1/2 ">
           <Image
             src={product.image}
             alt={product.name}
@@ -53,7 +42,7 @@ const Page = ({ params }) => {
           />
         </div>
 
-        <div className="h-auto w-1/2 space-y-6">
+        <div className="h-auto w-full md:w-1/2 space-y-6">
           <h1 className="text-3xl font-bold text-black">{product.name}</h1>
           <div className="border border-gray-300 rounded-md">
             <button

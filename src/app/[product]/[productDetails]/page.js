@@ -1,5 +1,6 @@
 import Image from "next/image";
 import productsData from "../productsData.json";
+import PageCover from "@/components/pageCover";
 
 const Page = ({ params }) => {
   const { productDetails } = params;
@@ -12,19 +13,7 @@ const Page = ({ params }) => {
 
   return (
     <div>
-      <div className="relative flex justify-center h-[200px] w-full">
-        <Image
-          src="/Image/z3-corporation-cover.png"
-          alt={categoryDetails.title}
-          fill
-          className="object-cover"
-        />
-        <div className="absolute top-1/2 m-4 md:m-10 lg:mx-[15%] transform -translate-y-1/2">
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold border-b-4 border-[#ED4B41] text-white">
-            {categoryDetails.title}
-          </h1>
-        </div>
-      </div>
+      <PageCover text={categoryDetails.title} />
 
       <div className="container place-items-center py-15">
         <div className="relative h-[300px] md:h-[500px] w-[300px] md:w-[500px]">

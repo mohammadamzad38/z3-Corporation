@@ -1,4 +1,11 @@
 {
+  "fire-resistant-cable": {
+    "name": "Fire Resistant Cable",
+    "title": "Fire Resistant Cable",
+    "image": "/Image/Products/Fire Resistant Cable.png",
+    "url": "/fire-resistant-cable",
+    "pdfUrl": "/Image/Products/Catalogue-Fire-Resistant-Cable-Shield-LPCB_22012025.pdf"
+  },
   "fire-extinguishers": {
     "title": "Fire Extinguishers",
     "url": "/fire-fighting-equipment/fire-extinguishers",

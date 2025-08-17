@@ -1,23 +1,11 @@
 import Clients from "@/components/ItClient";
 import ItService from "@/components/ItService";
-import Image from "next/image";
+import PageCover from "@/components/pageCover";
 
 const page = () => {
   return (
     <div>
-      <div className="relative flex justify-center h-[100px] md:h-[200px] w-screen">
-        <Image
-          src="/Image/z3-corporation-cover.png"
-          alt="Z3 cover Image"
-          fill
-          className="object-fill"
-        />
-        <div className="absolute top-10 md:top-30 left-[20%]">
-          <h1 className="text-xl md:text-3xl border-b-4 border-[#ED4B41] text-white font-bold ">
-            IT Services
-          </h1>
-        </div>
-      </div>
+      <PageCover text={"IT Services"} />
       <div className="py-20 space-y-12">
         <h1 className="text-3xl font-bold text-center text-[#ED4B41]">
           Our It Services

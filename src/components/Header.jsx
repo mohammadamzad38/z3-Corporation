@@ -18,12 +18,13 @@ const NavLinks = [
   {
     name: "PRODUCTS AND SERVICES",
     children: [
-      { name: "Fire Pump System" },
-      { name: "Fire Fighting Equipment" },
       { name: "Fire Detection and Alarm System" },
-      { name: "Sprinkler System" },
-      { name: "Fire Extinguisher and Suppression System" },
-      { name: "Fire Door" },
+      { name: "Fire Doors" },
+      { name: "Fire Fighting Equipments" },
+      { name: "Fire Pump Products" },
+      {name: "Fire Supression Systems"},
+      { name: "Sprinkler Systems" },
+      { name: "Valves Devices and Components" },
     ],
   },
   {

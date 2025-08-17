@@ -1,5 +1,5 @@
+import PageCover from "@/components/pageCover";
 import Team from "@/components/Team";
-import Image from "next/image";
 
 const TeamMembers = {
   directors: [
@@ -166,22 +166,10 @@ const TeamMembers = {
   ],
 };
 
-const page = ({ name, title, image }) => {
+export default function Page() {
   return (
     <div>
-      <div className="relative flex justify-center h-[100px] md:h-[200px] w-screen">
-        <Image
-          src="/Image/z3-corporation-cover.png"
-          alt="Z3 cover Image"
-          fill
-          className="object-fill"
-        />
-        <div className="absolute top-10 md:top-30 left-[20%]">
-          <h1 className="text-xl md:text-3xl border-b-4 border-[#ED4B41] text-white font-bold ">
-            OUR TEAM
-          </h1>
-        </div>
-      </div>
+      <PageCover text={"OUR TEAM"} />
       <div className="container place-items-center py-15">
         <h1 className=" font-bold text-xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           BOARD OF DIRECTORS
@@ -303,6 +291,4 @@ const page = ({ name, title, image }) => {
       </div>
     </div>
   );
-};
-
-export default page;
+}

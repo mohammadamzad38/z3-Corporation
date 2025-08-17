@@ -5,23 +5,12 @@ import fighterImage from "../../../public/Image/Fire_fighter.jpg";
 import { FaPhone } from "react-icons/fa6";
 import { GrLocation } from "react-icons/gr";
 import { MdMarkEmailUnread } from "react-icons/md";
+import PageCover from "@/components/pageCover";
 
 const page = () => {
   return (
     <div>
-      <div className="relative flex justify-center h-[100px] md:h-[200px] w-screen">
-        <Image
-          src="/Image/z3-corporation-cover.png"
-          alt="Z3 cover Image"
-          fill
-          className="object-fill"
-        />
-        <div className="absolute top-10 md:top-30 left-[20%]">
-          <h1 className="text-xl md:text-3xl  border-b-4 border-[#ED4B41] text-white font-bold ">
-            Contact Us
-          </h1>
-        </div>
-      </div>
+     <PageCover text={"Contact Us"}/>
       <section className="container py-20 shadow-2xl">
         <h1 className="text-3xl text-center pb-10 font-bold text-black">
           Get In Touch

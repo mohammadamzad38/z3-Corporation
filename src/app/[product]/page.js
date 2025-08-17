@@ -32,7 +32,7 @@ const Page = ({ params }) => {
                   src={item.image}
                   alt={item.name}
                   fill
-                  className="object-contain rounded"
+                  className="object-cover rounded"
                 />
               </div>
               <h2 className="text-lg text-center h-[50px] w-[300px] text-black font-bold">

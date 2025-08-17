@@ -1,155 +1,159 @@
 {
-  "fire-fighting-equipment": {
+  "fire-detection-and-alarm-system": {
     "title": "Best Fire Fighting Equipment for Proper Safety",
-    "url": "/fire-fighting-equipment",
-    "image": "/Image/z3-corporation-cover.png",
+    "url": "/fire-detection-and-alarm-system",
     "article": "We are Z3 Corporation, renowned for offering cutting-edge fire alarm equipment with unparalleled fire safety. As industry leaders, we prioritize expertise, which makes us the best choice for commercial fire alarm installation in Bangladesh.",
     "catalog": [
       {
-        "name": "Fire Extinguishers",
+        "name": "Fire Resistant Cable",
+        "image": "/Image/Products/Fire Resistant Cable.png",
+        "url": "/fire-resistant-cable"
+      },
+      {
+        "name": "Shield NEO Series",
+        "image": "/Image/Products/High-Performance-Panels-neo-series.png",
+        "url": "/shield-neo-series"
+      },
+      {
+        "name": "Triga Series",
         "image": "/Image/Products/Fire Extinguishers.webp",
-        "url": "/fire-fighting-equipment/fire-extinguishers"
-      },
-      {
-        "name": "Hoses and Accessories",
-        "image": "/Image/Products/reels-and-cabinets.webp",
-        "url": "/fire-fighting-equipment/hoses-and-accessories"
-      },
-      {
-        "name": "Reels and Cabinets",
-        "image": "/Image/Products/reels-and-cabinets.webp",
-        "url": "/fire-fighting-equipment/reels-and-cabinets"
-      },
-      {
-        "name": "Valves and Risers",
-        "image": "/Image/Products/Valves and Risers.webp",
-        "url": "/fire-fighting-equipment/valves-and-risers"
-      },
-      {
-        "name": "Fire Hydrants",
-        "image": "/Image/Products/Fire Hoses and Accessories.webp",
-        "url": "/fire-fighting-equipment/fire-hydrants"
+        "url": "/triga-series"
       }
     ]
   },
-
-  "fire-detection-and-alarm-system": {
-    "title": "Fire Detection and Alarm System Installation & Maintainance Services By Z3 Corporation",
-    "url": "/fire-detection-and-alarm-system",
-    "image": "/Image/z3-corporation-cover.png",
-    "catalog": [
-      {
-        "name": "Fire, Gas and Extinguishant System",
-        "image": "/Image/Products/Fire-Gas-and-Extinguishant-System.webp",
-        "url": "/fire-detection-and-alarm-system/fire-gas-and-extinguishant-system"
-      },
-      {
-        "name": "NEO SERIES",
-        "image": "/Image/Products/NEO-SERIES.webp",
-        "url": "/fire-detection-and-alarm-system/neo-series/"
-      },
-      {
-        "name": "infiNET Series",
-        "image": "/Image/Products/infiNET-Series.webp",
-        "url": "/fire-detection-and-alarm-system/infinet-series"
-      },
-      {
-        "name": "Omega Series",
-        "image": "/Image/Products/OmegaSeries.webp",
-        "url": "/fire-detection-and-alarm-system/omega-series"
-      }
-    ]
-  },
-
-  "sprinkler-system": {
-    "title": "Fire Sprinkler Systems | Price, Installation & Maintainance Services By Z3 Corporation",
-    "url": "/sprinkler-system",
-    "image": "/Image/z3-corporation-cover.png",
-    "catalog": [
-      {
-        "name": "Upright, Pendant & Recessed Sprinklers",
-        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
-        "url": "/pendant-recessed-sprinklers"
-      },
-      {
-        "name": "Horizontal Sidewall Sprinkler",
-        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
-        "url": "/horizontal-sidewall-sprinkle"
-      },
-      {
-        "name": "Vertical Sidewall Sprinkler",
-        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
-        "url": "/sprinkler-system/vertical-sidewall-sprinkler"
-      },
-      {
-        "name": "Concealed Sprinkler",
-        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
-        "url": "/sprinkler-system/concealed-sprinkler"
-      }
-    ]
-  },
-
-  "fire-extinguisher-suppression-system": {
-    "title": "Fire Extinguisher Installation, Refill and Maintenance Price in BD",
-    "url": "/extinguishing-and-suppression-systems",
-    "image": "/Image/z3-corporation-cover.png",
-    "catalog": [
-      {
-        "name": "FM200 Fire Suppression System",
-        "image": "/Image/Products/FM200 Fire Suppression System.jpg",
-        "url": "/extinguishing-and-suppression-systems/fm200-fire-suppression-system/"
-      },
-      {
-        "name": "IG-100 Gas Suppression System",
-        "image": "/Image/Products/IG-100 Gas Suppression System.jpg",
-        "url": "/extinguishing-and-suppression-systems/ig-100-gas-suppression-system"
-      },
-      {
-        "name": "Co2 System",
-        "image": "/Image/Products/NOVEC 1230 Fire Suppression System.jpg",
-        "url": "extinguishing-and-suppression-systems/novec-1230-fire-suppression-system"
-      },
-      {
-        "name": "Co2 System",
-        "image": "/Image/Products/co2 system.jpg",
-        "url": "/extinguishing-and-suppression-systems/co2-system/"
-      },
-      {
-        "name": "Foam Equipment And System",
-        "image": "/Image/Products/Fire Hydrants.webp",
-        "url": "/extinguishing-and-suppression-systems/foam-equipment-and-system"
-      }
-    ]
-  },
-  "fire-door": {
-    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+  "fire-doors": {
+    "title": "",
     "url": "/fire-doors",
-    "image": "/Image/z3-corporation-cover.png",
     "catalog": [
       {
-        "name": "FIRE RATED DOORS",
+        "name": "Fire Rated Door",
+        "image": "/Image/Products/Fire rated door.png",
+        "url": "/fire-rated-door"
+      },
+      {
+        "name": "Rolling Shutters",
+        "image": "/Image/Products/rolling-shutter-inside.jpg",
+        "url": "/rolling-shutters"
+      },
+      {
+        "name": "Smoke and Fire Curtain Catalogue",
+        "image": "/Image/Products/automatic-fire-curtain.jpg",
+        "url": "/smoke-and-fire-curtain-catalogue"
+      }
+    ]
+  },
+  "fire-fighting-equipments": {
+    "title": "Fire Sprinkler Systems | Price, Installation & Maintainance Services By Z3 Corporation",
+    "url": "fire-fighting-equipments",
+    "catalog": [
+      {
+        "name": "Fire Extinguishers",
+        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
+        "url": "fire-extinguishers"
+      },
+      {
+        "name": "Fire Hoses & Accessories",
+        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
+        "url": "/fire-hoses-and-accessories"
+      },
+      {
+        "name": "Fire Hose Reel & Accessories",
+        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
+        "url": "/fire-hose-reel-and-accessories"
+      },
+      {
+        "name": "Fire Cabinets",
+        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
+        "url": "/fire-cabinets"
+      },
+      {
+        "name": "Valves and Riser Equipment",
+        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
+        "url": "/valves-and-riser-equipment"
+      },
+      {
+        "name": "Piller Hydrants",
+        "image": "/Image/Products/Upright, Pendant & Recessed Sprinklers.webp",
+        "url": "/piller-hydrants"
+      }
+    ]
+  },
+  "fire-pump-products": {
+    "title": "Fire Extinguisher Installation, Refill and Maintenance Price in BD",
+    "url": "/fire-pump-products",
+    "catalog": [
+      {
+        "name": "Fire Pump",
+        "image": "/Image/Products/FM200 Fire Suppression System.jpg",
+        "url": "/fire-pump"
+      },
+      {
+        "name": "Electric Motor",
+        "image": "/Image/Products/IG-100 Gas Suppression System.jpg",
+        "url": "/electric-motor"
+      },
+      {
+        "name": "Diesel Engine",
+        "image": "/Image/Products/NOVEC 1230 Fire Suppression System.jpg",
+        "url": "/diesel-engine"
+      },
+      {
+        "name": "controllers",
+        "image": "/Image/Products/co2 system.jpg",
+        "url": "/controllers"
+      },
+      {
+        "name": "Fuel Tank",
+        "image": "/Image/Products/Fire Hydrants.webp",
+        "url": "/fuel-tank"
+      },
+      {
+        "name": "Jockey Pumps",
+        "image": "/Image/Products/Fire Hydrants.webp",
+        "url": "/jockey-pumps"
+      }
+    ]
+  },
+  "fire-supression-systems": {
+    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+    "url": "/fire-supression-systems",
+    "catalog": [
+      {
+        "name": "Clean Agent Fire Suppression System",
         "image": "/Image/Products/FIRE RATED DOORS.webp",
-        "url": "/fire-doors/fire-rated-doors"
+        "url": "/clean-agent-fire-suppression-system"
       },
       {
-        "name": "FULLY GLAZED DOORS",
+        "name": "Foam Equipment & Concentrates",
         "image": "/Image/Products/FULLY GLAZED DOORS.webp",
-        "url": "/fire-doors/fully-glazed-doors"
+        "url": "/foam-equipment-and-concentrates"
+      }
+    ]
+  },
+  "sprinkler-systems": {
+    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+    "url": "/sprinkler-systems",
+    "catalog": [
+      {
+        "name": "Sprinkler Head",
+        "image": "/Image/Products/FIRE RATED DOORS.webp",
+        "url": "/sprinkler-head"
+      }
+    ]
+  },
+  "valves-devices-and-components": {
+    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+    "url": "/valves-devices-and-components",
+    "catalog": [
+      {
+        "name": "Clean Agent Fire Suppression System",
+        "image": "",
+        "url": "/clean-agent-fire-suppression-system"
       },
       {
-        "name": "ACOUSTIC DOORS",
-        "image": "/Image/Products/ACOUSTIC DOORS.webp",
-        "url": "/fire-doors/acoustic-doors"
-      },
-      {
-        "name": "BLAST PROOF DOORS",
-        "image": "/Image/Products/BLAST PROOF DOORS.webp",
-        "url": "/fire-doors/blast-proof-doors"
-      },
-      {
-        "name": "ROLLING SHUTTERS",
-        "image": "/Image/Products/ROLLING SHUTTERS.webp",
-        "url": "/fire-doors/rolling-shutters"
+        "name": "Foam Equipment & Concentrates",
+        "image": "",
+        "url": "/foam-equipment-and-concentrates"
       }
     ]
   }

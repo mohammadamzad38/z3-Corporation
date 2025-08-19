@@ -1,15 +1,8 @@
 import { Blogs } from "@/components/BlogCart";
+import { slugify } from "@/components/Slugify";
 import Image from "next/image";
 
 const Page = ({ params }) => {
-  const slugify = (text) =>
-    text
-      .normalize("NFKD")
-      .toLowerCase()
-      .trim()
-      .replace(/[^\w\s-]/g, "")
-      .replace(/\s+/g, "-");
-
   const { slug } = params;
 
   const blogArticle = Blogs.find((item) => slugify(item.slug) === slug);
@@ -23,7 +16,8 @@ const Page = ({ params }) => {
         <Image
           src={blogArticle.image}
           alt={blogArticle.title}
-          className="w-full mb-6"
+          fill
+          className="object-cover mb-6"
         />
       </div>
       <h1 className="text-4xl font-bold mb-4">{blogArticle.title}</h1>
@@ -31,5 +25,11 @@ const Page = ({ params }) => {
     </div>
   );
 };
+
+export async function generateStaticParams() {
+  return Blogs.map((item) => ({
+    slug: slugify(item.slug),
+  }));
+}
 
 export default Page;

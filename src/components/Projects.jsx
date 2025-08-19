@@ -23,7 +23,7 @@ const projects = [
   },
   {
     image: "/Image/Shantasangtum.jpg",
-    title: "Ghorashal Power Plant in Palash, Narsingdi, Dhaka, Bangladesh",
+    title: "Sanctum: Serenity in the heart of Gulshan (SHANTA HOLDINGS)",
   },
 ];
 

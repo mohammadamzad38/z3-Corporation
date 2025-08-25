@@ -1,0 +1,160 @@
+{
+  "fire-detection-and-alarm-system": {
+    "title": "Best Fire Fighting Equipment for Proper Safety",
+    "url": "/fire-detection-and-alarm-system",
+    "article": "We are Z3 Corporation, renowned for offering cutting-edge fire alarm equipment with unparalleled fire safety. As industry leaders, we prioritize expertise, which makes us the best choice for commercial fire alarm installation in Bangladesh.",
+    "catalog": [
+      {
+        "name": "Fire Resistant Cable",
+        "image": "/Image/Products/Fire Resistant Cable.png",
+        "url": "/fire-resistant-cable"
+      },
+      {
+        "name": "Shield NEO Series",
+        "image": "/Image/Products/High-Performance-Panels-neo-series.png",
+        "url": "/shield-neo-series"
+      },
+      {
+        "name": "Triga Series",
+        "image": "/Image/Products/TR-2100-Series.jpg",
+        "url": "/triga-series"
+      }
+    ]
+  },
+  "fire-doors": {
+    "title": "",
+    "url": "fire-doors",
+    "catalog": [
+      {
+        "name": "Fire Rated Door",
+        "image": "/Image/Products/Fire rated door.png",
+        "url": "fire-rated-door"
+      },
+      {
+        "name": "Rolling Shutters",
+        "image": "/Image/Products/rolling-shutter-inside.jpg",
+        "url": "rolling-shutters"
+      },
+      {
+        "name": "Smoke and Fire Curtain Catalogue",
+        "image": "/Image/Products/automatic-fire-curtain.jpg",
+        "url": "smoke-and-fire-curtain-catalogue"
+      }
+    ]
+  },
+  "fire-fighting-equipments": {
+    "title": "Fire Sprinkler Systems | Price, Installation & Maintainance Services By Z3 Corporation",
+    "url": "fire-fighting-equipments",
+    "catalog": [
+      {
+        "name": "Fire Extinguishers",
+        "image": "/Image/Products/Fire-Extinguishers-Menu_naffco.jpg",
+        "url": "fire-extinguishers"
+      },
+      {
+        "name": "Fire Hoses & Accessories",
+        "image": "/Image/Products/fire-hose-accessories.jpg",
+        "url": "fire-hoses-and-accessories"
+      },
+      {
+        "name": "Fire Hose Reel & Accessories",
+        "image": "/Image/Products/Fire Hose Reel & Accessories.jpg",
+        "url": "fire-hose-reel-and-accessories"
+      },
+      {
+        "name": "Fire Cabinets",
+        "image": "/Image/Products/fire-cabinets.jpg",
+        "url": "fire-cabinets"
+      },
+      {
+        "name": "Valves and Riser Equipment",
+        "image": "/Image/Products/Valves and Riser Equipment.jpg",
+        "url": "valves-and-riser-equipment"
+      },
+      {
+        "name": "Piller Hydrants",
+        "image": "/Image/Products/pillar-fire-hydrants.jpg",
+        "url": "piller-hydrants"
+      }
+    ]
+  },
+  "fire-pump-products": {
+    "title": "Fire Extinguisher Installation, Refill and Maintenance Price in BD",
+    "url": "/fire-pump-products",
+    "catalog": [
+      {
+        "name": "Fire Pump",
+        "image": "/Image/Products/horizontal-split-case-fire-pump.webp",
+        "url": "/fire-pump"
+      },
+      {
+        "name": "Electric Motor",
+        "image": "/Image/Products/open_drip_proof_motor.jpg",
+        "url": "/electric-motor"
+      },
+      {
+        "name": "Diesel Engine",
+        "image": "/Image/Products/diesel-engine.jpg",
+        "url": "/diesel-engine"
+      },
+      {
+        "name": "Controllers",
+        "image": "/Image/Products/common_controller.jpg",
+        "url": "/controllers"
+      },
+      {
+        "name": "Fuel Tank",
+        "image": "/Image/Products/fuel-tank.jpg",
+        "url": "/diesel-tank"
+      },
+      {
+        "name": "Jockey Pumps",
+        "image": "/Image/Products/vertical_multistage_pumps.jpg",
+        "url": "/vertical-multistage-pump"
+      }
+    ]
+  },
+  "fire-supression-systems": {
+    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+    "url": "/fire-supression-systems",
+    "catalog": [
+      {
+        "name": "Clean Agent Fire Suppression System",
+        "image": "/Image/Products/clean-agent-fire-supperation-system.png",
+        "url": "/clean-agent-fire-suppression-system"
+      },
+      {
+        "name": "Foam Equipment & Concentrates",
+        "image": "/Image/Products/Foam Equipment & Concentrates.png",
+        "url": "/foam-equipment-and-concentrates"
+      }
+    ]
+  },
+  "sprinkler-systems": {
+    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+    "url": "/sprinkler-systems",
+    "catalog": [
+      {
+        "name": "Sprinkler Head",
+        "image": "/Image/Products/sprinkler-Head.jpg",
+        "url": "/sprinkler-head"
+      }
+    ]
+  },
+  "valves-devices-and-components": {
+    "title": "Fire Door Price in Bangladesh | Fire Rated Door Supplier, Installation & Servicing",
+    "url": "/valves-devices-and-components",
+    "catalog": [
+      {
+        "name": "Clean Agent Fire Suppression System",
+        "image": "",
+        "url": "/clean-agent-fire-suppression-system"
+      },
+      {
+        "name": "Foam Equipment & Concentrates",
+        "image": "",
+        "url": "/foam-equipment-and-concentrates"
+      }
+    ]
+  }
+}

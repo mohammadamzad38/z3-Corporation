@@ -1,0 +1,782 @@
+{
+  "fire-resistant-cable": {
+    "name": "Fire Resistant Cable",
+    "title": "Fire Resistant Cable",
+    "image": "/Image/Products/Fire Resistant Cable.png",
+    "description": " <div class='rounded-3xl  '>\n   <p class='mt-4 text-slate-700 leading-relaxed'>\n      The material and the structure used for this type of cables depends on the performance required: fire time exposition, fire temperature and extra burning events. Fire performance classes: Flame retardant (FRLS), Low smoke fumes (LS), Fire resistant (FRHF), Low smoke, Halogen free and Fire retardant (HF), Flame Retardant Power-Limited (FPL, FPLR). Typical applications for this type of cables are transmission of analogue, digital signal and control systems.\n    </p>\n\n    <h2 class='mt-8 text-xl md:text-2xl font-bold text-slate-900'>\n      EMERGENCY LIGHTING SYSTEMS\n    </h2>\n\n    <p class='mt-2 text-slate-700 leading-relaxed'>\n      Many Emergency Lighting Systems now require a Fire Performance cable to meet BS EN 50200:2006 PH30 – fire performance test. Shield fire proof cable is certified by LPCB to meet the required duration to PH30, 30 minutes duration.\n    </p>\n\n    <p class='mt-2 font-semibold text-slate-900'>\n      Be Safe – Insist on Shield Fire Cable for all Emergency Lighting Systems.\n    </p>\n\n    <h2 class='mt-8 text-xl md:text-2xl font-bold text-slate-900'>\n      THE FASTEST FIRE CABLE TO INSTALL\n    </h2>\n\n    <p class='mt-2 text-slate-700 leading-relaxed'>\n      Shield Fire Proof Cable is available in a variety of multiple core combinations all with CPC (circuit protection conductor). 500m reels and other special lengths are available.\n    </p>\n\n    <ul class='mt-4 grid sm:grid-cols-2 gap-3'>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Supplied on robust plastic reels.\n      </li>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Installer safe and easy handling.\n      </li>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Better reeling and damage resistant.\n      </li>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Weather and moisture resistant.\n      </li>\n    </ul>\n  </div>\n</div>",
+    "url": "fire-resistant-cable",
+    "pdfUrl": "/Image/Products/Catalogue-Fire-Resistant-Cable-Shield-LPCB_22012025.pdf"
+  },
+  "shield-neo-series": {
+    "title": "Shield_NEO Series",
+    "url": "shield-neo-series/",
+    "image": "/Image/Products/High-Performance-Panels-neo-series.png",
+    "article": "",
+    "catalog": [
+      {
+        "name": "ALPHA-2000",
+        "title": "ALPHA-2000-Datasheet",
+        "image": "/Image/Products/alpha-2000.png",
+        "pdfUrl": "/Image/Products/ALPHA-2000-Datasheet.pdf",
+        "url": "alpha-2000"
+      },
+      {
+        "name": "Loop Alarm Control Panels",
+        "title": "Loop Alarm Control Panels",
+        "image": "/Image/Products/loop-alarm-control-panels.png",
+        "pdfUrl": "/Image/Products/Datasheet-Intelligent-1-2-4-Loop-Alarm-Control-Panels.pdf",
+        "url": "loop-alarm-control-panels"
+      },
+      {
+        "name": "Manual Pull Station Shield",
+        "title": "Manual Pull Station Shield",
+        "image": "/Image/Products/manual-pull-station-shield-.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-Manual-Pull-Station-Shield.pdf",
+        "url": "manual-pull-station-shield"
+      },
+      {
+        "name": "S A4011E XSeries Smoke Detector",
+        "title": "S A4011E XSeries Smoke Detector",
+        "image": "/Image/Products/s-a5011-x-series-ul-smoke-detector.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A4011E-XSeries-Smoke-Detector-Shield.pdf",
+        "url": "s-a4011e-xseries-smoke-detector"
+      },
+      {
+        "name": "S A4013E XSeries UL Heat Detector",
+        "title": "S A4013E XSeries UL Heat Detector",
+        "image": "/Image/Products/s-a4013e-xseries-ul-heat-detector.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A4013E-XSeries-UL-Heat-Detector-Shield-UL.pdf",
+        "url": "s-a4013e-xseries-ul-heat-detector"
+      },
+      {
+        "name": "S-A4014E XSeries Multi Criteria Detector",
+        "title": "S-A4014E XSeries Multi Criteria Detector",
+        "image": "/Image/Products/s-a4014e-xseries-multi-criteria-detector.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A4014E-XSeries-Multi-Criteria-Detector-Shield.pdf",
+        "url": "s-a4014e-xseries-multi-criteria-detector"
+      },
+      {
+        "name": "S-A5011 X-Series UL Smoke Detector",
+        "title": "S-A5011 X-Series UL Smoke Detector",
+        "image": "/Image/Products/s-a5011-x-series-ul-smoke-detector.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5011-X-Series-UL-Smoke-Detector-Shield.pdf",
+        "url": "s-a5011-x-series-ul-smoke-detector"
+      },
+      {
+        "name": "S-A5013 X Series UL Heat Detector",
+        "title": "S-A5013 X Series UL Heat Detector",
+        "image": "/Image/Products/s-a5013-x-series-ul-heat-detector.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5013-X-Series-UL-Heat-Detector-Shield.pdf",
+        "url": "s-a5013-x-series-ul-heat-detector"
+      },
+      {
+        "name": "S-A5014 X Series UL Multi criteria Detector",
+        "title": "S-A5014 X Series UL Multi criteria Detector",
+        "image": "/Image/Products/s-a5014-x-series-ul-multi-criteria-detector.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5014-X-Series-UL-Multi-criteria-Detector-Shield.pdf",
+        "url": "s-a5014-x-series-ul-multi-criteria-detector"
+      },
+      {
+        "name": "S-A5042",
+        "title": "S-A5042",
+        "image": "/Image/Products/s-a5042.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5042.pdf",
+        "url": "s-a5042"
+      },
+      {
+        "name": "S-A5043",
+        "title": "S-A5043",
+        "image": "/Image/Products/s-a5043.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5043.pdf",
+        "url": "s-a5043"
+      },
+      {
+        "name": "S-A5044",
+        "title": "S-A5044",
+        "image": "/Image/Products/s-a5044.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5044.pdf",
+        "url": "s-a5044"
+      },
+      {
+        "name": "S-A5045",
+        "title": "S-A5045",
+        "image": "/Image/Products/s-a5045.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-S-A5045.pdf",
+        "url": "s-a5045"
+      },
+      {
+        "name": "Intelligent 1, 2, 4 ,Loop Alarm Control Panels",
+        "title": "Intelligent 1, 2, 4 ,Loop Alarm Control Panels",
+        "image": "/Image/Products/Datasheet-Intelligent-1-2-4-Loop-Alarm-Control.png",
+        "pdfUrl": "/Image/Products/Datasheet-Intelligent-1-2-4-Loop-Alarm-Control-Panels.pdf",
+        "url": ""
+      },
+      {
+        "name": "Single Loop Fire Alarm Control Panel",
+        "title": "Single Loop Fire Alarm Control Panel",
+        "image": "/Image/Products/single-loop-fire-alarm-control-panel.png",
+        "pdfUrl": "/Image/Products/Datasheet-Single-Loop-Fire-Alarm-Control-Panel.pdf",
+        "url": "single-loop-fire-alarm-control-panel"
+      }
+    ]
+  },
+  "triga-series": {
+    "title": "Triga Series",
+    "url": "triga-series",
+    "image": "/Image/Products/TR-2100-Series.jpg",
+    "article": "Z3 corporation is the industry leading supplier for Fire Detection and Alarm System which plays a vital role in early fire detection, allowing for rapid response and potentially saving lives and property.",
+    "catalog": [
+      {
+        "name": "Distributed Power Supply - TR-RPS1 - Triga - UL & FM",
+        "title": "Distributed Power Supply - TR-RPS1 - Triga - UL & FM",
+        "image": "/Image/Products/TR-RPS1.jpg",
+        "pdfUrl": "/Image/Products/Data Sheet - Distributed Power Supply - TR-RPS1 - Triga - UL & FM.pdf",
+        "url": "distributed-power-supply-tr-rps1-triga-ul-and-fm"
+      },
+      {
+        "name": "Network Interface Card - TR-NIC - Triga - UL & FM",
+        "title": "Network Interface Card - TR-NIC - Triga - UL & FM",
+        "image": "/Image/Products/TR-NIC.png",
+        "pdfUrl": "/Image/Products/Data Sheet - Network Interface Card - TR-NIC - Triga - UL & FM.pdf",
+        "url": "alpha-2000"
+      },
+      {
+        "name": "TR-RD1G & TR-RD1R",
+        "title": "Remote Annunciator - TR-RD1G & TR-RD1R - Triga - UL & FM",
+        "image": "/Image/Products/tr-rd1g-and-tr-rd1r.png",
+        "pdfUrl": "/public/Image/Products/Data Sheet - Remote Annunciator - TR-RD1G & TR-RD1R - Triga - UL & FM.pdf",
+        "url": "tr-rd1g-and-tr-rd1r"
+      },
+      {
+        "name": "SLC Loop Expander - TR-6815 ",
+        "title": "SLC Loop Expander - TR-6815 - Triga - UL & FM",
+        "image": "/Image/Products/slc-loop-expander-tr-6815.png",
+        "pdfUrl": "/Image/Products/Data Sheet - SLC Loop Expander - TR-6815 - Triga - UL & FM.pdf",
+        "url": "slc-loop-expander-tr-6815"
+      },
+      {
+        "name": "Duct Detector TR DNR_TR DNRW",
+        "title": "Duct Detector TR DNR_TR DNRW",
+        "image": "/Image/Products/duct-detector-tr-dnrtr-dnrw.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-Duct-Detector-TR-DNR_TR-DNRW-Triga.pdf",
+        "url": "duct-detector-tr-dnrtr-dnrw"
+      },
+      {
+        "name": "Fire Alarm Control Unit 2100 Pts",
+        "title": "Fire Alarm Control Unit 2100 Pts-Triga UL-FM",
+        "image": "/Image/Products/fire-alarm-control-unit-2100-pts.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-Fire-Alarm-Control-Unit-2100-Pts-Triga-UL-FM.pdf",
+        "url": "fire-alarm-control-unit-2100-pts"
+      },
+      {
+        "name": "Heat Detector TR-HEAT",
+        "title": "Heat Detector TR-HEAT Triga-UL-FM",
+        "image": "/Image/Products/heat-detector-tr-heat-triga-ul-fm.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-Heat-Detector-TR-HEAT-Triga-UL-FM.pdf",
+        "url": "heat-detector-tr-heat-triga-ul-fm"
+      },
+      {
+        "name": "Manual Pull Station Single Double Action TR PULL",
+        "title": "Manual Pull Station Single Double Action TR PULL",
+        "image": "/Image/Products/Manual Pull Station Single Double Action TR PULL.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-Manual-Pull-Station-Single-Double-Action-TR-PULL-Triga-UL-FM_R2.pdf",
+        "url": "manual-pull-station-single-double-action-tr-pull"
+      },
+      {
+        "name": "Outdoor Horns LED",
+        "title": "Outdoor Horns LED Outdoor Strobes and Horn Strobes",
+        "image": "/Image/Products/Outdoor Horns LED.png",
+        "pdfUrl": "/Image/Products/Datasheet-Outdoor-Horns-LED-Outdoor-Strobes-and-Horn-Strobes.pdf",
+        "url": "outdoor-horns-led-outdoor-strobes-and-horn-strobes"
+      },
+      {
+        "name": "Smoke Detector TR PHOTO",
+        "title": "Smoke Detector TR PHOTO Triga UL FM",
+        "image": "/Image/Products/smoke-detector-tr-photo.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-Smoke-Detector-TR-PHOTO-Triga-UL-FM.pdf",
+        "url": "smoke-detector-tr-photo"
+      },
+      {
+        "name": "Data Sheet TR MONITOR-2",
+        "title": "Data Sheet TR MONITOR 2 Triga UL FM R2",
+        "image": "/Image/Products/data-sheet-tr-monitor-2.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-TR-MONITOR-2-Triga-UL-FM-R2.pdf",
+        "url": "data-sheet-tr-monitor-2"
+      },
+      {
+        "name": "TR MONITOR",
+        "title": "TR MONITOR Triga-UL-FM-R2",
+        "image": "/Image/Products/tr-monitor.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-TR-MONITOR-Triga-UL-FM-R2.pdf",
+        "url": "tr-monitor"
+      },
+      {
+        "name": "TR Relay",
+        "title": "Data Sheet TR RELAY Triga UL FM R2",
+        "image": "/Image/Products/tr-relay.png",
+        "pdfUrl": "/Image/Products/Data-Sheet-TR-RELAY-Triga-UL-FM-R2.pdf",
+        "url": "tr-relay"
+      },
+      {
+        "name": "LED Indoor selectable Horns",
+        "title": "LED Indoor selectable Horns Strobes and Horn Strobes",
+        "image": "/Image/Products/LED Indoor selectable Horns.png",
+        "pdfUrl": "/Image/Products/LED-Indoor-selectable-Horns-Strobes-and-Horn-Strobes.pdf",
+        "url": "led-indoor-selectable-horns"
+      }
+    ]
+  },
+  "fire-rated-door": {
+    "name": "Fire Rated Door",
+    "title": "Fire Rated Door",
+    "image": "/Image/Products/Fire rated door.png",
+    "url": "fire-rated-door",
+    "pdfUrl": "/Image/Products/Fire Rated Door.pdf",
+    "description": ""
+  },
+  "rolling-shutters": {
+    "name": "Rolling Shutters",
+    "title": "Rolling Shutters",
+    "image": "/Image/Products/rooling-shutter.jpg",
+    "url": "rolling-shutters",
+    "pdfUrl": "/Image/Products/Rolling Shutters.pdf",
+    "description": ""
+  },
+  "smoke-and-fire-curtain-catalogue": {
+    "name": "Smoke and Fire Curtain Catalogue",
+    "title": "Smoke and Fire Curtain Catalogue",
+    "image": "/Image/Products/fire-curtain.png",
+    "url": "smoke-and-fire-curtain-catalogue",
+    "pdfUrl": "/Image/Products/Smoke and Fire Curtain Catalogue.pdf",
+    "description": ""
+  },
+  "fire-extinguishers": {
+    "name": "Fire Extinguishers",
+    "title": "Fire Extinguishers",
+    "image": "/Image/Products/Fire-Extinguishers-Menu_naffco.jpg",
+    "url": "fire-extinguishers",
+    "description": "",
+    "catalog": [
+      {
+        "name": "Portable ABC Dry Powder",
+        "title": "Portable ABC Dry Powder (Kitemark and LPCB Approved)",
+        "image": "/Image/Products/Portable ABC Dry Powder.jpg",
+        "pdfUrl": "/Image/Products/Portable ABC Dry Powder (Kitemark and LPCB Approved).pdf",
+        "url": "portable-abc-dry-powder"
+      },
+      {
+        "name": "Portable CO2 (UL Listed)",
+        "title": "Portable CO2 ( UL Listed )",
+        "image": "/Image/Products/Portable CO2(ul).jpg",
+        "pdfUrl": "/Image/Products/Portable CO2 ( UL Listed ).pdf",
+        "url": "portable-co2-ul-listed"
+      },
+      {
+        "name": "Portable CO2 (Global Mark)",
+        "title": "Portable CO2 (Global Mark)",
+        "image": "/Image/Products/Portable CO2 (Global Mark)-.jpg",
+        "pdfUrl": "/Image/Products/Portable CO2 (Global Mark).pdf",
+        "url": "portable-co2-global-mark"
+      },
+      {
+        "name": "Portable CO2 (Kitemark and LPCB Approved)",
+        "title": "Portable CO2 (Kitemark and LPCB Approved)",
+        "image": "/Image/Products/portable-co2-kitemark-and-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Portable CO2 (Kitemark and LPCB Approved).pdf",
+        "url": "portable-co2-kitemark-and-lpcb-approved"
+      },
+      {
+        "name": "Portable Water (Kitemark and LPCB approved)",
+        "title": "Portable Water (Kitemark and LPCB approved)",
+        "image": "/Image/Products/portable-water-kitemark-and-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Portable Water (Kitemark and LPCB approved).pdf",
+        "url": "portable-water-kitemark-and-lpcb-approved"
+      },
+      {
+        "name": "Portable Wet Chemical (Kitemark and LPCB Approved)",
+        "title": "Portable Wet Chemical (Kitemark and LPCB Approved)",
+        "image": "/Image/Products/Portable Wet Chemical (Kitemark and LPCB Approved)-.jpg",
+        "pdfUrl": "/Image/Products/Portable Wet Chemical (Kitemark and LPCB Approved).pdf",
+        "url": "portable-wet-chemical-kitemark-and-lpcb-approved"
+      },
+      {
+        "name": "Portable-Foam (Kitemark and LPCB Approved)",
+        "title": "Portable-Foam (Kitemark and LPCB Approved)",
+        "image": "/Image/Products/portable-foam-kitemark-and-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Portable-Foam (Kitemark and LPCB Approved).pdf",
+        "url": "portable-foam-kitemark-and-lpcb-approved"
+      },
+      {
+        "name": "Mobile ABC- DCP (Kitemark and LPCB Approved)",
+        "title": "Mobile ABC- DCP (Kitemark and LPCB Approved)",
+        "image": "/Image/Products/mobile-abc-dcp-kitemark-and-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Mobile ABC- DCP (Kitemark and LPCB Approved).pdf",
+        "url": "mobile-abc-dcp-kitemark-and-lpcb-approved"
+      },
+      {
+        "name": "Mobile CO2 (Kitemark and LPCB Approved)",
+        "title": "Mobile CO2 (Kitemark and LPCB Approved)",
+        "image": "/Image/Products/mobile-co2-kitemark-and-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Mobile CO2 (Kitemark and LPCB Approved).pdf",
+        "url": "mobile-co2-kitemark-and-lpcb-approved"
+      },
+      {
+        "name": "Mobile Foam ( Kitemark and LPCB Approved)",
+        "title": "Mobile Foam ( Kitemark and LPCB Approved)",
+        "image": "/Image/Products/mobile-foam-kitemark-and-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Mobile Foam ( Kitemark and LPCB Approved).pdf",
+        "url": "mobile-foam-kitemark-and-lpcb-approved"
+      }
+    ]
+  },
+  "fire-hoses-and-accessories": {
+    "name": "Fire Hoses & Accessories",
+    "title": "Fire Hoses & Accessories",
+    "image": "/Image/Products/fire-hose-accessories.jpg",
+    "url": "fire-hoses-and-accessories",
+    "description": "",
+    "catalog": [
+      {
+        "name": "Duralex Fire Hose (UL Listed)",
+        "title": "Duralex Fire Hose (UL Listed)",
+        "image": "/Image/Products/duralex-fire-hose-_ul-listed.jpg",
+        "pdfUrl": "/Image/Products/Duralex Fire Hose (UL Listed).pdf",
+        "url": "duralex-fire-hose-ul-listed"
+      },
+      {
+        "name": "PU Lined Hose UL- FM Approved",
+        "title": "PU Lined Hose UL- FM Approved",
+        "image": "/Image/Products/pu-lined-hose-ul-fm-approved.jpg",
+        "pdfUrl": "/Image/Products/PU Lined Hose UL- FM Approved Datasheet.pdf",
+        "url": "pu-lined-hose-ul-fm-approved"
+      },
+      {
+        "name": "Type 2 Fire hose - Kitemark - LPCB Approved",
+        "title": "Type 2 Fire hose - Kitemark - LPCB Approved",
+        "image": "/Image/Products/Type 2 Fire hose - Kitemark - LPCB Approved-.jpg",
+        "pdfUrl": "/Image/Products/Type 2 Fire hose - Kitemark - LPCB Approved.pdf",
+        "url": "type-2-fire-hose-kitemark-lpcb-approved"
+      },
+      {
+        "name": "Fire Hose Rack Assembly (UL FM Approved)",
+        "title": "Fire Hose Rack Assembly (UL FM Approved)",
+        "image": "/Image/Products/fire-hose-rack-assembly-_ul-fm-approved_.jpg",
+        "pdfUrl": "/Image/Products/Fire Hose Rack Assembly (UL FM Approved).pdf",
+        "url": "fire-hose-rack-assembly-ul-fm-approved"
+      },
+      {
+        "name": "Hand Held Branch Pipe (Kitemark - LPCB Approved)",
+        "title": "Hand Held Branch Pipe (Kitemark - LPCB Approved)",
+        "image": "/Image/Products/hand-held-branch-pipe-kitemark-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Hand Held Branch Pipe (Kitemark - LPCB Approved).pdf",
+        "url": "hand-held-branch-pipe-kitemark-lpcb-approved"
+      },
+      {
+        "name": "Standard Branch Pipe",
+        "title": "Standard Branch Pipe",
+        "image": "/Image/Products/standard-branch-pipe.jpg",
+        "pdfUrl": "/Image/Products/Standard Branch Pipe.pdf",
+        "url": "standard-branch-pipe"
+      }
+    ]
+  },
+  "fire-hose-reel-and-accessories": {
+    "name": "Fire Hose Reel & Accessories",
+    "title": "Fire Hoses Reels & Accessories",
+    "image": "/Image/Products/Fire Hose Reel & Accessories.jpg",
+    "url": "fire-hose-reel-and-accessories",
+    "description": "",
+    "catalog": [
+      {
+        "name": "Fire Hose Reels (Kitemark - LPCB Approved)",
+        "title": "Fire Hose Reels (Kitemark - LPCB Approved)",
+        "image": "/Image/Products/fire-hose-reels-kitemark-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Fire Hose Reels (Kitemark - LPCB Approved).pdf",
+        "url": "fire-hose-reels-kitemark-lpcb-approved"
+      },
+      {
+        "name": "Lock Shield valve (Kitemark - LPCB Approved)",
+        "title": "Lock Shield valve (Kitemark - LPCB Approved)",
+        "image": "/Image/Products/lock-shield-valve-kitemark-lpcb-approved.jpg",
+        "pdfUrl": "/Image/Products/Lock Shield valve (Kitemark - LPCB Approved).pdf",
+        "url": "lock-shield-valve-kitemark-lpcb-approved"
+      }
+    ]
+  },
+  "fire-cabinets": {
+    "name": "Fire Hoses & Accessories",
+    "title": "Fire Hoses & Accessories",
+    "image": "/Image/Products/fire-cabinets.jpg",
+    "url": "fire-cabinets",
+    "pdfUrl": "/Image/Products/Fire Hose Reel Cabinets (BSI LPCB Approved).pdf",
+    "description": ""
+  },
+  "valves-and-riser-equipment": {
+    "name": "Valves and Riser Equipment",
+    "title": "Valves and Riser Equipment",
+    "image": "/Image/Products/Valves and Riser Equipment.jpg",
+    "url": "valves-and-riser-equipment",
+    "description": "",
+    "catalog": [
+      {
+        "name": "Oblique Landing Valve (Flanged Inlet)",
+        "title": "Oblique Landing Valve (Flanged Inlet)",
+        "image": "/Image/Products/Oblique Landing Valve.jpg",
+        "pdfUrl": "/Image/Products/Oblique Landing Valve (Flanged Inlet).pdf",
+        "url": "oblique-landing-valve-flanged-inlet"
+      },
+      {
+        "name": "Oblique Landing Valve (Threaded Inlet)",
+        "title": "Oblique Landing Valve (Threaded Inlet)",
+        "image": "/Image/Products/oblique-landing-valve-threaded-inlet.jpg",
+        "pdfUrl": "/Image/Products/Oblique Landing Valve (Threaded Inlet).pdf",
+        "url": "oblique-landing-valve-threaded-inlet"
+      },
+      {
+        "name": "Pressure Reducing Valve (Flanged)",
+        "title": "Pressure Reducing Valve (Flanged)",
+        "image": "/Image/Products/pressure-reducing-valve-flanged.jpg",
+        "pdfUrl": "/Image/Products/Pressure Reducing Valve (Flanged).pdf",
+        "url": "pressure-reducing-valve-flanged"
+      },
+      {
+        "name": "ANGLE HOSE VALVE-Shield-AV-1",
+        "title": "ANGLE HOSE VALVE-Shield-AV-1",
+        "image": "/Image/Products/angle-hose-valveshield-av-1.png",
+        "pdfUrl": "/Image/Products/ANGLE-HOSE-VALVE_Shield-AV-1.pdf",
+        "url": "angle-hose-valve-shield-av-1"
+      },
+      {
+        "name": "Air Release Valve (UL- FM Approved)",
+        "title": "Air Release Valve (UL- FM Approved)",
+        "image": "/Image/Products/air-release-valve-ul-fm-approved.jpg",
+        "pdfUrl": "/Image/Products/Air Release Valve (UL- FM Approved).pdf",
+        "url": "air-release-valve-ul-fm-approved"
+      },
+      {
+        "name": "4x2 Way Breeching Inlet",
+        "title": "4x2 Way Breeching Inlet",
+        "image": "/Image/Products/4x2-way-breeching-inlet.jpg",
+        "pdfUrl": "/Image/Products/4x2 Way Breeching Inlet.pdf",
+        "url": "4x2-way-breeching-inlet"
+      },
+      {
+        "name": "6x4 Way Breeching Inlet",
+        "title": "6x4 Way Breeching Inlet",
+        "image": "/Image/Products/6x4-way-breeching-inlet.jpg",
+        "pdfUrl": "/Image/Products/6x4 Way Breeching Inlet.pdf",
+        "url": "6x4-way-breeching-inlet"
+      }
+    ]
+  },
+  "piller-hydrants": {
+    "name": "Piller Hydrants",
+    "title": "Piller Hydrants",
+    "image": "/Image/Products/pillar-fire-hydrants.jpg",
+    "url": "piller-hydrants",
+    "pdfUrl": "/public/Image/Products/Naffco-Pillar-Hydrant.pdf",
+    "description": ""
+  },
+  "fire-pump-products": {
+    "name": "",
+    "title": "",
+    "image": "/public/Image/Products/",
+    "url": "fire-pump-products",
+    "description": "",
+    "catalog": [
+      {
+        "name": "",
+        "title": "",
+        "image": "/public/Image/Products/",
+        "pdfUrl": "/public/Image/Products/",
+        "url": ""
+      }
+    ]
+  },
+  "fire-pump": {
+    "name": "Fire Pump",
+    "title": "Fire Pump",
+    "image": "/Image/Products/horizontal-split-case-fire-pump.webp",
+    "url": "fire-pump",
+    "description": "",
+    "catalog": [
+      {
+        "name": "NF E Series End Suction Fire Pump",
+        "title": "NF E Series End Suction Fire Pump",
+        "image": "/Image/Products/nf-e-series-end-suction-fire-pump.jpg",
+        "pdfUrl": "/Image/Products/NF-E-Series-End-Suction-General-Catalog.pdf",
+        "url": "nf-e-series-end-suction-fire-pump"
+      },
+      {
+        "name": "NF S Series Horizontal Splitcase Fire Pump",
+        "title": "NF S Series Horizontal Splitcase Fire Pump",
+        "image": "/Image/Products/horizontal--splitcase-fire-pump.jpg",
+        "pdfUrl": "/Image/Products/NF-S-Series-Horizontal-Splitcase-General-Catalog.pdf",
+        "url": "nf-s-series-horizontal-splitcase-fire-pump"
+      },
+      {
+        "name": "NF VT Series Vertical Turbine Fire Pump",
+        "title": "NF VT Series Vertical Turbine Fire Pump",
+        "image": "/Image/Products/vertical-turbine--pump.jpg",
+        "pdfUrl": "/Image/Products/NF-VT Series-Vertical-Turbine-General-Catalog.pdf",
+        "url": "nf-vt-series-vertical-turbine-fire-pump"
+      }
+    ]
+  },
+  "electric-motor": {
+    "name": "Electric Motor",
+    "title": "Electric Motor",
+    "image": "/Image/Products/open_drip_proof_motor.jpg",
+    "url": "electric-motor",
+    "description": "",
+    "pdfUrl": "/Image/Products/Open-Drip-Proof-Motor.pdf"
+  },
+  "diesel-engine": {
+    "name": "Diesel Engine",
+    "title": "Diesel Engine",
+    "image": "/Image/Products/diesel-engine.jpg",
+    "url": "diesel-engine",
+    "description": "",
+    "catalog": [
+      {
+        "name": "FD RW Diesel Engine",
+        "title": "FD RW Diesel Engine",
+        "image": "/Image/Products/FD RW Diesel Engine.jpg",
+        "pdfUrl": "/Image/Products/FD_RW_Diesel_Engine.pdf",
+        "url": "fd-rw-diesel-engine"
+      },
+      {
+        "name": "Heat Exchanger Engine",
+        "title": "Heat Exchanger Engine",
+        "image": "/Image/Products/heat_exchanger_engine.jpg",
+        "pdfUrl": "/Image/Products/Heat Exchanger Engine.pdf",
+        "url": "heat-exchanger-engine"
+      }
+    ]
+  },
+  "controllers": {
+    "name": "Controllers",
+    "title": "Controllers",
+    "image": "/Image/Products/common_controller.jpg",
+    "url": "controllers",
+    "description": "",
+    "catalog": [
+      {
+        "name": "ATS Controller",
+        "title": "ATS Controller",
+        "image": "/Image/Products/atscontroller.jpg",
+        "pdfUrl": "/Image/Products/ATS_Controller.pdf",
+        "url": "ats-controller"
+      },
+      {
+        "name": "Diesel Controller",
+        "title": "Diesel Controller",
+        "image": "/Image/Products/diesel_controller.jpg",
+        "pdfUrl": "/Image/Products/Diesel-Controller.pdf",
+        "url": "diesel-controller"
+      },
+      {
+        "name": "Electric Controller",
+        "title": "Electric Controller",
+        "image": "/Image/Products/electric-controller-.jpg",
+        "pdfUrl": "/Image/Products/Electric-Controller.pdf",
+        "url": "electric-controller"
+      },
+      {
+        "name": "Jockey Controller",
+        "title": "Jockey Controller",
+        "image": "/Image/Products/jockey_controller.jpg",
+        "pdfUrl": "/Image/Products/Jockey-Controller.pdf",
+        "url": "jockey-controller"
+      },
+      {
+        "name": "Variable Frequency Drive Controller",
+        "title": "Variable Frequency Drive Controller",
+        "image": "/Image/Products/variable_frequency_drive.jpg",
+        "pdfUrl": "/Image/Products/VFD_Controller.pdf",
+        "url": "variable-frequency-drive-controller"
+      }
+    ]
+  },
+  "diesel-tank": {
+    "name": "Diesel Tank",
+    "title": "Diesel Tank",
+    "image": "/Image/Products/fuel-tank.jpg",
+    "url": "diesel-tank",
+    "description": "",
+    "pdfUrl": "/Image/Products/Diesel_Tank.pdf"
+  },
+  "vertical-multistage-pump": {
+    "name": "Vertical Multistage Pump",
+    "title": "Vertical Multistage Pump",
+    "image": "/Image/Products/vertical_multistage_pumps.jpg",
+    "url": "vertical-multistage-pump",
+    "pdfUrl": "/Image/Products/Vertical_Multistage_Pump.pdf",
+    "description": ""
+  },
+  "clean-agent-fire-suppression-system": {
+    "name": "Clean Agent Fire Suppression System",
+    "title": "Clean Agent Fire Suppression System",
+    "image": "/Image/Products/clean-agent-fire-supperation-system.png",
+    "url": "clean-agent-fire-suppression-system",
+    "catalog": [
+      {
+        "name": "HFC227ea SYSTEM",
+        "title": "HFC227ea SYSTEM",
+        "image": "/Image/Products/HFC227ea SYSTEM.jpg",
+        "pdfUrl": "/Image/Products/DATA-SHEET-AGENT.pdf",
+        "url": "hfc227ea-system"
+      },
+      {
+        "name": "Inert Gas System",
+        "title": "Inert Gas System",
+        "image": "/Image/Products/inert-gas-system-new.jpg",
+        "pdfUrl": "/Image/Products/EXTINGUISHANT_AGENT.pdf",
+        "url": "inert-gas-system"
+      }
+    ]
+  },
+  "foam-equipment-and-concentrates": {
+    "name": "Foam Equipment & Concentrates",
+    "title": "Foam Equipment & Concentrates",
+    "image": "/Image/Products/Foam Equipment & Concentrates.png",
+    "url": "foam-equipment-and-concentrates",
+    "catalog": [
+      {
+        "name": "Alcohol Resistant Aqueous Film Forming Foam (AR-AFFF)",
+        "title": "Alcohol Resistant Aqueous Film Forming Foam (AR-AFFF)",
+        "image": "/Image/Products/alcohol-resistant-aqueous-film-forming-foam-_ar-afff_.jpg",
+        "pdfUrl": "/Image/Products/Alcohol Resistant Aqueous Film Forming Foam (AR-AFFF).pdf",
+        "url": "alcohol-resistant-aqueous-film-forming-foam-ar-afff"
+      },
+      {
+        "name": "Aqueous Film Forming Foam (AFFF)",
+        "title": "Aqueous Film Forming Foam (AFFF)",
+        "image": "/Image/Products/aqueous-film-forming-foam-_afff.jpg",
+        "pdfUrl": "/Image/Products/Aqueous Film Forming Foam (AFFF).pdf",
+        "url": "aqueous-film-forming-foam-afff"
+      },
+      {
+        "name": "Foam_Monitors",
+        "title": "Foam_Monitors",
+        "image": "/Image/Products/foam-monitors.png",
+        "pdfUrl": "/Image/Products/Foam_Monitors.pdf",
+        "url": "foam-monitors"
+      },
+      {
+        "name": "Foam Chamber",
+        "title": "Foam Chamber",
+        "image": "/Image/Products/foam_chamber.jpg",
+        "pdfUrl": "/Image/Products/Foam-Chamber.pdf",
+        "url": "foam-chamber"
+      },
+      {
+        "name": "Medium Foam Expansion Nozzle",
+        "title": "Medium Foam Expansion Nozzle",
+        "image": "/Image/Products/EXPANSION-NOZZLE.jpg",
+        "pdfUrl": "/Image/Products/Medium-Foam-Expansion-Nozzle.pdf",
+        "url": "medium-foam-expansion-nozzle"
+      },
+      {
+        "name": "Portable High Expansion Generator",
+        "title": "Portable High Expansion Generator",
+        "image": "/Image/Products/portable-high-expansion-generator--.jpg",
+        "pdfUrl": "/Image/Products/Portable-High-Expansion-Generator.pdf",
+        "url": "portable-high-expansion-generator"
+      },
+      {
+        "name": "Bladder Tank",
+        "title": "Bladder Tank",
+        "image": "/Image/Products/pre-piped-bladder-tank.jpg",
+        "pdfUrl": "/Image/Products/Bladder_Tank.pdf",
+        "url": "bladder-tank"
+      },
+      {
+        "name": "Foam Proportioning System",
+        "title": "Foam Proportioning System",
+        "image": "/Image/Products/foam-proportioning-system.jpg",
+        "pdfUrl": "/Image/Products/FOAM PROPORTIONING SYSTEM.pdf",
+        "url": "foam-proportioning-system"
+      },
+      {
+        "name": "Proportioner",
+        "title": "Proportioner",
+        "image": "/Image/Products/proportioner--.jpg",
+        "pdfUrl": "/Image/Products/Proportioner.pdf",
+        "url": "proportioner"
+      }
+    ]
+  },
+  "sprinkler-head": {
+    "name": "Sprinkler Head",
+    "title": "Sprinkler Head",
+    "image": "/Image/Products/sprinkler-Head.jpg",
+    "url": "sprinkler-head",
+    "description": "",
+    "catalog": [
+      {
+        "name": "Sprinkler SD5120-SD6120",
+        "title": "Sprinkler SD5120-SD6120",
+        "image": "/Image/Products/Sprinkler-SD5120-SD6120.png",
+        "pdfUrl": "/Image/Products/Catalogue-Sprinkler-SD5120_SD6120.pdf",
+        "url": "catalogue-sprinkler-sd5120-sd6120"
+      },
+      {
+        "name": "Sprinkler SHIELD 1010-10150-1030-1032",
+        "title": "Sprinkler SHIELD 1010-10150-1030-1032",
+        "image": "/Image/Products/sprinkler-shield-1010-10150-1030-1032.jpg",
+        "pdfUrl": "/Image/Products/Catalogue-Sprinkler-SHIELD-1010-10150-1030-1032.pdf",
+        "url": "sprinkler-shield-1010-10150-1030-1032"
+      },
+      {
+        "name": "Sprinkler-SHIELD-1020-1021",
+        "title": "Sprinkler-SHIELD-1020-1021",
+        "image": "/Image/Products/Sprinkler-SHIELD-1020-1021.png",
+        "pdfUrl": "/Image/Products/Catalogue-Sprinkler-SHIELD-1020-1021.pdf",
+        "url": "sprinkler-shield-1020-1021"
+      },
+      {
+        "name": "Sprinkler SHIELD 2133-2121",
+        "title": "Sprinkler SHIELD 2133-2121",
+        "image": "/Image/Products/catalogue-sprinkler-shield-2133-2121-.jpg",
+        "pdfUrl": "/Image/Products/Catalogue-Sprinkler-SHIELD-2133-2121.pdf",
+        "url": "catalogue-sprinkler-shield-2133-2121"
+      },
+      {
+        "name": "Concealed Sprinkler",
+        "title": "Concealed Sprinkler",
+        "image": "/Image/Products/concealed-sprinkler.jpg",
+        "pdfUrl": "/Image/Products/CONCEALED-SPRINKLER.pdf",
+        "url": "concealed-sprinkler"
+      },
+      {
+        "name": "ELO SPRAY SPRINKLER SD-ECSU-SD-5160-SD-5165 SR",
+        "title": "ELO SPRAY SPRINKLER SD-ECSU-SD-5160-SD-5165 SR",
+        "image": "/Image/Products/elo-spray-sprinkler-sd-ecsu-sd-5160-sd-5165-sr.webp",
+        "pdfUrl": "/Image/Products/ELO-SPRAY-SPRINKLER_SD-ECSU_SD-5160-SD-5165-SR.pdf",
+        "url": "elo-spray-sprinkler-sd-ecsu-sd-5160-sd-5165-sr"
+      },
+      {
+        "name": "High Helocity sd-HB-Brass sd-h Stainless Steel",
+        "title": "High Helocity sd-HB-Brass sd-h Stainless Steel",
+        "image": "/Image/Products/High Helocity sd-HB-Brass sd-h Stainless Steel.webp",
+        "pdfUrl": "/Image/Products/HIGH-VELOCITY-SD-HB-Brass-SD-H-Stainless-Steel.pdf",
+        "url": "high-velocity-sd-hb-brass-sd-h-stainless-steel"
+      },
+      {
+        "name": "Horizontal Sidewall QR Extended Coverage SD-8220",
+        "title": "Horizontal Sidewall QR Extended Coverage SD-8220",
+        "image": "/Image/Products/Horizontal Sidewall QR Extended Coverage SD-8220.jpg",
+        "pdfUrl": "/Image/Products/Horizontal_Sidewall_QR_Extended Coverage_SD-8220.pdf",
+        "url": "horizontal-sidewall-qr-extended-coverage-sd-8220"
+      },
+      {
+        "name": "Medium Velocity mv-a-mv-as-mv-b-mv-bs-mv-e",
+        "title": "Medium Velocity mv-a-mv-as-mv-b-mv-bs-mv-e",
+        "image": "/Image/Products/Medium Velocity mv-a-mv-as-mv-b-mv-bs-mv-e.png",
+        "pdfUrl": "/Image/Products/MEDIUM-VELOCITY-MV-A-MV-AS-MV-B-MV-BS-MV-E.pdf",
+        "url": "medium-velocity-mv-a-mv-as-mv-b-mv-bs-mv-e"
+      }
+    ]
+  }
+}

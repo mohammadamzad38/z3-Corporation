@@ -22,7 +22,7 @@ const NavLinks = [
       { name: "Fire Doors" },
       { name: "Fire Fighting Equipments" },
       { name: "Fire Pump Products" },
-      {name: "Fire Supression Systems"},
+      { name: "Fire Supression Systems" },
       { name: "Sprinkler Systems" },
       { name: "Valves Devices and Components" },
     ],
@@ -73,7 +73,9 @@ const Header = () => {
             src="/Image/logo-z3-corporation.png"
             alt="Logo"
             width={250}
-            height={250}
+            height={40}
+            priority
+            className="object-cover h-auto w-auto"
           />
         </Link>
 

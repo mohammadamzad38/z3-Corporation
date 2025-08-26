@@ -9,7 +9,6 @@ import { useParams } from "next/navigation";
 const Page = () => {
   const { product, productDetails, singleProduct } = useParams();
 
-  // Find the category first
   const categoryDetails = productsData[productDetails];
 
   // Find the specific product inside that category

@@ -62,10 +62,10 @@ export default function BlogCart() {
               <Image src={blog.image} fill alt="Feature Image" className="" />
             </div>
             <div className="m-4 text-black space-y-4">
-              <h1 className="line-clamp-2 overflow-hidden w-full text-lg font-bold">
+              <header className="line-clamp-2 overflow-hidden w-full text-lg font-bold">
                 {blog.title}
-              </h1>
-              <h2 className="line-clamp-3">{blog.description}</h2>
+              </header>
+              <p className="line-clamp-3">{blog.description}</p>
               <CommonBtn
                 link={`/blog/${slugify(blog.slug)}`}
                 text="Read more"

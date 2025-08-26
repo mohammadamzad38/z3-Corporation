@@ -57,9 +57,9 @@ export default function Home() {
                 className="w-full max-h-[300px] md:max-h-[750]"
               />
               <div className="absolute bottom-5 md:bottom-10 w-full md:max-w-[70%] lg:max-w-[50%] mx-auto  bg-black opacity-75 lg:px-20 md:px-10 px-5 text-white py-2 md:py-6 md:rounded-r-2xl">
-                <h2 className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">
+                <p className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">
                   {project.title}
-                </h2>
+                </p>
                 <p className="md:font-bold">{project.description}</p>
               </div>
             </div>
@@ -78,19 +78,19 @@ export default function Home() {
         </section>
         {/* Products Section */}
         <section className="container text-center items-center pb-10 md:pb-18 flex flex-col">
-          <h1 className="text-xl md:text-3xl pb-5 md:pb-14 font-bold text-[#F26F21] text-center">
+          <h2 className="text-xl md:text-3xl pb-5 md:pb-14 font-bold text-[#F26F21] text-center">
             Our Products & Services
-          </h1>
+          </h2>
           <Services />
         </section>
         {/* About Z3  */}
         <section className="bg-[#F4F4F4]">
           <div className="flex flex-col md:flex-row gap-14 my-10 container px-10 lg:px-0 py-10">
             <div className="w-full md:w-1/2 my-10">
-              <h1 className="text-xl md:text-3xl font-bold text-[#F26F21] pb-8">
+              <h2 className="text-xl md:text-3xl font-bold text-[#F26F21] pb-8">
                 Z3 Corporation - A Trusted Software & ICT Services Provider in
                 Bangladesh
-              </h1>
+              </h2>
               <p className="text-gray-600">
                 <span className="font-bold">Z3 Corporation</span> is a trusted
                 IT solutions provider in Bangladesh, offering a comprehensive
@@ -128,9 +128,9 @@ export default function Home() {
 
         {/* Latest Projects */}
         <section className="container pt-18 px-10">
-          <h1 className="text-center font-bold text-xl md:text-3xl text-[#F26F21]">
+          <h2 className="text-center font-bold text-xl md:text-3xl text-[#F26F21]">
             Our Latest Projects
-          </h1>
+          </h2>
           <LatestProjects />
         </section>
 
@@ -149,9 +149,9 @@ export default function Home() {
 
         {/* Brands section */}
         <section className="container pb-15">
-          <h1 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">
+          <h2 className="text-center font-bold text-xl md:text-3xl py-10 md:pb-15 text-[#F26F21]">
             Brands We Sell / Promote
-          </h1>
+          </h2>
           <Brands />
         </section>
       </main>

@@ -64,9 +64,9 @@ const allBrands = [
 export default function PromotedBrands() {
   return (
     <div className="md:my-10 lg:my-20 space-y lg:space-y-10">
-      <h1 className="text:sm text-xl lg:text-3xl font-bold text-center text-[#ED4B41] pt-10 md:pt-0">
+      <p className="text:sm text-xl lg:text-3xl font-bold text-center text-[#ED4B41] pt-10 md:pt-0">
         BRANDS WE SELL / PROMOTE
-      </h1>
+      </p>
       <div className="grid grid-rows-1 md:grid-cols-3 lg:grid-cols-4 md:p-10 justify-items-center">
         {allBrands.map((brand, idx) => (
           <div key={idx} className="relative h-[200px] w-[200px] hover:rounded-xl hover:border-2 hover:opacity-70 hover:border-[#ED4B41] hover:shadow-xl">

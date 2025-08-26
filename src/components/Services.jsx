@@ -75,9 +75,9 @@ export default function Services() {
               />
             </div>
             <div>
-              <h1 className="text-xl h-[80px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
+              <p className="text-xl h-[80px] py-4 px-3 font-bold text-[#F26F21] text-wrap">
                 {service.title}
-              </h1>
+              </p>
               <p className="text-start text-sm overflow-hidden h-[150px] px-4 text-gray-600">
                 {service.description}
               </p>

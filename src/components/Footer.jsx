@@ -52,7 +52,9 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
-            <h1 className="font-bold border-b border-amber-700">FOREIGN PARTNERS</h1>
+            <p className="font-bold border-b border-amber-700">
+              FOREIGN PARTNERS
+            </p>
             <div className="md:text-sm text-xs space-y-1 md:space-y-2 lg:mt-12 md:mt-7">
               <p>Naffco</p>
               <p>Fike</p>
@@ -64,7 +66,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className="font-bold border-b border-amber-700">QUICK LINKS</h1>
+            <p className="font-bold border-b border-amber-700">QUICK LINKS</p>
             <div className="md:text-sm text-xs md:space-y-2 md:mt-7 flex flex-col space-y-0 lg:mt-14 mt-3">
               <span>
                 <Link className="hover:text-[#F26F21]" href="/about-us">
@@ -86,7 +88,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className="font-bold border-b border-amber-700">CONTACT US</h1>
+            <p className="font-bold border-b border-amber-700">CONTACT US</p>
             <div className="md:text-sm text-xs space-y-1 md:space-y-2  md:mt-7 flex flex-col gap-2 lg:mt-14 mt-3">
               <a className="hover:text-[#F26F21]" href="tel:01991198322">
                 <span className="text-white ">Phone:</span> +880 1991-198 322
@@ -98,10 +100,10 @@ const Footer = () => {
                 <span className="text-white">Email:</span>{" "}
                 info@z3corporation.com
               </a>
-              <h4>
+              <p>
                 Address: Level: 1&2, House: 11/A2, Road-41, Gulshan-2,
                 Dhaka-1212, Bangladesh
-              </h4>
+              </p>
             </div>
           </div>
         </div>
@@ -119,9 +121,13 @@ const Footer = () => {
           </Link>
         </div>
         <div className="text-center text-sm lg:mt-4 mt-7">
-          <h1>© 2019-2025 Z3 Corporation | All Rights Reserved.</h1>
+          <p>
+            © 2019-2025 Z3 Corporation | All Rights Reserved. <br /> Designed and
+            Developed By <a className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2" href="https://mrztech.com/"> MRZ Tech</a>
+          </p>
         </div>
       </div>
+      <p className="text-white text-center"></p>
     </footer>
   );
 };

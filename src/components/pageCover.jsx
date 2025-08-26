@@ -9,9 +9,9 @@ const PageCover = ({ text}) => {
         className="object-fill"
       />
       <div className="absolute top-10 md:top-30 left-[20%]">
-        <h1 className="text-lg md:text-3xl border-b-4 border-[#ED4B41] text-white bg-[rgba(0,0,0,0.62)] px-3 md:px-20  md:py-10 font-bold">
+        <p className="text-lg md:text-3xl border-b-4 border-[#ED4B41] text-white bg-[rgba(0,0,0,0.62)] px-3 md:px-20  md:py-10 font-bold">
           {text}
-        </h1>
+        </p>
       </div>
     </div>
   );

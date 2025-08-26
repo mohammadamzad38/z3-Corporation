@@ -1,4 +1,5 @@
-import categoryData from "@/components/data/categoriesData.json"; 
+import Contact from "@/components/Contact";
+import categoryData from "@/components/data/categoriesData.json";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
 import Link from "next/link";
@@ -76,22 +77,7 @@ const Page = ({ params }) => {
         </div>
       )}
 
-      <div className="bg-[#1863AB] h-[300px] md:h-[200px] flex">
-        <div className="flex flex-col justify-between md:gap-0 gap-10 py-5 px-10 lg:py-0 items-center text-center lg:flex-row container border-b-8 border-[#ED4B41]">
-          <div className="text-white space-y-4 text-start">
-            <h1 className="text-2xl font-bold">
-              Looking an Adequate Solution for your Company?
-            </h1>
-            <h3>Contact us today for free consultation or more information.</h3>
-          </div>
-
-          <div className="mr-32">
-            <button className="px-5 py-2 border-2 font-bold border-white hover:text-[#ED4B41]">
-              Get In Touch
-            </button>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };

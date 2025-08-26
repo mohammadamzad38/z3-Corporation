@@ -172,7 +172,7 @@ export default function Page() {
     <div>
       <PageCover text={"OUR TEAM"} />
       <div className="container place-items-center py-15">
-        <h1 className=" font-bold text-xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+        <h1 className=" font-bold text-2xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           BOARD OF DIRECTORS
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
@@ -189,7 +189,7 @@ export default function Page() {
       </div>
 
       <div className="container place-items-center py-15">
-        <h1 className=" font-bold text-xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+        <h1 className=" font-bold text-2xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           MANAGEMENT & OPERATIONS
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
@@ -206,7 +206,7 @@ export default function Page() {
       </div>
 
       <div className="container place-items-center py-15">
-        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+        <h1 className=" font-bold text-2xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           COMMERCIAL & ACCOUNTS
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
@@ -223,7 +223,7 @@ export default function Page() {
       </div>
 
       <div className="container place-items-center py-15">
-        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+        <h1 className=" font-bold text-2xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           ENGINEERING DEPARTMENT
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
@@ -240,7 +240,7 @@ export default function Page() {
       </div>
 
       <div className="container place-items-center py-15">
-        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+        <h1 className=" font-bold text-2xl lg:text-3xl pb-15 text-center text-[#F26F21]">
           TECHNICAL DEPARTMENT
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">
@@ -257,7 +257,7 @@ export default function Page() {
       </div>
 
       <div className="container place-items-center py-15">
-        <h1 className=" font-bold text-3xl lg:text-3xl pb-15 text-center text-[#F26F21]">
+        <h1 className=" font-bold text-2xl md:text-3xl  pb-15 text-center text-[#F26F21]">
           LOGISTICS DEPARTMENT
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-10">

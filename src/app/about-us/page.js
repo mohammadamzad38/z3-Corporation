@@ -2,7 +2,9 @@ import Contact from "@/components/Contact";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
 import { FaPeopleGroup } from "react-icons/fa6";
-import { FcManager } from "react-icons/fc";
+import { FcEngineering } from "react-icons/fc";
+import { GiSelfLove } from "react-icons/gi";
+import { MdIncompleteCircle } from "react-icons/md";
 
 export const metadta = {
   title: "",
@@ -99,7 +101,7 @@ const page = () => {
                 <p className="text-xs lg:text-lg text-white">Team Members</p>
               </div>
               <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
-                <FcManager className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <FcEngineering className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
                 <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
                   20
                 </p>
@@ -108,7 +110,7 @@ const page = () => {
                 </p>
               </div>
               <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
-                <FaPeopleGroup className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <MdIncompleteCircle className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
                 <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
                   500
                 </p>
@@ -117,7 +119,7 @@ const page = () => {
                 </p>
               </div>
               <div className="space-y-1 md:space-y-2 flex flex-col text-center items-center">
-                <FaPeopleGroup className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
+                <GiSelfLove className="text-amber-300 text-3xl md:text-5xl lg:text-7xl" />
                 <p className="text-lg md:text-xl lg:text-3xl font-bold text-white">
                   1000
                 </p>

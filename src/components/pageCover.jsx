@@ -1,7 +1,7 @@
 import Image from "next/image";
 const PageCover = ({ text}) => {
   return (
-    <div className="relative flex shadow-2xl justify-center h-[100px] md:h-[400px] w-full">
+    <div className="relative flex shadow-2xl justify-center h-[150px] md:h-[400px] w-full">
       <Image
         src="/Image/z3-corporation-cover.png"
         alt="Z3 cover Image"

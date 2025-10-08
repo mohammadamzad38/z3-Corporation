@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useState } from "react";
-
 import { FaWindowClose } from "react-icons/fa";
 
 const certificatesList = [
@@ -40,7 +39,7 @@ export default function Certifications() {
         <div key={idx}>
           <div
             onClick={() => setSelectedImage(certificate)}
-            className="relative h-[300px] w-[300px] md:h-[500px] md:w-[500px]  m-5 border"
+            className="relative h-[300px] w-[300px] md:h-[500px] md:w-[500px] cursor-pointer m-5 border"
           >
             <Image
               src={certificate.image}

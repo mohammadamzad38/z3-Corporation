@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Team({ name, title, image }) {
   return (
     <div>
-      <div className="border rounded-xl h-[400px] w-[300px] md:w-[350px] place-items-center space-y-5 m-10 lg:m-0 shadow-lg ">
+      <div className="border rounded-xl h-[400px] w-[300px] md:w-[350px] flex flex-col justify-center items-center space-y-5 m-10 lg:m-0 shadow-lg ">
         <div className="relative border h-[200px] w-[200px]">
           <Image
             src={image}

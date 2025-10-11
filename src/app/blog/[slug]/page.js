@@ -12,7 +12,10 @@ const Page = ({ params }) => {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
-      <div className="relative w-[500px] h-[300px]">
+      <h1 className="text-2xl md:text-4xl text-black font-bold mb-4">
+        {blogArticle.title}
+      </h1>
+      <div className="relative my-10 max-w-[400px] md:max-w-[800px] h-[300px]">
         <Image
           src={blogArticle.image}
           alt={blogArticle.title}
@@ -20,7 +23,7 @@ const Page = ({ params }) => {
           className="object-cover mb-6"
         />
       </div>
-      <h1 className="text-4xl font-bold mb-4">{blogArticle.title}</h1>
+
       <p className="text-lg text-gray-700">{blogArticle.article}</p>
     </div>
   );

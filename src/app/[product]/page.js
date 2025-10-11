@@ -1,5 +1,5 @@
 import Contact from "@/components/Contact";
-import categoryData from "@/components/Data/categoriesData.json";
+import categoryData from "@/components/data/categoriesData.json";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
 import Link from "next/link";

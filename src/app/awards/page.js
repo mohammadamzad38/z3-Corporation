@@ -14,7 +14,7 @@ const page = () => {
         <Certifications />
       </div>
 
-      <div className="bg-[#0A0A0A] py-12">
+      <div className="bg-[#0A0A0A] text-white py-12">
         <div className="container px-8 space-y-3">
           <h1 className="text-3xl font-bold text-[#ED4B41]">
             CERTIFICATIONS and AWARDS

@@ -32,7 +32,7 @@ export default function LatestProjects() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 border border-gray-400 p-2 rounded-2xl">
       {projects.map((project, idx) => (
         <div
-          className="relative w-full border group h-[250px] shadow-2xl  "
+          className="relative w-full border border-gray-100 group h-[250px] shadow-2xl  "
           key={idx}
         >
           <Image

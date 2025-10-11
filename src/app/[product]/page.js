@@ -29,7 +29,7 @@ const Page = ({ params }) => {
         {category.catalog.map((item, index) => (
           <div
             key={index}
-            className="border rounded-lg p-4 shadow hover:shadow-lg w-[300px] opacity-90 hover:opacity-100 hover:border-[#ED4B41]"
+            className="border border-gray-100 rounded-lg p-4 shadow hover:shadow-lg w-[300px] opacity-90 hover:opacity-100 hover:border-[#ED4B41]"
           >
             <Link href={`/product/${item.url}`}>
               <div className="relative h-[300px] w-full mb-4">

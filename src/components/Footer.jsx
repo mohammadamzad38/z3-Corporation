@@ -9,125 +9,133 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#383838] ">
-      <div className="max-w-[1200px] px-10 mx-auto pt-7 md:pt-15 pb-10">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-10 gap-6">
-          <div className="space-y-4">
-            <Link href="/">
-              <Image
-                src="/Image/logo-z3-corporation.png"
-                alt="Logo"
-                width={250}
-                height={250}
-              ></Image>
-            </Link>
-            <p className="text-wrap md:text-base text-xs mt-4 text-start">
-              Z3 Corporation is the leading Fire Safety, Electrical Safety,
-              Building Safety & Structural Safety consultancy & contractor
-              (supply, installation, commissioning & after-sales) organization
-              in Bangladesh.
-            </p>
-            <div className="flex gap-5">
-              <Link
-                className="bg-[#0866FF] hover:-translate-y-1 transform transition duration-200 ease-in-out p-1 border border-[#0866FF] rounded-2xl"
-                href="#"
-              >
-                <FaSquareFacebook />
+    <footer>
+      <section className="bg-[#383838]">
+        <div className="max-w-[1200px] text-white px-10 mx-auto pt-7 md:pt-15 pb-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-10 gap-6">
+            <div className="space-y-4">
+              <Link href="/">
+                <Image
+                  src="/Image/logo-z3-corporation.png"
+                  alt="Logo"
+                  width={250}
+                  height={250}
+                ></Image>
               </Link>
-
-              <Link
-                className="bg-black hover:-translate-y-1 transform transition duration-200 ease-in-out p-1 border border-black rounded-2xl"
-                href="#"
-              >
-                <FaSquareXTwitter />
-              </Link>
-
-              <Link
-                className="bg-[#0A66C2] hover:-translate-y-1 transform transition duration-200 ease-in-out p-1 border border-[#0A66C2] rounded-2xl"
-                href="#"
-              >
-                <FaLinkedinIn />
-              </Link>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            <p className="font-bold border-b border-amber-700">
-              FOREIGN PARTNERS
-            </p>
-            <div className="md:text-sm text-xs space-y-1 md:space-y-2 lg:mt-12 md:mt-7">
-              <p>Naffco</p>
-              <p>Fike</p>
-              <p>Shield</p>
-              <p>Honeywell</p>
-              <p>Tyco</p>
-              <p>Peerless Pump</p>
-            </div>
-          </div>
-
-          <div>
-            <p className="font-bold border-b border-amber-700">QUICK LINKS</p>
-            <div className="md:text-sm text-xs md:space-y-2 md:mt-7 flex flex-col space-y-0 lg:mt-14 mt-3">
-              <span>
-                <Link className="hover:text-[#F26F21]" href="/about-us">
-                  About Us
-                </Link>
-              </span>
-              <span>
-                {" "}
-                <Link className="hover:text-[#F26F21]" href="/blog">
-                  Blog
-                </Link>
-              </span>
-              <span>
-                <Link className="hover:text-[#F26F21]" href="/contact-us">
-                  Contact Us
-                </Link>
-              </span>
-            </div>
-          </div>
-
-          <div>
-            <p className="font-bold border-b border-amber-700">CONTACT US</p>
-            <div className="md:text-sm text-xs space-y-1 md:space-y-2  md:mt-7 flex flex-col gap-2 lg:mt-14 mt-3">
-              <a className="hover:text-[#F26F21]" href="tel:01991198322">
-                <span className="text-white ">Phone:</span> +880 1991-198 322
-              </a>
-              <a
-                className="hover:text-[#F26F21]"
-                href="mailto:info@z3corporation.com"
-              >
-                <span className="text-white">Email:</span>{" "}
-                info@z3corporation.com
-              </a>
-              <p>
-                Address: Level: 1&2, House: 11/A2, Road-41, Gulshan-2,
-                Dhaka-1212, Bangladesh
+              <p className="text-wrap md:text-base text-xs mt-4 text-start">
+                Z3 Corporation is the leading Fire Safety, Electrical Safety,
+                Building Safety & Structural Safety consultancy & contractor
+                (supply, installation, commissioning & after-sales) organization
+                in Bangladesh.
               </p>
+              <div className="flex gap-5">
+                <Link
+                  className="bg-[#0866FF] hover:-translate-y-1 transform transition duration-200 ease-in-out p-1 border border-[#0866FF] rounded-2xl"
+                  href="#"
+                >
+                  <FaSquareFacebook />
+                </Link>
+
+                <Link
+                  className="bg-black hover:-translate-y-1 transform transition duration-200 ease-in-out p-1 border border-black rounded-2xl"
+                  href="#"
+                >
+                  <FaSquareXTwitter />
+                </Link>
+
+                <Link
+                  className="bg-[#0A66C2] hover:-translate-y-1 transform transition duration-200 ease-in-out p-1 border border-[#0A66C2] rounded-2xl"
+                  href="#"
+                >
+                  <FaLinkedinIn />
+                </Link>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <p className="font-bold border-b border-amber-700">
+                FOREIGN PARTNERS
+              </p>
+              <div className="md:text-sm text-xs space-y-1 md:space-y-2 lg:mt-12 md:mt-7">
+                <p>Naffco</p>
+                <p>Fike</p>
+                <p>Shield</p>
+                <p>Honeywell</p>
+                <p>Tyco</p>
+                <p>Peerless Pump</p>
+              </div>
+            </div>
+
+            <div>
+              <p className="font-bold border-b border-amber-700">QUICK LINKS</p>
+              <div className="md:text-sm text-xs md:space-y-2 md:mt-7 flex flex-col space-y-0 lg:mt-14 mt-3">
+                <span>
+                  <Link className="hover:text-[#F26F21]" href="/about-us">
+                    About Us
+                  </Link>
+                </span>
+                <span>
+                  {" "}
+                  <Link className="hover:text-[#F26F21]" href="/blog">
+                    Blog
+                  </Link>
+                </span>
+                <span>
+                  <Link className="hover:text-[#F26F21]" href="/contact-us">
+                    Contact Us
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div>
+              <p className="font-bold border-b border-amber-700">CONTACT US</p>
+              <div className="md:text-sm text-xs space-y-1 md:space-y-2  md:mt-7 flex flex-col gap-2 lg:mt-14 mt-3">
+                <a className="hover:text-[#F26F21]" href="tel:01991198322">
+                  <span className="text-white ">Phone:</span> +880 1991-198 322
+                </a>
+                <a
+                  className="hover:text-[#F26F21]"
+                  href="mailto:info@z3corporation.com"
+                >
+                  <span className="text-white">Email:</span>{" "}
+                  info@z3corporation.com
+                </a>
+                <p>
+                  Address: Level: 1&2, House: 11/A2, Road-41, Gulshan-2,
+                  Dhaka-1212, Bangladesh
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="border rounded-2xl border-gray-600 w-full my-10"></div>
+          <div className="border rounded-2xl border-gray-600 w-full my-10"></div>
 
-        <div className="flex flex-wrap text-xs md:text-sm justify-center gap-4 md:gap-6 lg:gap-10  ">
-          <Link className="hover:text-[#F26F21]" href="/privacy-policy">
-            PRIVACY POLICY
-          </Link>
-          <Link className="hover:text-[#F26F21]" href="/terms-and-conditions">
-            TERMS AND CONDITIONS
-          </Link>
-          <Link className="hover:text-[#F26F21]" href="/contact-us">
-            CONTACT US
-          </Link>
+          <div className="flex flex-wrap text-xs md:text-sm justify-center gap-4 md:gap-6 lg:gap-10  ">
+            <Link className="hover:text-[#F26F21]" href="/privacy-policy">
+              PRIVACY POLICY
+            </Link>
+            <Link className="hover:text-[#F26F21]" href="/terms-and-conditions">
+              TERMS AND CONDITIONS
+            </Link>
+            <Link className="hover:text-[#F26F21]" href="/contact-us">
+              CONTACT US
+            </Link>
+          </div>
+          <div className="text-center text-sm lg:mt-4 mt-7">
+            <p>
+              © 2019-2025 Z3 Corporation | All Rights Reserved. <br /> Designed
+              and Developed By
+              <a
+                className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2"
+                href="https://mrztech.com/"
+              >
+                {" "}
+                MRZ Tech
+              </a>
+            </p>
+          </div>
         </div>
-        <div className="text-center text-sm lg:mt-4 mt-7">
-          <p>
-            © 2019-2025 Z3 Corporation | All Rights Reserved. <br /> Designed and
-            Developed By <a className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2" href="https://mrztech.com/"> MRZ Tech</a>
-          </p>
-        </div>
-      </div>
-      <p className="text-white text-center"></p>
+      </section>
     </footer>
   );
 };

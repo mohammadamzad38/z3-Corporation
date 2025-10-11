@@ -64,7 +64,7 @@ export default function Services() {
           <div
             key={idx}
             data-aos="zoom-in"
-            className="border rounded-xl m-10 shadow-xs"
+            className="border border-gray-100 rounded-xl m-10 shadow-xs"
           >
             <div className="w-full h-[250px] relative overflow-hidden">
               <Image

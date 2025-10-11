@@ -1,7 +1,7 @@
 "use client";
 
 import Contact from "@/components/Contact";
-import productsData from "@/components/Data/productsData.json";
+import productsData from "@/components/data/productsData.json";
 import DetailsBox from "@/components/DetailsBox";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
@@ -51,7 +51,7 @@ const Page = () => {
             {categoryDetails?.catalog?.map((productItem, idx) => (
               <div
                 key={idx}
-                className="w-[300px] border hover:scale-90 rounded-xl opacity-90 hover:opacity-100 hover:border-[#ED4B41] p-4"
+                className="w-[300px] border border-gray-100 hover:scale-90 rounded-xl opacity-90 hover:opacity-100 hover:border-[#ED4B41] p-4"
               >
                 <Link
                   href={`/${product}/${productDetails}/${productItem?.url}`}

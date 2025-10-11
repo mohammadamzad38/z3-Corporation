@@ -1,6 +1,6 @@
 "use client";
 
-import productsData from "@/components/Data/productsData.json";
+import productsData from "@/components/data/productsData.json";
 import DetailsBox from "@/components/DetailsBox";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";

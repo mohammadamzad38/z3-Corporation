@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer>
       <section className="bg-[#383838]">
-        <div className="max-w-[1200px] px-10 mx-auto pt-7 md:pt-15 pb-10">
+        <div className="max-w-[1200px] text-white px-10 mx-auto pt-7 md:pt-15 pb-10">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-10 gap-6">
             <div className="space-y-4">
               <Link href="/">
@@ -129,6 +129,7 @@ const Footer = () => {
                 className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2"
                 href="https://mrztech.com/"
               >
+                {" "}
                 MRZ Tech
               </a>
             </p>

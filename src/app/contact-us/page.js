@@ -10,13 +10,13 @@ import PageCover from "@/components/pageCover";
 const page = () => {
   return (
     <div>
-     <PageCover text={"Contact Us"}/>
+      <PageCover text={"Contact Us"} />
       <section className="container py-20 shadow-2xl">
         <h1 className="text-3xl text-center pb-10 font-bold text-black">
           Get In Touch
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center place-items-center md:relative">
-          <div className="md:relative hover:scale-95 z-10 left-20 bg-[#F26F21] space-y-4 p-6 max-h-[310px] w-[70%] md:w-[30%] lg::w-[25%] shadow-2xl rounded-xl">
+          <div className="md:relative hover:scale-95 z-10 left-20 bg-[#F26F21] space-y-4 p-6 max-h-[310px] w-[70%] md:w-[30%] lg:w-[25%] shadow-2xl rounded-xl">
             <div className="space-y-2">
               <div className="flex place-items-center gap-3 font-bold text-2xl">
                 <FaPhone className="text-black" />
@@ -52,8 +52,8 @@ const page = () => {
             </div>
           </div>
 
-          <div className="flex place-items-center">
-            <div className="relative h-[450px] hidden md:block w-[300px] z-0">
+          <div className="flex  place-items-center">
+            <div className="relative h-[450px] hidden md:block w-[400px] z-0">
               <Image
                 src={fighterImage}
                 fill
@@ -61,7 +61,7 @@ const page = () => {
                 className="rounded-bl-3xl rounded-tl-3xl"
               />
             </div>
-            <div className="p-5 pl-15 space-y-10">
+            <div className="p-5 pl-15 space-y-10 w-3/5">
               <form
                 action="submit"
                 className="flex flex-col text-black space-y-6"
@@ -70,7 +70,7 @@ const page = () => {
                   <h3 className="font-bold">Full Name</h3>
                   <input
                     type="text"
-                    className="border border-black rounded-sm px-4 py-1"
+                    className="border w-full border-black rounded-sm px-4 py-1"
                   />
                 </div>
                 <div className="space-y-1">
@@ -78,7 +78,7 @@ const page = () => {
                   <input
                     type="email"
                     name="email"
-                    className="border border-black rounded-sm px-4 py-1"
+                    className="border w-full border-black rounded-sm px-4 py-1"
                   />
                 </div>
                 <div className="space-y-1">
@@ -86,11 +86,11 @@ const page = () => {
                   <input
                     type="number"
                     name="phone"
-                    className="border border-black rounded-sm px-4 py-1"
+                    className="border w-full border-black rounded-sm px-4 py-1"
                   />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="font-bold">Type Your message</h3>
+                  <h3 className="font-bold">Type Your Message</h3>
                   <textarea
                     name="message"
                     id=""

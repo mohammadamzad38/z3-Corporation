@@ -19,7 +19,7 @@ const page = () => {
           <p className="">
             <a href="#" className="text-[#ED4B41]">
               Z3 Corporation
-            </a>{" "}
+            </a>
             is the authorized distributor of NAFFCO (UAE), TRIGA by Honeywell
             (USA) and SHIELD (UK). Besides, we sell various other reputable
             brands through our principals, such as Tyco, Fike, Xtralis,
@@ -32,20 +32,17 @@ const page = () => {
             extinguishers. We also provide maintenance and after-sales services
             on behalf of our brands to ensure that their products are in proper
             working condition and to ensure compliance with local fire codes and
-            regulations. <br />
+            regulations.
+            <br />
             <br /> Our commitment to quality makes us a trusted partner for
             businesses and organizations of all sizes, from small retail shops
             to large industrial facilities. We have been involved in many
             prestigious projects, including government buildings, airports,
-            hospitals, and more. <br />
-            <br /> In summary, Z3 Corporation has chosen its partners based on
-            unwavering reputation and reliability as we believe that when it
-            comes to life and property safety, we should never compromise on
-            quality.
+            hospitals, and more.
           </p>
         </div>
       </div>
-      
+
       <Contact
         heading={"Looking an Adequate Solution for your Company?"}
         subHeading={

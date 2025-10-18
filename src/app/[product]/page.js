@@ -1,14 +1,16 @@
-import Contact from "@/components/Contact";
 import categoryData from "@/components/data/categoriesData.json";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Contact from "@/components/Contact";
 
 const Page = ({ params }) => {
   const { product } = React.use(params);
 
   const category = categoryData[product];
+
+  console.log(category, "dataaaaaa");
 
   if (!category) {
     return (
@@ -25,27 +27,49 @@ const Page = ({ params }) => {
     <div>
       <PageCover text={category.title} />
 
-      <div className="container py-20 flex flex-wrap gap-10 justify-center">
-        {category.catalog.map((item, index) => (
+      <div className="pt-20">
+        {/* Card Section */}
+        <div className="container flex flex-wrap gap-10 justify-center">
+          {category.catalog.map((item, index) => (
+            <div
+              key={index}
+              className="border border-gray-100 rounded-lg p-4 shadow hover:shadow-lg w-[300px] opacity-90 hover:opacity-100 hover:border-[#ED4B41]"
+            >
+              <Link href={`/product/${item.url}`}>
+                <div className="relative h-[300px] w-full mb-4">
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    fill
+                    className="object-cover rounded"
+                  />
+                </div>
+                <h2 className="text-lg text-center h-[50px] text-black font-bold">
+                  {item.name}
+                </h2>
+              </Link>
+            </div>
+          ))}
+        </div>
+
+        {/* Article Section — show once at the bottom */}
+        {category.article ? (
           <div
-            key={index}
-            className="border border-gray-100 rounded-lg p-4 shadow hover:shadow-lg w-[300px] opacity-90 hover:opacity-100 hover:border-[#ED4B41]"
-          >
-            <Link href={`/product/${item.url}`}>
-              <div className="relative h-[300px] w-full mb-4">
-                <Image
-                  src={item.image}
-                  alt={item.name}
-                  fill
-                  className="object-cover rounded"
-                />
-              </div>
-              <h2 className="text-lg text-center h-[50px] text-black font-bold">
-                {item.name}
-              </h2>
-            </Link>
-          </div>
-        ))}
+            className="bg-black mt-16 leading-relaxed"
+            dangerouslySetInnerHTML={{ __html: category.article }}
+          ></div>
+        ) : (
+          <p className="mt-16 text-center text-gray-500 italic">
+            Article not found
+          </p>
+        )}
+        <Contact
+          heading={"Looking an Adequate Solution for your Company?"}
+          subHeading={
+            "Contact us today for free consultation or more information."
+          }
+          contact={"Get In Touch"}
+        />
       </div>
 
       {isSingleProduct && singleProduct && (
@@ -76,8 +100,6 @@ const Page = ({ params }) => {
           </Link>
         </div>
       )}
-
-      
     </div>
   );
 };

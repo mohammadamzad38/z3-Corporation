@@ -2,12 +2,16 @@
   "fire-resistant-cable": {
     "name": "Fire Resistant Cable",
     "title": "Fire Resistant Cable",
+    "metaTitle": "",
+    "metaDescription": "",
     "image": "/Image/Products/Fire Resistant Cable.png",
     "description": " <div class='rounded-3xl  '>\n   <p class='mt-4 text-slate-700 leading-relaxed'>\n      The material and the structure used for this type of cables depends on the performance required: fire time exposition, fire temperature and extra burning events. Fire performance classes: Flame retardant (FRLS), Low smoke fumes (LS), Fire resistant (FRHF), Low smoke, Halogen free and Fire retardant (HF), Flame Retardant Power-Limited (FPL, FPLR). Typical applications for this type of cables are transmission of analogue, digital signal and control systems.\n    </p>\n\n    <h2 class='mt-8 text-xl md:text-2xl font-bold text-slate-900'>\n      EMERGENCY LIGHTING SYSTEMS\n    </h2>\n\n    <p class='mt-2 text-slate-700 leading-relaxed'>\n      Many Emergency Lighting Systems now require a Fire Performance cable to meet BS EN 50200:2006 PH30 – fire performance test. Shield fire proof cable is certified by LPCB to meet the required duration to PH30, 30 minutes duration.\n    </p>\n\n    <p class='mt-2 font-semibold text-slate-900'>\n      Be Safe – Insist on Shield Fire Cable for all Emergency Lighting Systems.\n    </p>\n\n    <h2 class='mt-8 text-xl md:text-2xl font-bold text-slate-900'>\n      THE FASTEST FIRE CABLE TO INSTALL\n    </h2>\n\n    <p class='mt-2 text-slate-700 leading-relaxed'>\n      Shield Fire Proof Cable is available in a variety of multiple core combinations all with CPC (circuit protection conductor). 500m reels and other special lengths are available.\n    </p>\n\n    <ul class='mt-4 grid sm:grid-cols-2 gap-3'>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Supplied on robust plastic reels.\n      </li>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Installer safe and easy handling.\n      </li>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Better reeling and damage resistant.\n      </li>\n      <li class='rounded-xl border border-orange-100 bg-white p-3 shadow-sm'>\n        Weather and moisture resistant.\n      </li>\n    </ul>\n  </div>\n</div>",
     "url": "fire-resistant-cable",
     "pdfUrl": "/Image/Products/Catalogue-Fire-Resistant-Cable-Shield-LPCB_22012025.pdf"
   },
   "shield-neo-series": {
+    "metaTitle": "",
+    "metaDescription": "",
     "title": "Shield_NEO Series",
     "url": "shield-neo-series/",
     "image": "/Image/Products/High-Performance-Panels-neo-series.png",
@@ -15,6 +19,8 @@
     "catalog": [
       {
         "name": "ALPHA-2000",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "ALPHA-2000-Datasheet",
         "image": "/Image/Products/alpha-2000.png",
         "pdfUrl": "/Image/Products/ALPHA-2000-Datasheet.pdf",
@@ -22,6 +28,8 @@
       },
       {
         "name": "Loop Alarm Control Panels",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Loop Alarm Control Panels",
         "image": "/Image/Products/loop-alarm-control-panels.png",
         "pdfUrl": "/Image/Products/Datasheet-Intelligent-1-2-4-Loop-Alarm-Control-Panels.pdf",
@@ -29,6 +37,8 @@
       },
       {
         "name": "Manual Pull Station Shield",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Manual Pull Station Shield",
         "image": "/Image/Products/manual-pull-station-shield-.png",
         "pdfUrl": "/Image/Products/Data-Sheet-Manual-Pull-Station-Shield.pdf",
@@ -36,6 +46,8 @@
       },
       {
         "name": "S A4011E XSeries Smoke Detector",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S A4011E XSeries Smoke Detector",
         "image": "/Image/Products/s-a5011-x-series-ul-smoke-detector.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A4011E-XSeries-Smoke-Detector-Shield.pdf",
@@ -43,6 +55,8 @@
       },
       {
         "name": "S A4013E XSeries UL Heat Detector",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S A4013E XSeries UL Heat Detector",
         "image": "/Image/Products/s-a4013e-xseries-ul-heat-detector.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A4013E-XSeries-UL-Heat-Detector-Shield-UL.pdf",
@@ -50,6 +64,8 @@
       },
       {
         "name": "S-A4014E XSeries Multi Criteria Detector",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A4014E XSeries Multi Criteria Detector",
         "image": "/Image/Products/s-a4014e-xseries-multi-criteria-detector.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A4014E-XSeries-Multi-Criteria-Detector-Shield.pdf",
@@ -57,6 +73,8 @@
       },
       {
         "name": "S-A5011 X-Series UL Smoke Detector",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5011 X-Series UL Smoke Detector",
         "image": "/Image/Products/s-a5011-x-series-ul-smoke-detector.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5011-X-Series-UL-Smoke-Detector-Shield.pdf",
@@ -64,6 +82,8 @@
       },
       {
         "name": "S-A5013 X Series UL Heat Detector",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5013 X Series UL Heat Detector",
         "image": "/Image/Products/s-a5013-x-series-ul-heat-detector.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5013-X-Series-UL-Heat-Detector-Shield.pdf",
@@ -71,6 +91,8 @@
       },
       {
         "name": "S-A5014 X Series UL Multi criteria Detector",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5014 X Series UL Multi criteria Detector",
         "image": "/Image/Products/s-a5014-x-series-ul-multi-criteria-detector.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5014-X-Series-UL-Multi-criteria-Detector-Shield.pdf",
@@ -78,6 +100,8 @@
       },
       {
         "name": "S-A5042",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5042",
         "image": "/Image/Products/s-a5042.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5042.pdf",
@@ -85,6 +109,8 @@
       },
       {
         "name": "S-A5043",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5043",
         "image": "/Image/Products/s-a5043.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5043.pdf",
@@ -92,6 +118,8 @@
       },
       {
         "name": "S-A5044",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5044",
         "image": "/Image/Products/s-a5044.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5044.pdf",
@@ -99,6 +127,8 @@
       },
       {
         "name": "S-A5045",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "S-A5045",
         "image": "/Image/Products/s-a5045.png",
         "pdfUrl": "/Image/Products/Data-Sheet-S-A5045.pdf",
@@ -106,6 +136,8 @@
       },
       {
         "name": "Intelligent 1, 2, 4 ,Loop Alarm Control Panels",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Intelligent 1, 2, 4 ,Loop Alarm Control Panels",
         "image": "/Image/Products/Datasheet-Intelligent-1-2-4-Loop-Alarm-Control.png",
         "pdfUrl": "/Image/Products/Datasheet-Intelligent-1-2-4-Loop-Alarm-Control-Panels.pdf",
@@ -113,6 +145,8 @@
       },
       {
         "name": "Single Loop Fire Alarm Control Panel",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Single Loop Fire Alarm Control Panel",
         "image": "/Image/Products/single-loop-fire-alarm-control-panel.png",
         "pdfUrl": "/Image/Products/Datasheet-Single-Loop-Fire-Alarm-Control-Panel.pdf",
@@ -121,6 +155,8 @@
     ]
   },
   "triga-series": {
+    "metaTitle": "",
+    "metaDescription": "",
     "title": "Triga Series",
     "url": "triga-series",
     "image": "/Image/Products/TR-2100-Series.jpg",
@@ -128,6 +164,8 @@
     "catalog": [
       {
         "name": "Distributed Power Supply - TR-RPS1 - Triga - UL & FM",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Distributed Power Supply - TR-RPS1 - Triga - UL & FM",
         "image": "/Image/Products/TR-RPS1.jpg",
         "pdfUrl": "/Image/Products/Data Sheet - Distributed Power Supply - TR-RPS1 - Triga - UL & FM.pdf",
@@ -135,6 +173,8 @@
       },
       {
         "name": "Network Interface Card - TR-NIC - Triga - UL & FM",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Network Interface Card - TR-NIC - Triga - UL & FM",
         "image": "/Image/Products/TR-NIC.png",
         "pdfUrl": "/Image/Products/Data Sheet - Network Interface Card - TR-NIC - Triga - UL & FM.pdf",
@@ -142,6 +182,8 @@
       },
       {
         "name": "TR-RD1G & TR-RD1R",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Remote Annunciator - TR-RD1G & TR-RD1R - Triga - UL & FM",
         "image": "/Image/Products/tr-rd1g-and-tr-rd1r.png",
         "pdfUrl": "/public/Image/Products/Data Sheet - Remote Annunciator - TR-RD1G & TR-RD1R - Triga - UL & FM.pdf",
@@ -149,6 +191,8 @@
       },
       {
         "name": "SLC Loop Expander - TR-6815 ",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "SLC Loop Expander - TR-6815 - Triga - UL & FM",
         "image": "/Image/Products/slc-loop-expander-tr-6815.png",
         "pdfUrl": "/Image/Products/Data Sheet - SLC Loop Expander - TR-6815 - Triga - UL & FM.pdf",
@@ -156,6 +200,8 @@
       },
       {
         "name": "Duct Detector TR DNR_TR DNRW",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Duct Detector TR DNR_TR DNRW",
         "image": "/Image/Products/duct-detector-tr-dnrtr-dnrw.png",
         "pdfUrl": "/Image/Products/Data-Sheet-Duct-Detector-TR-DNR_TR-DNRW-Triga.pdf",
@@ -163,6 +209,8 @@
       },
       {
         "name": "Fire Alarm Control Unit 2100 Pts",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Fire Alarm Control Unit 2100 Pts-Triga UL-FM",
         "image": "/Image/Products/fire-alarm-control-unit-2100-pts.png",
         "pdfUrl": "/Image/Products/Data-Sheet-Fire-Alarm-Control-Unit-2100-Pts-Triga-UL-FM.pdf",
@@ -170,6 +218,8 @@
       },
       {
         "name": "Heat Detector TR-HEAT",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Heat Detector TR-HEAT Triga-UL-FM",
         "image": "/Image/Products/heat-detector-tr-heat-triga-ul-fm.png",
         "pdfUrl": "/Image/Products/Data-Sheet-Heat-Detector-TR-HEAT-Triga-UL-FM.pdf",
@@ -177,6 +227,8 @@
       },
       {
         "name": "Manual Pull Station Single Double Action TR PULL",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Manual Pull Station Single Double Action TR PULL",
         "image": "/Image/Products/Manual Pull Station Single Double Action TR PULL.png",
         "pdfUrl": "/Image/Products/Data-Sheet-Manual-Pull-Station-Single-Double-Action-TR-PULL-Triga-UL-FM_R2.pdf",
@@ -184,6 +236,8 @@
       },
       {
         "name": "Outdoor Horns LED",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Outdoor Horns LED Outdoor Strobes and Horn Strobes",
         "image": "/Image/Products/Outdoor Horns LED.png",
         "pdfUrl": "/Image/Products/Datasheet-Outdoor-Horns-LED-Outdoor-Strobes-and-Horn-Strobes.pdf",
@@ -191,6 +245,8 @@
       },
       {
         "name": "Smoke Detector TR PHOTO",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Smoke Detector TR PHOTO Triga UL FM",
         "image": "/Image/Products/smoke-detector-tr-photo.png",
         "pdfUrl": "/Image/Products/Data-Sheet-Smoke-Detector-TR-PHOTO-Triga-UL-FM.pdf",
@@ -198,6 +254,8 @@
       },
       {
         "name": "Data Sheet TR MONITOR-2",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Data Sheet TR MONITOR 2 Triga UL FM R2",
         "image": "/Image/Products/data-sheet-tr-monitor-2.png",
         "pdfUrl": "/Image/Products/Data-Sheet-TR-MONITOR-2-Triga-UL-FM-R2.pdf",
@@ -205,6 +263,8 @@
       },
       {
         "name": "TR MONITOR",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "TR MONITOR Triga-UL-FM-R2",
         "image": "/Image/Products/tr-monitor.png",
         "pdfUrl": "/Image/Products/Data-Sheet-TR-MONITOR-Triga-UL-FM-R2.pdf",
@@ -212,6 +272,8 @@
       },
       {
         "name": "TR Relay",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "Data Sheet TR RELAY Triga UL FM R2",
         "image": "/Image/Products/tr-relay.png",
         "pdfUrl": "/Image/Products/Data-Sheet-TR-RELAY-Triga-UL-FM-R2.pdf",
@@ -219,6 +281,8 @@
       },
       {
         "name": "LED Indoor selectable Horns",
+        "metaTitle": "",
+        "metaDescription": "",
         "title": "LED Indoor selectable Horns Strobes and Horn Strobes",
         "image": "/Image/Products/LED Indoor selectable Horns.png",
         "pdfUrl": "/Image/Products/LED-Indoor-selectable-Horns-Strobes-and-Horn-Strobes.pdf",
@@ -228,6 +292,8 @@
   },
   "fire-rated-door": {
     "name": "Fire Rated Door",
+    "metaTitle": "",
+    "metaDescription": "",
     "title": "Fire Rated Door",
     "image": "/Image/Products/Fire rated door.png",
     "url": "fire-rated-door",

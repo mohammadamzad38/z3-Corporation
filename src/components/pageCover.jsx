@@ -1,5 +1,5 @@
 import Image from "next/image";
-const PageCover = ({ text}) => {
+const PageCover = ({ text }) => {
   return (
     <div className="relative flex shadow-2xl justify-center h-[150px] md:h-[400px] w-full">
       <Image

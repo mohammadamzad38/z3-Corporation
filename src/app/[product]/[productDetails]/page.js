@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 
 const Page = () => {
-  const { product, productDetails } = useParams(); // ✅ useParams instead of params prop
+  const { product, productDetails } = useParams();
 
   const categoryDetails = productsData[productDetails];
 

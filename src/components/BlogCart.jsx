@@ -1,11 +1,14 @@
 import Image from "next/image";
 import CommonBtn from "./CommonBtn";
 import { slugify } from "./Slugify";
+import Link from "next/link";
 
 export const Blogs = [
   {
     image: "/Image/blog/1250-gpm-fire-pump.webp",
     title: "1250 GPM Fire Pump | Z3 Corporation Fire Safety Solutions",
+    metaTitle: "Demo title",
+    metaDescription: "",
     slug: "1250-gpm-fire-pump",
     description:
       "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
@@ -17,6 +20,8 @@ export const Blogs = [
     image: "/Image/blog/What-is-a-Fire-Rated-Door.webp",
     title:
       "What is a Fire Rated Door? Requirements, Regulations & Safety Standards",
+    metaTitle: "Demo title",
+    metaDescription: "",
     slug: "what-is-a-fire-rated-door",
     description:
       "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
@@ -26,6 +31,8 @@ export const Blogs = [
   {
     image: "/Image/blog/1250-gpm-fire-pump.webp",
     title: "Fire Door Price in Bangladesh | A Comprehensive Guide",
+    metaTitle: "Demo title",
+    metaDescription: "",
     slug: "fire-door-price-in-bangladesh ",
     description:
       "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
@@ -35,6 +42,8 @@ export const Blogs = [
   {
     image: "/Image/blog/Best-Fire-Extinguisher-for-Home.webp",
     title: "What is a Fire Alarm Panel? A Comprehensive Guide",
+    metaTitle: "Demo title",
+    metaDescription: "",
     slug: "what-is-a-fire-alarm-panel",
     description:
       "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
@@ -44,6 +53,8 @@ export const Blogs = [
   {
     image: "/Image/blog/What-is-a-Fire-Rated-Door.webp",
     title: "What is a Fire Alarm Panel? A Comprehensive Guide",
+    metaTitle: "Demo title",
+    metaDescription: "",
     slug: "what-is-a-fire-alarm-panel",
     description:
       "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
@@ -62,9 +73,14 @@ export default function BlogCart() {
               <Image src={blog.image} fill alt="Feature Image" className="" />
             </div>
             <div className="m-4 text-black space-y-4">
-              <header className="line-clamp-2 overflow-hidden w-full text-lg font-bold">
-                {blog.title}
-              </header>
+              <Link
+                href={`/blog/${slugify(blog.slug)}`}
+                className=" visited:text-purple-800 hover:text-blue-500"
+              >
+                <header className="line-clamp-2 overflow-hidden w-full text-lg font-bold">
+                  {blog.title}
+                </header>
+              </Link>
               <p className="line-clamp-3">{blog.description}</p>
               <CommonBtn
                 link={`/blog/${slugify(blog.slug)}`}

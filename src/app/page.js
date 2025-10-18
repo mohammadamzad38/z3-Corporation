@@ -54,7 +54,7 @@ export default function Home() {
                 src={project.image}
                 alt="centrepoint"
                 fill
-                className="w-full max-h-[300px] md:max-h-[750]"
+                className="object-cover"
               />
               <div className="absolute bottom-5 md:bottom-10 w-full md:max-w-[70%] lg:max-w-[50%] mx-auto  bg-black opacity-75 lg:px-20 md:px-10 px-5 text-white py-2 md:py-6 md:rounded-r-2xl">
                 <p className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">
@@ -88,31 +88,30 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-14 my-10 container px-10 lg:px-0 py-10">
             <div className="w-full md:w-1/2 my-10">
               <h2 className="text-xl md:text-3xl font-bold text-[#F26F21] pb-8">
-                Z3 Corporation - A Trusted Software & ICT Services Provider in
-                Bangladesh
+                Z3 Corporation - Best Fire Solution Company in Bangladesh
               </h2>
-              <p className="text-gray-600">
-                <span className="font-bold">Z3 Corporation</span> is a trusted
-                IT solutions provider in Bangladesh, offering a comprehensive
-                range of services designed to meet the evolving needs of
-                businesses across various sectors. With expertise in software
-                development, cloud computing, cybersecurity, and IT consulting,
-                Z3 helps organizations streamline their operations, enhance
-                efficiency, and embrace digital transformation. <br /> <br />
-                Whether it’s custom software tailored to specific business needs
-                or providing robust cloud infrastructure, Z3’s team of skilled
-                professionals ensures that clients receive innovative, reliable,
-                and scalable technology solutions. Known for its commitment to
-                quality, Z3 is dedicated to helping businesses stay competitive
-                in an ever-changing digital landscape. <br /> <br /> In addition
-                to its IT expertise,{" "}
-                <span className="font-bold">Z3 Corporation</span> also offers
-                reliable fire safety solutions, providing industries,
-                businesses, and homes with the necessary tools and services to
-                protect against fire hazards. With a focus on both technology
-                and safety, Z3 continues to deliver exceptional services that
-                meet the diverse needs of its customers.
-              </p>
+              <div className="space-y-6">
+                <p className="text-gray-600">
+                  Z3 Corporation proudly stands as the best fire fighting
+                  company in Bangladesh, renowned for its excellence in fire
+                  safety solutions. As a leading fire and safety equipment
+                  company, we specialize in comprehensive solutions with a
+                  proven track record and the trust of so many customers.
+                </p>
+                <p className="text-gray-600">
+                  Providing the highest quality fire safety products in
+                  Bangladesh, we ensure complete protection against fire. With a
+                  stellar reputation, our dedicated team ensures homes,
+                  businesses and industries are well-equipped to handle
+                  emergencies.
+                </p>
+                <p className="text-gray-600">
+                  The focus on quality and performance has made us one of the
+                  most trusted fire extinguisher companies in Bangladesh. So,
+                  count on us for the best expertise in fire safety solutions –
+                  “Your Safety Our Priority”.
+                </p>
+              </div>
             </div>
             <div className="w-full md:w-1/2 flex justify-center items-center">
               <Image

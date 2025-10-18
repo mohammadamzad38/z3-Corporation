@@ -29,9 +29,9 @@ export default function ItService() {
                 className="border p-2 rounded-2xl "
               />
             </div>
-            <title className="text-[#5F613A] font-bold text-center ">
+            <p className="text-[#5F613A] font-bold text-center ">
               {service.title}
-            </title>
+            </p>
           </div>
         ))}
       </div>

@@ -48,13 +48,13 @@ export default function Home() {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="relative w-full h-[300px] md:h-[750] mx-auto overflow-hidden"
+              className="relative w-full h-[300px] md:h-[600] mx-auto overflow-hidden"
             >
               <Image
                 src={project.image}
                 alt="centrepoint"
                 fill
-                className="object-cover"
+                className="object-cover w-full"
               />
               <div className="absolute bottom-5 md:bottom-10 w-full md:max-w-[70%] lg:max-w-[50%] mx-auto  bg-black opacity-75 lg:px-20 md:px-10 px-5 text-white py-2 md:py-6 md:rounded-r-2xl">
                 <p className="text-xl md:text-4xl  font-bold mb-2 md:mb-4">

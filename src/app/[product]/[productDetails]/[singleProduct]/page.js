@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 
 const Page = () => {
-  const { product, productDetails, singleProduct } = useParams();
+  const {  productDetails, singleProduct } = useParams();
 
   const categoryDetails = productsData[productDetails];
 

@@ -1,14 +1,14 @@
 import Loader from "@/components/Loader";
 import { Suspense } from "react";
-import categoryData from "@/components/data/categoriesData.json";
+import { backendurl } from "@/utils/constants";
 
 export async function generateMetadata({ params }) {
   const { product } = await params;
-  const category = categoryData[product];
+  const category = backendurl[product];
 
-  const title = category?.title;
+  const title = category?.metaTitle;
   const description = category?.metaDescription;
-  const url = `https://z3corporation.com/${category?.url}`;
+  const url = `https://z3corporation.com/${category?.slug}`;
 
   return {
     title,
@@ -44,7 +44,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// Layout component — wraps product pages
 export default function Layout({ children }) {
   return <Suspense fallback={<Loader />}>{children}</Suspense>;
 }

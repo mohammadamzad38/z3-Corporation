@@ -1,89 +1,66 @@
+"use client";
+
 import Image from "next/image";
 import CommonBtn from "./CommonBtn";
 import { slugify } from "./Slugify";
 import Link from "next/link";
-
-export const Blogs = [
-  {
-    image: "/Image/blog/1250-gpm-fire-pump.webp",
-    title: "1250 GPM Fire Pump | Z3 Corporation Fire Safety Solutions",
-    metaTitle: "Demo title",
-    metaDescription: "",
-    slug: "1250-gpm-fire-pump",
-    description:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-    article:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-  },
-
-  {
-    image: "/Image/blog/What-is-a-Fire-Rated-Door.webp",
-    title:
-      "What is a Fire Rated Door? Requirements, Regulations & Safety Standards",
-    metaTitle: "Demo title",
-    metaDescription: "",
-    slug: "what-is-a-fire-rated-door",
-    description:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-    article:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-  },
-  {
-    image: "/Image/blog/1250-gpm-fire-pump.webp",
-    title: "Fire Door Price in Bangladesh | A Comprehensive Guide",
-    metaTitle: "Demo title",
-    metaDescription: "",
-    slug: "fire-door-price-in-bangladesh ",
-    description:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-    article:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-  },
-  {
-    image: "/Image/blog/Best-Fire-Extinguisher-for-Home.webp",
-    title: "What is a Fire Alarm Panel? A Comprehensive Guide",
-    metaTitle: "Demo title",
-    metaDescription: "",
-    slug: "what-is-a-fire-alarm-panel",
-    description:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-    article:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-  },
-  {
-    image: "/Image/blog/What-is-a-Fire-Rated-Door.webp",
-    title: "What is a Fire Alarm Panel? A Comprehensive Guide",
-    metaTitle: "Demo title",
-    metaDescription: "",
-    slug: "what-is-a-fire-alarm-panel",
-    description:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-    article:
-      "A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.A 1250 GPM fire pump provides critical high-volume performance for residential, corporate, and industrial buildings. Z3 Corporation offers expert installations and maintenance tailored to NFPA‑20 standards. In this guide, learn key details—including pump‑with‑controller catalogues, weight specs, and leading brands—to help you choose reliable fire safety solutions.",
-  },
-];
+import { backendurl } from "@/utils/constants";
+import { useEffect, useState } from "react";
+import Loader from "./Loader";
 
 export default function BlogCart() {
+  const [allBlogs, setAllBlogs] = useState([]);
+  const [pagination, setPagination] = useState({});
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const res = await fetch(`${backendurl}/blogs`);
+        const data = await res?.json();
+
+        setAllBlogs(data?.data?.data);
+
+        setPagination(data?.pagination);
+
+        // Consol
+        console.log("Fetched blogs:", data?.data);
+      } catch (error) {
+        console.log("Error fetching blogs:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchBlogs();
+  }, []);
+  if (loading) return <Loader />;
   return (
     <div>
       <div className="flex flex-col lg:flex-row gap-15 lg:justify-between justify-center mx-5 md:mx-0 items-center">
-        {Blogs.slice(0, 3).map((blog, idx) => (
+        <p className="text-black">All blogs: {allBlogs.length}</p>
+        {allBlogs?.map((blog, idx) => (
           <div key={idx} className="w-full md:w-[30%] my-0 lg:my-26 shadow">
-            <div className="relative h-[250px] w-full">
-              <Image src={blog.image} fill alt="Feature Image" className="" />
+            <div className="relative h-[250px] w-[250px">
+              <Image
+                src={blog?.featured_img}
+                fill
+                alt={blog?.featured_img_alt || "Featured Image"}
+               
+              />
             </div>
             <div className="m-4 text-black space-y-4">
               <Link
-                href={`/blog/${slugify(blog.slug)}`}
+                href={`/blog/${slugify(blog?.slug)}`}
                 className=" visited:text-purple-800 hover:text-blue-500"
               >
                 <header className="line-clamp-2 overflow-hidden w-full text-lg font-bold">
-                  {blog.title}
+                  {blog?.blog_title}
                 </header>
               </Link>
-              <p className="line-clamp-3">{blog.description}</p>
+              <p className="line-clamp-3">{blog?.content}</p>
               <CommonBtn
-                link={`/blog/${slugify(blog.slug)}`}
+                link={`/blog/${slugify(blog?.slug)}`}
                 text="Read more"
               />
             </div>

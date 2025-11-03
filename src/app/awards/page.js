@@ -3,6 +3,7 @@ import Contact from "@/components/Contact";
 import PageCover from "@/components/pageCover";
 
 const page = () => {
+  
   return (
     <div>
       <PageCover text={"Certifications and Awards"} />

@@ -3,68 +3,87 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
-
-const NavLinks = [
-  {
-    name: "Home",
-    href: "/",
-  },
-  {
-    name: "ABOUT US",
-    href: "/about-us",
-  },
-  {
-    name: "PRODUCTS AND SERVICES",
-    children: [
-      { name: "Fire Detection and Alarm System" },
-      { name: "Fire Doors" },
-      { name: "Fire Fighting Equipments" },
-      { name: "Fire Pump Products" },
-      { name: "Fire Supression Systems" },
-      { name: "Sprinkler Systems" },
-      { name: "Valves Devices and Components" },
-    ],
-  },
-  {
-    name: "IT SERVICES",
-    href: "/it-services",
-  },
-  {
-    name: "CLIENTS",
-    href: "/clients",
-  },
-  {
-    name: "OUR TEAM",
-    href: "/our-team",
-  },
-  {
-    name: "AWARDS",
-    href: "/awards",
-  },
-  {
-    name: "CONTACT US",
-    href: "/contact-us",
-  },
-];
-
-const formatHref = (name) =>
-  "/" +
-  name
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-]/g, "");
+import { backendurl } from "@/utils/constants";
+import Loader from "./Loader";
 
 const Header = () => {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [mobileDropdown, setMobileDropdown] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [categories, setCategories] = useState([]);
 
   const toggleMenu = () => setOpen(!open);
   const toggleMobileDropdown = () => setMobileDropdown((prev) => !prev);
 
+  useEffect(() => {
+    const fetchAllCategories = async () => {
+      try {
+        const res = await fetch(`${backendurl}/categories`);
+        const categoriesData = await res.json();
+
+        const formated = categoriesData?.data?.map((item) => ({
+          name: item.name,
+          slug: item.slug,
+        }));
+        setCategories(formated);
+      } catch (error) {
+        console.log("Error fetching Categories data", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchAllCategories();
+  }, []);
+
+  const NavLinks = [
+    {
+      name: "Home",
+      href: "/",
+    },
+    {
+      name: "ABOUT US",
+      href: "/about-us",
+    },
+    {
+      name: "PRODUCTS AND SERVICES",
+      children: categories,
+      // children: [
+      //   { name: "Fire Detection and Alarm System" },
+      //   { name: "Fire Doors" },
+      //   { name: "Fire Fighting Equipments" },
+      //   { name: "Fire Pump Products" },
+      //   { name: "Fire Supression Systems" },
+      //   { name: "Sprinkler Systems" },
+      //   { name: "Valves Devices and Components" },
+      // ],
+    },
+    {
+      name: "IT SERVICES",
+      href: "/it-services",
+    },
+    {
+      name: "CLIENTS",
+      href: "/clients",
+    },
+    {
+      name: "OUR TEAM",
+      href: "/our-team",
+    },
+    {
+      name: "AWARDS",
+      href: "/awards",
+    },
+    {
+      name: "CONTACT US",
+      href: "/contact-us",
+    },
+  ];
+
+  if (loading) return <Loader />;
   return (
     <header className="bg-[#EEEEEE] sticky top-0 z-50">
       <div className="flex justify-between items-center max-w-[1200px] py-3 md:py-6 px-4 mx-auto">
@@ -102,11 +121,11 @@ const Header = () => {
                     {nav.name.toUpperCase()}
                   </span>
                   {showDropdown && (
-                    <div className="absolute top-full left-0 bg-white shadow-lg mt-2 rounded-md z-50 py-2 w-64">
+                    <div className="absolute top-full left-0 bg-white shadow-lg mt-1 rounded-md z-50 py-2 w-64">
                       {nav.children.map((child) => (
                         <Link
                           key={child.name}
-                          href={formatHref(child.name)}
+                          href={child.slug || "#"}
                           className="block px-4 py-2 text-[#0A2C7D] hover:bg-[#F26F21] text-xs font-bold hover:text-white"
                         >
                           {child.name.toUpperCase()}
@@ -121,7 +140,7 @@ const Header = () => {
             return (
               <Link
                 key={nav.name}
-                href={nav.href}
+                href={nav.href || "#"}
                 className={`text-sm font-bold px-2 py-2 ${
                   isActive
                     ? "bg-[#F26F21] text-white rounded-md"
@@ -166,7 +185,7 @@ const Header = () => {
                       {nav.children.map((child) => (
                         <Link
                           key={child.name}
-                          href={formatHref(child.name)}
+                          href={formatHref(child.name || "#")}
                           className="block text-xs text-[#0A2C7D] hover:font-bold hover:text-[#F26F21]"
                           onClick={() => setOpen(false)}
                         >

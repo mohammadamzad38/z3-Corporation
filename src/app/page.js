@@ -6,13 +6,7 @@ import Services from "@/components/Services";
 import { Carousel } from "antd";
 import Image from "next/image";
 
-const contentStyle = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
+
 
 const projectData = [
   {

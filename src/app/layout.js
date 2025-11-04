@@ -19,9 +19,9 @@ export const metadata = {
   description:
     "Z3 Corporation is the leading Fire Safety, Electrical Safety, Building Safety & Structural Safety consultancy & contractor (supply, installation",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   verification: {
     google: "",

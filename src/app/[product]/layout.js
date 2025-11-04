@@ -10,6 +10,7 @@ export async function generateMetadata({ params }) {
   const description = category?.metaDescription;
   const url = `https://z3corporation.com/${category?.slug}`;
 
+  console.log("dataaaaa", category);
   return {
     title,
     description,
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }) {
       url,
       images: [
         {
-          url: "/favicon.png",
+          url: "/favicon.ico",
           width: 100,
           height: 100,
           alt: "Z3 Corporation",
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: ["/favicon.png"],
+      images: ["/favicon.ico"],
     },
     robots: {
       index: true,

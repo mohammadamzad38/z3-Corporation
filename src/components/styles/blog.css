@@ -6,31 +6,35 @@
 
 /* Headings — with top/bottom margins */
 .blog-content h1 {
-  font-size: 2.25rem;   /* Tailwind 4xl */
+  font-size: 3rem;
   font-weight: 700;
   margin-top: 6px;
   margin-bottom: 10px;
+  color: #ff4718;
 }
 
 .blog-content h2 {
-  font-size: 1.875rem;  /* Tailwind 3xl */
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   margin-top: 6px;
   margin-bottom: 10px;
+  color: #ff4718;
 }
 
 .blog-content h3 {
-  font-size: 1.5rem;    /* Tailwind 2xl */
-  font-weight: 700;
+  font-size: 1.875rem;
+  font-weight: 200;
   margin-top: 6px;
   margin-bottom: 10px;
+  color: #ff4718;
 }
 
 .blog-content h4 {
-  font-size: 1.25rem;   /* Tailwind xl */
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 200;
   margin-top: 6px;
   margin-bottom: 10px;
+  color: #ff4718;
 }
 
 /* Paragraphs and text */
@@ -63,22 +67,22 @@
 .blog-content a,
 .blog-content a:link {
   text-decoration: underline;
-  color: #2563eb; /* blue-600 */
+  color: #f26f21;
 }
 
 .blog-content a:visited {
-  color: #1e40af; /* blue-800 */
+  color: #f26f21;
 }
 
 .blog-content a:hover,
 .blog-content a:focus {
-  color: #1d4ed8; /* blue-700 */
+  color: #f26f21;
   text-decoration: underline;
 }
 
 /* Blockquote */
 .blog-content blockquote {
-  border-left: 4px solid #3b82f6; /* blue-500 */
+  border-left: 4px solid #f26f21;
   padding-left: 1rem;
   font-style: italic;
   margin: 0;
@@ -98,7 +102,8 @@
   background: #f3f4f6;
   padding: 0.125rem 0.25rem;
   border-radius: 0.25rem;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono",
+    "Courier New", monospace;
   font-size: 0.875rem;
 }
 

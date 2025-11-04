@@ -19,7 +19,7 @@ export async function generateMetadata() {
       url,
       images: [
         {
-          url: "/favicon.png",
+          url: "/favicon.ico",
           width: 100,
           height: 100,
           alt: "Z3 Corporation",
@@ -33,7 +33,7 @@ export async function generateMetadata() {
       site: "Z3 Corporation",
       images: [
         {
-          url: "/favicon.png",
+          url: "/favicon.ico",
           width: 100,
           height: 100,
           alt: "Z3 Corporation",

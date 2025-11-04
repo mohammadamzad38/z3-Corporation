@@ -22,9 +22,6 @@ export default function BlogCart() {
         setAllBlogs(data?.data?.data);
 
         setPagination(data?.pagination);
-
-        // Consol
-        console.log("Fetched blogs:", data?.data);
       } catch (error) {
         console.log("Error fetching blogs:", error);
       } finally {
@@ -38,7 +35,6 @@ export default function BlogCart() {
   return (
     <div>
       <div className="flex flex-col lg:flex-row gap-15 lg:justify-between justify-center mx-5 md:mx-0 items-center">
-        <p className="text-black">All blogs: {allBlogs.length}</p>
         {allBlogs?.map((blog, idx) => (
           <div key={idx} className="w-full md:w-[30%] my-0 lg:my-26 shadow">
             <div className="relative h-[250px] w-[250px">
@@ -46,7 +42,6 @@ export default function BlogCart() {
                 src={blog?.featured_img}
                 fill
                 alt={blog?.featured_img_alt || "Featured Image"}
-               
               />
             </div>
             <div className="m-4 text-black space-y-4">
@@ -54,11 +49,14 @@ export default function BlogCart() {
                 href={`/blog/${slugify(blog?.slug)}`}
                 className=" visited:text-purple-800 hover:text-blue-500"
               >
-                <header className="line-clamp-2 overflow-hidden w-full text-lg font-bold">
+                <header className="line-clamp-2 overflow-hidden w-full text-xl mb-2 font-extrabold">
                   {blog?.blog_title}
                 </header>
               </Link>
-              <p className="line-clamp-3">{blog?.content}</p>
+              <div
+                className="line-clamp-3"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              ></div>
               <CommonBtn
                 link={`/blog/${slugify(blog?.slug)}`}
                 text="Read more"

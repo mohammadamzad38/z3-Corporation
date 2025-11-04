@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { backendurl } from "@/utils/constants";
 import Loader from "@/components/Loader";
-import "@/components/styles/blog.css"
+import "@/components/styles/blog.css";
 
 const Page = ({ params }) => {
   const { slug } = React.use(params);
@@ -18,8 +18,6 @@ const Page = ({ params }) => {
         const res = await fetch(`${backendurl}/blogs/${slug}`);
         const data = await res?.json();
         setBlog(data.data);
-
-        console.log("this is single blog data", data);
       } catch (error) {
         console?.log("Error fetching blog content:", error);
       } finally {
@@ -31,9 +29,6 @@ const Page = ({ params }) => {
 
   if (loading) return <Loader />;
   if (!blog) return <div className="text-red-600 text-3xl">Blog not found</div>;
-
-  console.log("Single blog Data", blog);
-
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
       <h1 className="text-2xl md:text-4xl text-black font-bold mb-4">

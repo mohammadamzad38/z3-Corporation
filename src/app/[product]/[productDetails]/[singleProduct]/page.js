@@ -5,18 +5,37 @@ import DetailsBox from "@/components/DetailsBox";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import { backendurl } from "@/utils/constants";
+import Loader from "@/components/Loader";
 
 const Page = () => {
-  const {  productDetails, singleProduct } = useParams();
+  const { singleProduct } = useParams();
 
-  const categoryDetails = productsData[productDetails];
+  const [loading, setLoading] = useState(true);
+  const [product, setProduct] = useState();
 
-  // Find the specific product inside that category
-  const productItem = categoryDetails?.catalog?.find(
-    (item) => item.url === singleProduct
-  );
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const res = await fetch(`${backendurl}/categories/${singleProduct}`);
+        const data = await res.json();
+        const productData = data.data;
+        setProduct(productData);
+      } catch (error) {
+        console.log("Error fetching Products", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProducts();
+  }, [singleProduct]);
 
-  if (!productItem) {
+  console.log("last consol", product);
+
+  if (loading) return <Loader />;
+
+  if (!product) {
     return (
       <div className="text-center py-20 text-3xl text-red-500">
         Product not found
@@ -26,12 +45,12 @@ const Page = () => {
 
   return (
     <div>
-      <PageCover text={productItem?.title} />
+      <PageCover text={product?.metaTitle} />
       <div className="container flex flex-col gap-15 px-0 md:px-4 py-20 md:flex-row ">
         <div className="relative h-[500px] w-full md:w-[600px]">
           <Image
-            src={productItem.image}
-            alt={productItem.name}
+            src={product.image}
+            alt={product.img_alt}
             fill
             className="object-contain"
           />
@@ -39,10 +58,10 @@ const Page = () => {
 
         <div className="flex flex-col md:flex-row justify-center px-5 mx-auto  w-full">
           <DetailsBox
-            title={productItem.title}
-            name={productItem.name}
-            description={productItem.description}
-            pdfUrl={productItem.pdfUrl}
+            title={product.name}
+            name={product.name}
+            description={product.content}
+            pdfUrl={product.pdfUrl}
           />
         </div>
       </div>

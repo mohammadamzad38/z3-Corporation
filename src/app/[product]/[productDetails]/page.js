@@ -15,7 +15,7 @@ const Page = () => {
   const [loading, setLoading] = useState(true);
   const [subCategories, setSubCategories] = useState([]);
 
-  const categoryDetails = backendurl[productDetails];
+  // const categoryDetails = backendurl[productDetails];
 
   useEffect(() => {
     const fetchSubCatagories = async () => {
@@ -42,10 +42,7 @@ const Page = () => {
 
   return (
     <div>
-      <PageCover
-        src={subCategories?.image}
-        text={subCategories?.description}
-      />
+      <PageCover text={subCategories?.description} />
 
       {/* Category image and article */}
       <div

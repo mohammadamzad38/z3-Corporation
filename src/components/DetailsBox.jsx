@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import "@/components/styles/blog.css"
 
 const DetailsBox = ({ title, name, pdfUrl, description }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const DetailsBox = ({ title, name, pdfUrl, description }) => {
         {isOpen && (
           <div className="px-4 py-3 text-gray-700 border-t border-gray-300">
             <h3 className="font-bold text-xl my-3">{name}</h3>
-            <div dangerouslySetInnerHTML={{ __html: description }} />
+            <div className="blog-content" dangerouslySetInnerHTML={{ __html: description }} />
           </div>
         )}
       </div>

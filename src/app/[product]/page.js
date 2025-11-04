@@ -7,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import Contact from "@/components/Contact";
 import { backendurl } from "@/utils/constants";
 import Loader from "@/components/Loader";
+import "@/components/styles/blog.css";
 
 const Page = ({ params }) => {
   const { product } = React.use(params);
@@ -20,9 +21,6 @@ const Page = ({ params }) => {
         const data = await res?.json();
         const categoryData = data?.data;
         setCategory(categoryData);
-
-        // console
-        // console.log("Parent categories here", data);
       } catch (error) {
         console.log("Error fetching parent category", error);
       } finally {
@@ -39,7 +37,7 @@ const Page = ({ params }) => {
 
   return (
     <div>
-      <PageCover src={category?.image} text={category?.description} />
+      <PageCover text={category?.description} />
 
       <div className="pt-20">
         {/* Card Section */}
@@ -70,7 +68,7 @@ const Page = ({ params }) => {
         {category?.content ? (
           <div className="bg-black mt-16 leading-relaxed">
             <div
-              className="container"
+              className="container blog-content py-15 px-5"
               dangerouslySetInnerHTML={{ __html: category?.content }}
             ></div>
           </div>

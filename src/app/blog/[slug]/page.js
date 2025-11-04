@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { backendurl } from "@/utils/constants";
 import Loader from "@/components/Loader";
+import "@/components/styles/blog.css"
 
 const Page = ({ params }) => {
   const { slug } = React.use(params);
@@ -46,8 +47,10 @@ const Page = ({ params }) => {
           className="object-cover mb-6"
         />
       </div>
-
-      <p className="text-lg text-gray-700">{blog?.content}</p>
+      <div
+        className="text-black blog-content"
+        dangerouslySetInnerHTML={{ __html: blog?.content }}
+      ></div>
     </div>
   );
 };

@@ -51,15 +51,6 @@ const Header = () => {
     {
       name: "PRODUCTS AND SERVICES",
       children: categories,
-      // children: [
-      //   { name: "Fire Detection and Alarm System" },
-      //   { name: "Fire Doors" },
-      //   { name: "Fire Fighting Equipments" },
-      //   { name: "Fire Pump Products" },
-      //   { name: "Fire Supression Systems" },
-      //   { name: "Sprinkler Systems" },
-      //   { name: "Valves Devices and Components" },
-      // ],
     },
     {
       name: "IT SERVICES",
@@ -125,7 +116,7 @@ const Header = () => {
                       {nav.children.map((child) => (
                         <Link
                           key={child.name}
-                          href={child.slug || "#"}
+                          href={`/${child.slug}` || "#"}
                           className="block px-4 py-2 text-[#0A2C7D] hover:bg-[#F26F21] text-xs font-bold hover:text-white"
                         >
                           {child.name.toUpperCase()}

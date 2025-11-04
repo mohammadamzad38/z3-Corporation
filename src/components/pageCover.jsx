@@ -1,10 +1,11 @@
 import Image from "next/image";
-const PageCover = ({ text,src,alt }) => {
+import coverImage from "../../public/Image/z3-corporation-cover.png";
+const PageCover = ({ text }) => {
   return (
     <div className="relative flex shadow-2xl justify-center w-full">
       <img
-        src={src}
-        alt={alt}
+        src="/Image/z3-corporation-cover.png"
+        alt={"z3 cover image"}
         fill
         className="object-cover w-full h-[250px]"
       />

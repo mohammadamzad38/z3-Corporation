@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { backendurl } from "@/utils/constants";
 import Loader from "@/components/Loader";
 import "@/components/styles/blog.css";
+import CommentForm from "@/components/Comment";
 
 const Page = ({ params }) => {
   const { slug } = React.use(params);
@@ -46,6 +47,7 @@ const Page = ({ params }) => {
         className="text-black blog-content"
         dangerouslySetInnerHTML={{ __html: blog?.content }}
       ></div>
+      <CommentForm />
     </div>
   );
 };

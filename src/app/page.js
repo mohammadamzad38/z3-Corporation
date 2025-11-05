@@ -6,8 +6,6 @@ import Services from "@/components/Services";
 import { Carousel } from "antd";
 import Image from "next/image";
 
-
-
 const projectData = [
   {
     image: "/Image/centrepoint.jpg",
@@ -135,7 +133,7 @@ export default function Home() {
               Latest Blog Posts
             </h2>
             <div className="py-10 lg:py-0">
-              <BlogCart />
+              <BlogCart limits={3} />
             </div>
           </div>
         </section>

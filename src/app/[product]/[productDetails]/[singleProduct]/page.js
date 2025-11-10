@@ -1,6 +1,5 @@
 "use client";
 
-import productsData from "@/components/data/productsData.json";
 import DetailsBox from "@/components/DetailsBox";
 import PageCover from "@/components/pageCover";
 import Image from "next/image";
@@ -30,8 +29,6 @@ const Page = () => {
     };
     fetchProducts();
   }, [singleProduct]);
-
-  console.log("last consol", product);
 
   if (loading) return <Loader />;
 

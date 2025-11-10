@@ -1,15 +1,19 @@
 import Loader from "@/components/Loader";
+import { backendurl } from "@/utils/constants";
 import { Suspense } from "react";
-import productsData from "@/components/data/productsData.json";
 
 export async function generateMetadata({ params }) {
   const { productDetails } = await params;
-  const allProducts = productsData[productDetails];
+  const res = await fetch(`${backendurl}/categories/${productDetails}`, {
+    cache: "no-store",
+  });
+  const data = await res.json();
+  const subCategory = data?.data;
 
-  const title = allProducts?.metaTitle;
-  const description = allProducts?.metaDescription;
+  const title = subCategory?.metaTitle;
+  const description = subCategory?.metaDescription;
 
-  const url = `https://z3corporation.com/${allProducts?.url}`;
+  const url = `https://z3corporation.com/${subCategory?.slug}`;
   return {
     title,
     description,

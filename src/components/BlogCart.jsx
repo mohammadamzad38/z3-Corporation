@@ -4,37 +4,12 @@ import Image from "next/image";
 import CommonBtn from "./CommonBtn";
 import { slugify } from "./Slugify";
 import Link from "next/link";
-import { backendurl } from "@/utils/constants";
-import { useEffect, useState } from "react";
-import Loader from "./Loader";
+import { useContext } from "react";
 import { Pagination } from "antd";
+import { BlogContext } from "@/app/context";
 
 export default function BlogCart({ limits }) {
-  const [allBlogs, setAllBlogs] = useState([]);
-  const [pagination, setPagination] = useState();
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchBlogs = async () => {
-      try {
-        const res = await fetch(`${backendurl}/blogs`);
-        const data = await res?.json();
-
-        setAllBlogs(data?.data?.data);
-        setPagination(data?.data?.pagination);
-      } catch (error) {
-        console.log("Error fetching blogs:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchBlogs();
-  }, []);
-  if (loading) return <Loader />;
-
-  console.log("wahat is pagination", pagination);
-
+  const { allBlogs, pagination } = useContext(BlogContext);
   const blogToShow = limits ? allBlogs?.slice(0, limits) : allBlogs;
 
   return (

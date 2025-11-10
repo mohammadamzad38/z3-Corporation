@@ -25,7 +25,6 @@ const Page = () => {
         const subCategoriesData = responsesData?.data;
 
         setSubCategories(subCategoriesData);
-        console.log("Before sest Data or fetch data ", subCategoriesData);
       } catch (error) {
         console.log("Error fetching sub category", error);
       } finally {

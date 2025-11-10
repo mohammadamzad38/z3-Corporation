@@ -4,13 +4,16 @@ import { backendurl } from "@/utils/constants";
 
 export async function generateMetadata({ params }) {
   const { product } = await params;
-  const category = backendurl[product];
+  const res = await fetch(`${backendurl}/categories/${product}`, {
+    cache: "no-store",
+  });
+  const data = await res.json();
+  const category = data?.data;
 
   const title = category?.metaTitle;
-  const description = category?.metaDescription;
+  const description = category?.description;
   const url = `https://z3corporation.com/${category?.slug}`;
 
-  console.log("dataaaaa", category);
   return {
     title,
     description,

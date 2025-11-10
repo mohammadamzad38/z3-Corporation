@@ -6,6 +6,8 @@ import Services from "@/components/Services";
 import { Carousel } from "antd";
 import Image from "next/image";
 
+// Landing Slider Images
+
 const projectData = [
   {
     image: "/Image/centrepoint.jpg",

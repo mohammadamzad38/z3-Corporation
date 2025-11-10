@@ -1,15 +1,15 @@
 import Loader from "@/components/Loader";
 import { Suspense } from "react";
-import { Blogs } from "../../../components/BlogCart";
+import { backendurl } from "@/utils/constants";
 
 export async function generateMetadata({ params }) {
   const { slug } = params;
-
-  const postData = Blogs?.find((b) => b?.slug === slug);
-
-  const title = postData?.metaTitle;
-  const description = `${postData?.metaDescription}`;
-  const url = `https://z3corporation.com/${postData?.slug}`;
+  const res = await fetch(`${backendurl}/blogs/${slug}`, { cache: "no-store" });
+  const data = await res.json();
+  const blogsData = data?.data;
+  const title = blogsData?.meta_title;
+  const description = blogsData?.meta_description;
+  const url = `https://z3corporation.com/${blogsData?.slug}`;
   return {
     title,
     description,

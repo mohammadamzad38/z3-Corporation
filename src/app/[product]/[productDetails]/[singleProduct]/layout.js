@@ -1,13 +1,17 @@
 import Loader from "@/components/Loader";
+import { backendurl } from "@/utils/constants";
 import { Suspense } from "react";
-import productsData from "@/components/data/productsData.json";
 
 export async function generateMetadata({ params }) {
   const { singleProduct } = await params;
 
-  const allProducts = productsData[singleProduct];
+  const res = await fetch(`${backendurl}/categories/${singleProduct}`, {
+    cache: "no-store",
+  });
+  const data = await res.json();
+  const product = data?.data;
 
-  const product = allProducts?.catalog?.find((p) => p?.slug === singleProduct);
+  console.log("category dataaaaa", product);
 
   const title = product?.metaTitle;
   const description =

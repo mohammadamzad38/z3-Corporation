@@ -1,17 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { backendurl } from "@/utils/constants";
 import Loader from "@/components/Loader";
 import "@/components/styles/blog.css";
 import CommentForm from "@/components/Comment";
+import { BlogContext } from "@/app/context";
+import Link from "next/link";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Page = ({ params }) => {
   const { slug } = React.use(params);
-
-  const [loading, setLoading] = useState(true);
   const [blog, setBlog] = useState();
+
+  const { allBlogs, loading } = useContext(BlogContext);
+  const { categories } = useContext(BlogContext);
 
   useEffect(() => {
     const fetchBlog = async () => {
@@ -27,27 +31,79 @@ const Page = ({ params }) => {
     };
     fetchBlog();
   }, [slug]);
-
+  console.log("aaaaaaaaaaaal", categories);
   if (loading) return <Loader />;
   if (!blog) return <div className="text-red-600 text-3xl">Blog not found</div>;
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10">
-      <h1 className="text-2xl md:text-4xl text-black font-bold mb-4">
-        {blog?.blog_title}
-      </h1>
-      <div className="relative my-10 max-w-[400px] md:max-w-[800px] h-[300px]">
-        <Image
-          src={blog?.featured_img}
-          alt={blog?.featured_img_alt}
-          fill
-          className="object-cover mb-6"
-        />
+    <div className="container flex flex-col md:flex-row gap-15 px-4 py-10">
+      <div className="max-w-4xl">
+        <h1 className="text-2xl md:text-4xl text-black font-bold mb-4">
+          {blog?.blog_title}
+        </h1>
+        <div className="relative my-10 max-w-[400px] md:max-w-[800px] h-[300px]">
+          <Image
+            src={blog?.featured_img}
+            alt={blog?.featured_img_alt}
+            fill
+            className="object-cover mb-6"
+          />
+        </div>
+        <div
+          className="text-black blog-content"
+          dangerouslySetInnerHTML={{ __html: blog?.content }}
+        ></div>
+        <CommentForm />
       </div>
-      <div
-        className="text-black blog-content"
-        dangerouslySetInnerHTML={{ __html: blog?.content }}
-      ></div>
-      <CommentForm />
+      <div className="w-full ">
+        <div className="flex mt-30">
+          <input
+            className="border border-gray-1 w-4/5 py-2 px-4 text-gray-400"
+            type="text"
+            placeholder="search"
+          ></input>
+          <button className="w-1/5 hover:cursor-pointer bg-[#ED4B41] text-sm p-2 text-white font-semibold">
+            Search
+          </button>
+        </div>
+        <div>
+          <p className="text-xl font-bold mt-15 mb-10 text-black">
+            RECENT POSTS
+          </p>
+          <div className="flex flex-col gap-4">
+            {allBlogs?.map((blog, idx) => (
+              <ul
+                key={idx}
+                className="flex list-disc ml-5 text-[#ED4B41] gap-4 border-gray-300 border-b-1 mb-2"
+              >
+                <li>
+                  <Link
+                    className="text-black text-lg hover:text-[#ED4B41]"
+                    href={`/blog/${blog?.slug}`}
+                  >
+                    {blog?.blog_title}
+                  </Link>
+                </li>
+              </ul>
+            ))}
+          </div>
+          <p className="text-xl font-bold mt-15 mb-10 text-black">CATEGORIES</p>
+          <div className="flex flex-col gap-4">
+            {categories?.map((category, idx) => (
+              <ul
+                key={idx}
+                className="flex list-disc ml-5 text-[#ED4B41] gap-4 border-gray-300 border-b-1 mb-2"
+              >
+                <Link
+                  className="text-black text-lg font-thin hover:text-[#ED4B41]"
+                  href={`/${category?.slug}`}
+                >
+                  {category?.name}
+                </Link>
+              </ul>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -3,41 +3,22 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 import { backendurl } from "@/utils/constants";
 import Loader from "./Loader";
+import { BlogContext } from "@/app/context";
 
 const Header = () => {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [mobileDropdown, setMobileDropdown] = useState(false);
-  const [loading, setLoading] = useState(true);
-  const [categories, setCategories] = useState([]);
+
+  const { categories, loading } = useContext(BlogContext);
 
   const toggleMenu = () => setOpen(!open);
   const toggleMobileDropdown = () => setMobileDropdown((prev) => !prev);
-
-  useEffect(() => {
-    const fetchAllCategories = async () => {
-      try {
-        const res = await fetch(`${backendurl}/categories`);
-        const categoriesData = await res.json();
-
-        const formated = categoriesData?.data?.map((item) => ({
-          name: item.name,
-          slug: item.slug,
-        }));
-        setCategories(formated);
-      } catch (error) {
-        console.log("Error fetching Categories data", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchAllCategories();
-  }, []);
 
   const NavLinks = [
     {

@@ -9,6 +9,7 @@ export default function Context({ children }) {
   const [allBlogs, setAllBlos] = useState([]);
   const [pagination, setPagination] = useState();
   const [loading, setLoading] = useState(true);
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
     const fetchBlogData = async () => {
@@ -26,10 +27,29 @@ export default function Context({ children }) {
     };
     fetchBlogData();
   }, []);
-    
+
+  useEffect(() => {
+    const fetchAllCategories = async () => {
+      try {
+        const res = await fetch(`${backendurl}/categories`);
+        const categoriesData = await res.json();
+
+        const formated = categoriesData?.data?.map((item) => ({
+          name: item.name,
+          slug: item.slug,
+        }));
+        setCategories(formated);
+      } catch (error) {
+        console.log("Error fetching Categories data", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchAllCategories();
+  }, []);
 
   return (
-    <BlogContext.Provider value={{ allBlogs, pagination, loading }}>
+    <BlogContext.Provider value={{ allBlogs, pagination, categories, loading }}>
       {children}
     </BlogContext.Provider>
   );

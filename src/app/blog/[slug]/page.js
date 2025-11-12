@@ -10,7 +10,7 @@ import { BlogContext } from "@/app/context";
 import Link from "next/link";
 
 const Page = ({ params }) => {
-  const { slug } = React.use(params);
+  const { slug } = params;
   const [blog, setBlog] = useState();
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -47,7 +47,6 @@ const Page = ({ params }) => {
     );
     setFilterdSearch(searchResult);
   }, [search, allBlogs]);
-  console.log("filters", filterdSearch);
 
   if (loading) return <Loader />;
   if (!blog) return <div className="text-red-600 text-3xl">Blog not found</div>;

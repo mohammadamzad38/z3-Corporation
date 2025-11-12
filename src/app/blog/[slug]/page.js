@@ -8,14 +8,15 @@ import "@/components/styles/blog.css";
 import CommentForm from "@/components/Comment";
 import { BlogContext } from "@/app/context";
 import Link from "next/link";
-import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Page = ({ params }) => {
   const { slug } = React.use(params);
   const [blog, setBlog] = useState();
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
+  const [filterdSearch, setFilterdSearch] = useState([]);
 
-  const { allBlogs, loading } = useContext(BlogContext);
-  const { categories } = useContext(BlogContext);
+  const { categories, allBlogs } = useContext(BlogContext);
 
   useEffect(() => {
     const fetchBlog = async () => {
@@ -31,9 +32,26 @@ const Page = ({ params }) => {
     };
     fetchBlog();
   }, [slug]);
-  console.log("aaaaaaaaaaaal", categories);
+
+  // Search here
+
+  const handleSearch = () => {};
+
+  useEffect(() => {
+    if (search?.trim() == "") {
+      setFilterdSearch([]);
+      return;
+    }
+    const searchResult = allBlogs?.filter((b) =>
+      b?.blog_title?.toLowerCase()?.includes(search.toLowerCase())
+    );
+    setFilterdSearch(searchResult);
+  }, [search, allBlogs]);
+  console.log("filters", filterdSearch);
+
   if (loading) return <Loader />;
   if (!blog) return <div className="text-red-600 text-3xl">Blog not found</div>;
+
   return (
     <div className="container flex flex-col md:flex-row gap-15 px-4 py-10">
       <div className="max-w-4xl">
@@ -57,13 +75,30 @@ const Page = ({ params }) => {
       <div className="w-full ">
         <div className="flex mt-30">
           <input
-            className="border border-gray-1 w-4/5 py-2 px-4 text-gray-400"
+            className="border border-gray-300 w-4/5 py-2 px-4 text-black placeholder:text-gray-400 focus:outline-none"
             type="text"
             placeholder="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
           ></input>
-          <button className="w-1/5 hover:cursor-pointer bg-[#ED4B41] text-sm p-2 text-white font-semibold">
+          <button
+            ontype={handleSearch}
+            className="w-1/5 hover:cursor-pointer bg-[#ED4B41] text-sm p-2 text-white font-semibold"
+          >
             Search
           </button>
+        </div>
+        <div className="pt-5">
+          {filterdSearch.map((blogs) => (
+            <p key={blogs?._id} className="mb-4 border-gray-300 border-b-1">
+              <Link
+                className="hover:text-black text-[#ED4B41] font-bold"
+                href={`/blog/${blogs?.slug}`}
+              >
+                {blogs.blog_title}
+              </Link>
+            </p>
+          ))}
         </div>
         <div>
           <p className="text-xl font-bold mt-15 mb-10 text-black">

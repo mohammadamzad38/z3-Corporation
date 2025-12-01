@@ -17,10 +17,10 @@ const page = () => {
             OUR <span className="text-white">PRINCIPALS</span>
           </h1>
           <p className="">
-            <a href="#" className="text-[#ED4B41]">
+            <a href="#" className="text-[#ED4B41] pr-2">
               Z3 Corporation
             </a>
-            is the authorized distributor of NAFFCO (UAE), TRIGA by Honeywell
+             is the authorized distributor of NAFFCO (UAE), TRIGA by Honeywell
             (USA) and SHIELD (UK). Besides, we sell various other reputable
             brands through our principals, such as Tyco, Fike, Xtralis,
             Detector, Kent, Sauter, Cooper, etc. <br />

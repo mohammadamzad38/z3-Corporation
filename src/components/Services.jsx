@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import { useEffect } from "react";
 import CommonBtn from "./CommonBtn";
 
 const allServices = [
@@ -53,9 +53,15 @@ const allServices = [
 ];
 
 export default function Services() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  // useEffect(() => {
+  //   const ofsetValue = window.innerHeight * 1;
+  //   AOS.init({
+  //     delay: 100,
+  //     duration: 1000,
+  //     offset: ofsetValue,
+  //     once: true,
+  //   });
+  // }, []);
 
   return (
     <div>
@@ -63,7 +69,7 @@ export default function Services() {
         {allServices.map((service, idx) => (
           <div
             key={idx}
-            data-aos="zoom-in"
+            // data-aos="fade-up"
             className="border border-gray-100 rounded-xl m-10 shadow-xs"
           >
             <div className="w-full h-[250px] relative overflow-hidden">

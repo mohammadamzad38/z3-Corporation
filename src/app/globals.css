@@ -25,6 +25,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   background-color: white !important;
+  scroll-behavior: smooth;
 }
 .container {
   max-width: 1200px;

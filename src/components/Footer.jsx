@@ -98,7 +98,7 @@ const Footer = () => {
                   className="hover:text-[#F26F21]"
                   href="mailto:info@z3corporation.com"
                 >
-                  <span className="text-white">Email:</span>{" "}
+                  <span className="text-white">Email:</span>
                   info@z3corporation.com
                 </a>
                 <p>
@@ -126,10 +126,10 @@ const Footer = () => {
               © 2019-2025 Z3 Corporation | All Rights Reserved. <br /> Designed
               and Developed By
               <a
-                className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2"
+                target="blank"
+                className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2 pl-2"
                 href="https://mrztech.com/"
               >
-                {" "}
                 MRZ Tech
               </a>
             </p>

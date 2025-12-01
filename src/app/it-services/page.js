@@ -31,20 +31,20 @@ const page = () => {
             certified Z3 Corporation for supply, installation, commissioning,
             after-sales, repair & maintenance services of fire & safety
             equipment. <br /> <br /> Additionally, the company has received a
-            Certification of Authorization from{" "}
+            Certification of Authorization from
             <a href="#" className="text-[#ED4B41]">
               NAFFCO
-            </a>{" "}
+            </a>
             , SHIELD & various other global leaders. We are an active member of
             Electronics Safety & Security Association of Bangladesh (ESSAB)
             Certifications and Awards. <br />
             <br /> Z3 Corporation has received Excellent Contribution Award by
             NAFFCO in 2018. In 2020, we have been recognized as country’s most
             influential fire & safety service provider business by Arthokantha
-            magazine.{" "}
+            magazine.
             <a href="#" className="text-[#ED4B41]">
-              Z3 Corporation{" "}
-            </a>{" "}
+              Z3 Corporation
+            </a>
             is also enlisted with Civil Aviation Authority of Bangladesh (CAAB)
             Certifications and Awards.
           </p>

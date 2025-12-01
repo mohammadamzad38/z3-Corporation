@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const clientsLogo = [
   {
-    image: "/image/nobleMarriage.png",
+    image: "/Image/nobleMarriage.png",
     alt: "nobleMarriage",
   },
   {

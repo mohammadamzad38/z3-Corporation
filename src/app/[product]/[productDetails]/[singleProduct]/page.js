@@ -58,7 +58,7 @@ const Page = () => {
             title={product.name}
             name={product.name}
             description={product.content}
-            pdfUrl={product.pdfUrl}
+            pdfUrl={product.pdf}
           />
         </div>
       </div>

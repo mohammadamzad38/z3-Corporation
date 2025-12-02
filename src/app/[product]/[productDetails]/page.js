@@ -95,7 +95,7 @@ const Page = () => {
               title={subCategories.name}
               name={subCategories.name}
               description={subCategories.content}
-              pdfUrl={subCategories.pdfUrl}
+              pdfUrl={subCategories.pdf}
             />
           </div>
         )}

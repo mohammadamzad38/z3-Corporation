@@ -37,7 +37,7 @@ const Page = ({ params }) => {
 
   return (
     <div>
-      <PageCover text={category?.description} />
+      <PageCover text={category?.description} coverBanner={product.image} />
 
       <div className="pt-20">
         {/* Card Section */}

@@ -42,7 +42,7 @@ const Page = () => {
 
   return (
     <div>
-      <PageCover text={product?.metaTitle} />
+      <PageCover text={product?.metaTitle} coverBanner={product.image} />
       <div className="container flex flex-col gap-15 px-0 md:px-4 py-20 md:flex-row ">
         <div className="relative h-[500px] w-full md:w-[600px]">
           <Image

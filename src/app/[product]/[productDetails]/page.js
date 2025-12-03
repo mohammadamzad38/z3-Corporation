@@ -41,7 +41,7 @@ const Page = () => {
 
   return (
     <div>
-      <PageCover text={subCategories?.description} />
+      <PageCover text={subCategories?.description} coverBanner={product.image}/>
 
       {/* Category image and article */}
       <div

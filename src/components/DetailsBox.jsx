@@ -29,7 +29,7 @@ const DetailsBox = ({ title, name, pdfUrl, description }) => {
       </div>
       {pdfUrl && (
         <a href={pdfUrl} download target="_blank" rel="noopener noreferrer">
-          <button className="relative overflow-hidden group px-6 py-3 border-2 border-[#F26F21] text-[#F26F21] font-bold rounded cursor-pointer">
+          <button download className="relative overflow-hidden group px- py-3 border-2 border-[#F26F21] text-[#F26F21] font-bold rounded cursor-pointer">
             <span className="relative z-10 flex place-items-center gap-4 group-hover:text-white transition duration-300">
               Download Catalogue <FaCloudDownloadAlt />
             </span>

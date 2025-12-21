@@ -7,6 +7,8 @@ import {
   FaSquareXTwitter,
 } from "react-icons/fa6";
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer>
@@ -123,8 +125,8 @@ const Footer = () => {
           </div>
           <div className="text-center text-sm lg:mt-4 mt-7">
             <p>
-              © 2019-2025 Z3 Corporation | All Rights Reserved. <br /> Designed
-              and Developed By
+              © {currentYear} Z3 Corporation | All Rights Reserved. <br />
+              Designed and Developed By
               <a
                 target="blank"
                 className="hover:text-gray-400 text-blue-200 text-lg font-bold my-2 pl-2"
